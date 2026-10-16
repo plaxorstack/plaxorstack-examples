@@ -36,13 +36,23 @@ jobs:
         client: [sh, python, node]
     env:
       PLAXOR_API_KEY: ${{ secrets.PLAXOR_API_KEY }}
-      PLAXOR_MODEL_ID: ${{ matrix.example == 'text/route-support-tickets' && secrets.PLAXOR_MODEL_TICKETS || secrets.PLAXOR_MODEL_BIKES }}
+      # Chosen in the shell, not with `a && b || c` in the expression: an empty secret is falsy there,
+      # so a missing tickets model fell through to the bikes model instead of skipping.
+      MODEL_TICKETS: ${{ secrets.PLAXOR_MODEL_TICKETS }}
+      MODEL_BIKES: ${{ secrets.PLAXOR_MODEL_BIKES }}
     steps:
       - uses: actions/checkout@v4
       - name: Skip when not configured
         id: configured
         run: |
-          if [ -n "$PLAXOR_API_KEY" ] && [ -n "$PLAXOR_MODEL_ID" ]; then echo "run=true" >> "$GITHUB_OUTPUT"
+          case "${{ matrix.example }}" in
+            text/route-support-tickets)    model="$MODEL_TICKETS" ;;
+            tabular/forecast-bike-rentals) model="$MODEL_BIKES" ;;
+            *)                             model="" ;;
+          esac
+          if [ -n "$PLAXOR_API_KEY" ] && [ -n "$model" ]; then
+            echo "PLAXOR_MODEL_ID=$model" >> "$GITHUB_ENV"
+            echo "run=true" >> "$GITHUB_OUTPUT"
           else echo "::notice::Secrets for ${{ matrix.example }} not set; skipped."; fi
       - uses: actions/setup-python@v5
         if: steps.configured.outputs.run && matrix.client == 'python'
