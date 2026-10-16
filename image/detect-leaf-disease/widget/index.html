@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Leaf Doctor — bean crop check</title>
+    <style>
+        body { margin: 0; font-family: system-ui, sans-serif; color: #1f2933; background: #f4f8f1; }
+        header { background: #3d6b1f; color: #fff; padding: 32px 16px; }
+        h1 { margin: 0 auto; max-width: 1000px; font-size: 1.8rem; }
+        main { max-width: 1000px; margin: 0 auto; padding: 24px 16px; display: grid; gap: 24px; grid-template-columns: 1fr 1fr; }
+        .intro { line-height: 1.55; }
+        /* Inline mode fills its container, so the container decides the size. */
+        #leaf-chat { height: 560px; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 12px rgb(0 0 0 / 12%); background: #fff; }
+        code { background: #e4e7eb; padding: 1px 5px; border-radius: 4px; }
+        @media (max-width: 760px) { main { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Leaf Doctor — bean crop check</h1>
+    </header>
+    <main>
+        <section class="intro">
+            <p>
+                Farmers photograph a bean leaf in the field and get an answer straight away: healthy,
+                angular leaf spot, or bean rust.
+            </p>
+            <p>
+                The chat on the right is the PlaxorStack widget in <b>inline</b> mode, with photo upload
+                turned on. Attach one of the pictures from <code>data/try/</code> and ask
+                <i>"What's wrong with this leaf?"</i>
+            </p>
+            <p>
+                To make it work, replace <code>YOUR_WIDGET_KEY</code> below with a <b>Widget</b> key for
+                your leaf model, and serve this folder from a local web server
+                (<code>npx serve widget</code>). See the example's README, step 6.
+            </p>
+        </section>
+
+        <div id="leaf-chat"></div>
+    </main>
+
+    <!-- The whole integration is this one tag: inline, inside #leaf-chat, accepting photos. -->
+    <script src="https://plaxorstack.com/js/widget.js"
+            data-key="YOUR_WIDGET_KEY"
+            data-title="Leaf Doctor"
+            data-mode="inline"
+            data-target="#leaf-chat"
+            data-image="true"
+            defer></script>
+</body>
+</html>

@@ -1,0 +1,4001 @@
+search_id,hotel,distance_km,guest_rating,relevance
+S0001,Marina Bay Rooms,8.4,6.6,0
+S0001,Hotel Aurora,6.2,9.5,3
+S0001,Harbour View,8.5,6.6,0
+S0001,The Linden,3,8.7,2
+S0001,Cathedral View,2,6.1,1
+S0001,Old Town Suites,0.4,6.6,1
+S0001,Copper Kettle Inn,9.5,8.5,0
+S0001,Ivy Gate,4.5,9.6,2
+S0002,Garden Court,4.1,7,0
+S0002,Union Hotel,0.6,9.8,2
+S0002,City Nest,3.1,9.4,3
+S0002,Station Lodge,0.4,7.7,2
+S0002,Northern Lights,4.1,8.2,1
+S0002,Skyline Tower,7.3,7.9,0
+S0002,Park Lane Hotel,1.4,7.5,1
+S0002,Cathedral View,3,6.8,0
+S0003,Lakeside Retreat,8.2,9.1,1
+S0003,The Courtyard,0.6,9.3,3
+S0003,Riverside Inn,6.5,9,0
+S0003,Ivy Gate,2.1,7.9,1
+S0003,Copper Kettle Inn,4.7,9.5,2
+S0003,Grand Central,8.7,6.7,0
+S0003,Station Lodge,1.8,9,2
+S0003,Park Lane Hotel,9.8,9,0
+S0004,Northern Lights,7.3,9.6,2
+S0004,Blue Door B&B,4.7,6.4,0
+S0004,Market Square Hotel,10.5,9.4,0
+S0004,The Linden,9.1,6.5,0
+S0004,Garden Court,2.4,6.5,1
+S0004,Copper Kettle Inn,1.5,7.8,3
+S0004,Cathedral View,0.3,6.7,2
+S0004,Riverside Inn,1.9,7.5,1
+S0005,Bridge Hotel,0.5,6.3,2
+S0005,Union Hotel,1.7,7.5,1
+S0005,Park Lane Hotel,0.5,6.4,1
+S0005,Copper Kettle Inn,4.1,9.6,2
+S0005,Harbour View,6.2,7.5,0
+S0005,Hotel Aurora,0.2,6.2,0
+S0005,Market Square Hotel,0.8,9.4,3
+S0005,Grand Central,6.2,8.6,0
+S0006,Old Town Suites,0.6,7.3,1
+S0006,Copper Kettle Inn,1.9,6.3,1
+S0006,Skyline Tower,3.7,7.3,0
+S0006,Union Hotel,0.4,8.4,3
+S0006,Northern Lights,5.5,7.4,0
+S0006,Lakeside Retreat,9.7,9,0
+S0006,Grand Central,0.2,7.3,2
+S0006,Blue Door B&B,0.6,8.1,2
+S0007,Riverside Inn,0.4,7,1
+S0007,Copper Kettle Inn,1,8.7,2
+S0007,Park Lane Hotel,0.7,9.6,3
+S0007,Old Town Suites,3.7,9.1,1
+S0007,Garden Court,10.5,6.2,0
+S0007,Maple House,1.8,7.6,2
+S0007,Station Lodge,2.2,7.4,0
+S0007,Hotel Aurora,0.7,6,0
+S0008,Market Square Hotel,9.3,7.8,0
+S0008,The Linden,2.9,7.5,1
+S0008,Garden Court,0.2,7.3,2
+S0008,Skyline Tower,0.3,8.8,3
+S0008,The Courtyard,7.6,6.9,0
+S0008,Hotel Aurora,2.9,6,0
+S0008,Riverside Inn,0.4,7.3,1
+S0008,Park Lane Hotel,2.2,7.7,2
+S0009,Skyline Tower,5,9.4,2
+S0009,Bridge Hotel,9.9,7.7,0
+S0009,Copper Kettle Inn,0.4,9,3
+S0009,Grand Central,1.9,7.9,1
+S0009,Cathedral View,2.2,7.6,0
+S0009,Ivy Gate,0.8,7.6,1
+S0009,Maple House,0.3,6.8,0
+S0009,The Courtyard,1.5,9.2,2
+S0010,Lakeside Retreat,1.5,9.5,3
+S0010,Cathedral View,0.7,7.7,2
+S0010,Park Lane Hotel,0.8,7.2,1
+S0010,Market Square Hotel,4.1,9.6,2
+S0010,The Linden,5.6,7.7,1
+S0010,Northern Lights,3.7,8.3,0
+S0010,Station Lodge,0.4,6.8,0
+S0010,Hilltop Residence,0.8,6.2,0
+S0011,Park Lane Hotel,1.4,6.7,2
+S0011,Market Square Hotel,11.3,8.1,0
+S0011,Harbour View,2.7,6.4,0
+S0011,Northern Lights,2.7,8,1
+S0011,Marina Bay Rooms,0.8,6.3,0
+S0011,City Nest,2.6,8.8,2
+S0011,Old Town Suites,1.8,6.8,1
+S0011,Copper Kettle Inn,0.2,8,3
+S0012,Old Town Suites,3.4,7,1
+S0012,Park Lane Hotel,0.4,6.3,0
+S0012,Cathedral View,10.6,6.8,0
+S0012,The Linden,7.1,8.4,2
+S0012,Blue Door B&B,3.7,7.3,1
+S0012,Copper Kettle Inn,9.1,7.6,0
+S0012,Union Hotel,1.3,8.3,3
+S0012,Bridge Hotel,0.5,6.7,2
+S0013,Riverside Inn,6.6,6.9,0
+S0013,Station Lodge,1.2,9.3,3
+S0013,Bridge Hotel,4.9,8.7,1
+S0013,The Linden,9.7,6.6,0
+S0013,Garden Court,4.4,8.4,1
+S0013,Maple House,0.2,6.8,2
+S0013,Harbour View,6,9.3,2
+S0013,Cathedral View,0.5,6.3,0
+S0014,Union Hotel,3.6,7.4,1
+S0014,Northern Lights,10.5,6.8,0
+S0014,Ivy Gate,0.6,8.7,2
+S0014,Market Square Hotel,5.5,6.8,1
+S0014,Old Town Suites,5.3,6.5,0
+S0014,Park Lane Hotel,0.7,9.3,3
+S0014,Hilltop Residence,12,8.3,0
+S0014,Hotel Aurora,3.4,8.7,2
+S0015,Union Hotel,8,7.4,0
+S0015,Park Lane Hotel,0.2,7.9,1
+S0015,Riverside Inn,0.3,6.5,0
+S0015,Station Lodge,1.7,9.8,3
+S0015,Grand Central,0.2,7.9,2
+S0015,Blue Door B&B,11.2,8.8,0
+S0015,Ivy Gate,1.1,6.9,1
+S0015,Old Town Suites,0.7,9.7,2
+S0016,The Linden,1.1,8.2,2
+S0016,Riverside Inn,10.5,6.4,0
+S0016,Park Lane Hotel,9.1,8.9,1
+S0016,Northern Lights,0.9,6.7,2
+S0016,Cathedral View,5.3,9.5,3
+S0016,Market Square Hotel,10.7,6.6,0
+S0016,Old Town Suites,8.5,9.5,1
+S0016,Station Lodge,2.8,6.9,0
+S0017,Ivy Gate,0.3,7.5,2
+S0017,Lakeside Retreat,0.2,8.4,2
+S0017,Blue Door B&B,10.2,8.4,0
+S0017,Marina Bay Rooms,2.3,7.5,1
+S0017,Skyline Tower,6,7.4,0
+S0017,Garden Court,0.2,6.4,0
+S0017,Hotel Aurora,0.2,7.4,1
+S0017,Northern Lights,1.7,8.6,3
+S0018,City Nest,0.2,7.7,2
+S0018,Northern Lights,11.3,6.8,0
+S0018,Hilltop Residence,11.3,8.9,0
+S0018,The Courtyard,4.1,9.5,1
+S0018,Riverside Inn,9.5,6.3,0
+S0018,Copper Kettle Inn,0.3,6.9,1
+S0018,Lakeside Retreat,0.6,7.5,2
+S0018,Station Lodge,3.4,8.8,3
+S0019,Old Town Suites,0.3,8.2,1
+S0019,Skyline Tower,9,8.3,0
+S0019,Riverside Inn,2.4,7.3,0
+S0019,Garden Court,6.1,8.1,0
+S0019,Hotel Aurora,6.2,9.1,1
+S0019,Market Square Hotel,1,9.7,3
+S0019,Park Lane Hotel,0.4,8.4,2
+S0019,Lakeside Retreat,1.3,9,2
+S0020,Cathedral View,3.6,7.6,2
+S0020,Blue Door B&B,2.2,6.1,0
+S0020,Marina Bay Rooms,8.2,9.6,1
+S0020,Hotel Aurora,0.4,6.6,1
+S0020,Riverside Inn,0.9,7.6,2
+S0020,The Courtyard,0.5,8.3,3
+S0020,Northern Lights,10.6,8.4,0
+S0020,Garden Court,6,6.1,0
+S0021,Harbour View,8,6.2,0
+S0021,Copper Kettle Inn,3.5,8.5,2
+S0021,Bridge Hotel,10.8,8.8,0
+S0021,Cathedral View,3.3,7.6,2
+S0021,Market Square Hotel,8.5,8.2,0
+S0021,Station Lodge,5.4,9.7,3
+S0021,Lakeside Retreat,3.6,7.7,1
+S0021,The Linden,3.9,7.2,1
+S0022,Park Lane Hotel,4.8,8.7,2
+S0022,Hotel Aurora,11,8.1,0
+S0022,Hilltop Residence,11.5,6.6,0
+S0022,Blue Door B&B,1.9,8.4,2
+S0022,City Nest,0.8,6.6,1
+S0022,Garden Court,0.7,8.9,3
+S0022,The Linden,1.7,6.1,0
+S0022,The Courtyard,1.2,6.2,1
+S0023,Marina Bay Rooms,0.6,6.7,1
+S0023,City Nest,2.7,7.5,0
+S0023,Market Square Hotel,3.9,9.1,2
+S0023,Station Lodge,4.6,6.5,0
+S0023,Riverside Inn,0.7,8.9,2
+S0023,Garden Court,12.1,7.2,0
+S0023,Ivy Gate,0.6,9.2,3
+S0023,Northern Lights,1.6,9.3,1
+S0024,Marina Bay Rooms,1,9.2,2
+S0024,Old Town Suites,2.1,9,1
+S0024,Cathedral View,0.6,9.1,3
+S0024,Market Square Hotel,4.1,8.5,0
+S0024,Bridge Hotel,2,7.3,0
+S0024,City Nest,0.6,8.5,1
+S0024,Hilltop Residence,0.2,6.1,0
+S0024,Garden Court,1.1,9.3,2
+S0025,Hilltop Residence,0.8,7.8,3
+S0025,Old Town Suites,6.1,9.2,2
+S0025,Grand Central,6,8.9,1
+S0025,Market Square Hotel,10.4,8.1,0
+S0025,Maple House,6.9,6.6,0
+S0025,Park Lane Hotel,4.1,8.9,2
+S0025,Union Hotel,5.4,7.3,1
+S0025,Harbour View,0.6,6.1,0
+S0026,Hotel Aurora,5.8,6.3,0
+S0026,Old Town Suites,0.3,7.6,1
+S0026,Park Lane Hotel,1,8.8,2
+S0026,Ivy Gate,7.5,9.7,0
+S0026,Market Square Hotel,0.2,7.7,0
+S0026,Garden Court,0.4,8.8,3
+S0026,Marina Bay Rooms,1.9,8.2,2
+S0026,Bridge Hotel,1.8,8.4,1
+S0027,Blue Door B&B,0.2,8.6,2
+S0027,Skyline Tower,11.8,7.6,0
+S0027,Marina Bay Rooms,11.2,9.6,0
+S0027,Riverside Inn,3.6,6.6,0
+S0027,Cathedral View,0.4,9.7,3
+S0027,Northern Lights,0.6,7.1,1
+S0027,Maple House,2.4,9.6,1
+S0027,Lakeside Retreat,3.1,9.1,2
+S0028,Garden Court,6,8.2,1
+S0028,Riverside Inn,12,9.1,0
+S0028,Old Town Suites,6.8,8,0
+S0028,Northern Lights,7.5,8.1,1
+S0028,Cathedral View,0.2,6.9,3
+S0028,Blue Door B&B,4.1,6.9,2
+S0028,Lakeside Retreat,4.9,6.2,0
+S0028,The Linden,0.3,6.6,2
+S0029,Garden Court,1.8,9.1,2
+S0029,Cathedral View,0.8,8,1
+S0029,Union Hotel,3.9,7.2,0
+S0029,Copper Kettle Inn,4.6,6.4,0
+S0029,Lakeside Retreat,0.7,9,2
+S0029,Old Town Suites,2.8,8,0
+S0029,Marina Bay Rooms,0.6,9.7,3
+S0029,Grand Central,0.3,9.3,1
+S0030,Hilltop Residence,8.8,6.7,0
+S0030,Station Lodge,0.8,6.7,1
+S0030,Maple House,10,6.9,0
+S0030,The Courtyard,6.4,6.5,0
+S0030,Ivy Gate,2.4,8.4,2
+S0030,Cathedral View,4.4,6.7,1
+S0030,City Nest,2.2,6.9,2
+S0030,Skyline Tower,2,7.5,3
+S0031,Blue Door B&B,11.2,9.1,0
+S0031,Riverside Inn,0.4,9.5,2
+S0031,Market Square Hotel,0.3,9.1,3
+S0031,Copper Kettle Inn,10,6.3,0
+S0031,Grand Central,0.3,8.1,1
+S0031,Garden Court,10.9,8.8,0
+S0031,City Nest,1.6,6.9,1
+S0031,Northern Lights,1.8,9.6,2
+S0032,Union Hotel,1.9,7.9,1
+S0032,Riverside Inn,3,8.5,1
+S0032,The Linden,7.8,9,0
+S0032,Hotel Aurora,0.2,6.6,0
+S0032,Station Lodge,0.3,8.1,2
+S0032,Maple House,0.3,7,0
+S0032,Northern Lights,6.7,9.7,3
+S0032,Market Square Hotel,2.6,7.6,2
+S0033,Blue Door B&B,4.5,7,0
+S0033,The Linden,2.4,8,2
+S0033,Cathedral View,3.7,7.7,0
+S0033,Ivy Gate,5,8.2,0
+S0033,Hotel Aurora,0.3,9.2,2
+S0033,Harbour View,4.3,8.6,3
+S0033,Grand Central,3.1,8.9,1
+S0033,Lakeside Retreat,6.7,9.6,1
+S0034,Station Lodge,10.7,6.1,0
+S0034,Market Square Hotel,2,8.6,1
+S0034,Hotel Aurora,0.2,9.1,2
+S0034,City Nest,0.3,7.8,1
+S0034,Grand Central,2.1,6.3,0
+S0034,Union Hotel,1,6.2,0
+S0034,The Linden,0.3,9.5,3
+S0034,Marina Bay Rooms,4.6,9.5,2
+S0035,Union Hotel,12,8.7,0
+S0035,Riverside Inn,0.4,8.3,2
+S0035,Hilltop Residence,3.7,8.5,1
+S0035,Lakeside Retreat,0.2,6.6,0
+S0035,Station Lodge,1.4,8.7,3
+S0035,Hotel Aurora,0.2,8.1,2
+S0035,The Linden,5.4,8.2,1
+S0035,Blue Door B&B,11.6,8.1,0
+S0036,Riverside Inn,10.4,7.5,0
+S0036,Copper Kettle Inn,0.5,7.4,2
+S0036,Market Square Hotel,0.2,9.6,3
+S0036,Bridge Hotel,4.7,7.6,0
+S0036,Old Town Suites,2.2,6.1,0
+S0036,Park Lane Hotel,3.8,8.6,1
+S0036,Grand Central,0.4,7.6,1
+S0036,The Courtyard,0.4,7.8,2
+S0037,Grand Central,4.4,7,1
+S0037,The Linden,0.9,9.6,3
+S0037,Skyline Tower,7.5,7.6,0
+S0037,Hotel Aurora,8.5,9.1,1
+S0037,Riverside Inn,2.1,8.3,2
+S0037,Ivy Gate,4.5,6.6,0
+S0037,Lakeside Retreat,0.2,7.9,2
+S0037,Park Lane Hotel,10,6.2,0
+S0038,Blue Door B&B,2.2,9.6,2
+S0038,Harbour View,8.6,6.6,0
+S0038,Maple House,0.5,7.8,2
+S0038,Hotel Aurora,1.3,9.6,3
+S0038,Ivy Gate,7.3,6.1,0
+S0038,Market Square Hotel,1.9,7.9,1
+S0038,Park Lane Hotel,5.3,8.6,0
+S0038,Station Lodge,5.2,9.7,1
+S0039,Hilltop Residence,5.9,9.5,0
+S0039,Grand Central,6.7,8.1,0
+S0039,Old Town Suites,0.3,8.8,1
+S0039,Market Square Hotel,0.2,8.8,3
+S0039,Garden Court,4.9,8.3,0
+S0039,Marina Bay Rooms,0.2,8.8,2
+S0039,Union Hotel,0.2,8.7,2
+S0039,Station Lodge,0.2,7.1,1
+S0040,Northern Lights,1.8,6.8,0
+S0040,City Nest,0.8,9,2
+S0040,Skyline Tower,8.1,7.8,0
+S0040,Lakeside Retreat,10.4,8.3,0
+S0040,Cathedral View,1.4,8.3,2
+S0040,Garden Court,0.7,6.5,1
+S0040,Bridge Hotel,1.1,9.4,3
+S0040,Market Square Hotel,1.7,7.7,1
+S0041,City Nest,6,8.8,1
+S0041,Riverside Inn,1.6,6.6,2
+S0041,Lakeside Retreat,1.5,6.8,0
+S0041,Hilltop Residence,7.5,8.1,0
+S0041,Bridge Hotel,8.7,7.4,0
+S0041,Copper Kettle Inn,0.3,8.9,2
+S0041,Marina Bay Rooms,2.4,6.2,1
+S0041,The Linden,0.2,9.6,3
+S0042,The Linden,0.2,7.7,2
+S0042,Blue Door B&B,0.3,8.3,1
+S0042,Hotel Aurora,5,8.2,0
+S0042,City Nest,3.9,8.8,3
+S0042,Cathedral View,6,9.6,0
+S0042,Ivy Gate,10.5,7.2,0
+S0042,Marina Bay Rooms,0.7,7.6,1
+S0042,Northern Lights,0.8,8.2,2
+S0043,Skyline Tower,4.4,6.7,0
+S0043,Northern Lights,0.6,6.1,1
+S0043,Grand Central,4.6,8.3,1
+S0043,Union Hotel,5.1,9.2,2
+S0043,City Nest,8.2,7.7,0
+S0043,Hilltop Residence,1,9.7,3
+S0043,Marina Bay Rooms,4.3,6.7,0
+S0043,Copper Kettle Inn,5.1,8.1,2
+S0044,Market Square Hotel,0.4,8.9,2
+S0044,Station Lodge,2.9,9.1,1
+S0044,Cathedral View,1.3,6.9,0
+S0044,Maple House,0.9,9,2
+S0044,Hotel Aurora,1.3,6.3,0
+S0044,Lakeside Retreat,0.3,8.5,0
+S0044,Skyline Tower,0.9,9.3,3
+S0044,Union Hotel,2.8,8.8,1
+S0045,Northern Lights,0.2,9.8,3
+S0045,Station Lodge,4.9,6.7,0
+S0045,The Linden,8.5,8.3,0
+S0045,Maple House,4.1,8.1,1
+S0045,Blue Door B&B,9.8,7.5,0
+S0045,Riverside Inn,0.8,8.6,2
+S0045,Ivy Gate,3.4,9.6,2
+S0045,Park Lane Hotel,2.3,7.2,1
+S0046,Old Town Suites,3.7,6.3,2
+S0046,Bridge Hotel,10.8,8.3,0
+S0046,The Linden,4,6.2,0
+S0046,Hilltop Residence,12,8.6,1
+S0046,Riverside Inn,0.4,8.8,3
+S0046,Grand Central,8.5,8.4,0
+S0046,City Nest,6.8,8,1
+S0046,Market Square Hotel,0.5,8,2
+S0047,Union Hotel,0.8,9.2,2
+S0047,Copper Kettle Inn,1.1,9,1
+S0047,Riverside Inn,4.4,6.9,0
+S0047,Maple House,0.3,6.9,1
+S0047,The Linden,5.1,7.6,0
+S0047,Lakeside Retreat,4,6.9,0
+S0047,Old Town Suites,3.2,8.5,2
+S0047,Harbour View,0.3,9.2,3
+S0048,Hilltop Residence,11.8,6.3,0
+S0048,Market Square Hotel,2.7,6.7,0
+S0048,Maple House,6.5,7.5,1
+S0048,Old Town Suites,1.6,8.2,2
+S0048,Harbour View,1.2,8.3,2
+S0048,Union Hotel,0.2,6.4,0
+S0048,Riverside Inn,2.6,9.2,3
+S0048,Garden Court,0.6,6.6,1
+S0049,Copper Kettle Inn,2.8,8.3,1
+S0049,Lakeside Retreat,0.4,7.7,0
+S0049,Old Town Suites,3.3,9.1,0
+S0049,Blue Door B&B,0.5,8.8,1
+S0049,Station Lodge,0.3,8.2,2
+S0049,Grand Central,0.3,9.7,3
+S0049,The Linden,0.3,6.4,0
+S0049,Northern Lights,0.6,8,2
+S0050,The Courtyard,2.3,9.4,3
+S0050,Copper Kettle Inn,3.3,6.9,0
+S0050,Ivy Gate,10.8,8.2,0
+S0050,Harbour View,4.3,8.8,2
+S0050,Lakeside Retreat,6.9,9.2,1
+S0050,Hotel Aurora,1.8,7.3,1
+S0050,Union Hotel,0.2,6.6,2
+S0050,City Nest,8.3,6.2,0
+S0051,Ivy Gate,6.7,7.6,0
+S0051,Park Lane Hotel,1,6.7,2
+S0051,The Linden,9.8,6.2,0
+S0051,City Nest,4.4,8.5,2
+S0051,Northern Lights,0.2,6.6,0
+S0051,Maple House,5.7,9,1
+S0051,The Courtyard,0.2,8.5,3
+S0051,Bridge Hotel,5.9,9,1
+S0052,Bridge Hotel,5.8,9,0
+S0052,Park Lane Hotel,11.6,8.8,0
+S0052,Garden Court,0.2,8.8,3
+S0052,Lakeside Retreat,6.5,8.8,2
+S0052,Grand Central,0.3,8,2
+S0052,Cathedral View,7.2,8.7,0
+S0052,Riverside Inn,4.4,7.8,1
+S0052,Station Lodge,2.5,6.9,1
+S0053,Maple House,3.2,7.3,2
+S0053,Lakeside Retreat,0.4,6.2,0
+S0053,Copper Kettle Inn,0.4,6.2,1
+S0053,Union Hotel,2.1,7.6,2
+S0053,Park Lane Hotel,10.7,8.6,0
+S0053,Harbour View,0.2,6.6,1
+S0053,Riverside Inn,8.1,7.7,0
+S0053,Hilltop Residence,0.6,8.9,3
+S0054,Northern Lights,1.9,8.8,2
+S0054,The Courtyard,0.2,8.3,2
+S0054,Riverside Inn,10,9.7,0
+S0054,Blue Door B&B,0.6,7.1,1
+S0054,Garden Court,4.3,7.4,0
+S0054,Copper Kettle Inn,9.4,9.7,1
+S0054,City Nest,2.2,6.6,0
+S0054,Hotel Aurora,0.2,9.4,3
+S0055,The Linden,4,8.4,1
+S0055,Copper Kettle Inn,2.5,8.3,2
+S0055,Market Square Hotel,6.8,9.2,0
+S0055,City Nest,0.2,8.6,3
+S0055,Union Hotel,6,6.5,0
+S0055,Skyline Tower,2.4,8,2
+S0055,The Courtyard,2.3,7.6,1
+S0055,Park Lane Hotel,2.7,7,0
+S0056,Blue Door B&B,6.2,9,1
+S0056,Garden Court,0.4,8.5,2
+S0056,The Linden,2.4,7.3,0
+S0056,Grand Central,10.9,6.1,0
+S0056,Maple House,1.5,7.8,2
+S0056,Station Lodge,6,9.4,3
+S0056,Ivy Gate,9.8,9.8,1
+S0056,Skyline Tower,7.6,7.5,0
+S0057,Blue Door B&B,8.5,8.8,1
+S0057,Riverside Inn,2.7,8.7,2
+S0057,Harbour View,2.4,6.2,0
+S0057,Marina Bay Rooms,5.7,9.2,2
+S0057,Market Square Hotel,11.1,6.4,0
+S0057,The Courtyard,8.3,9,1
+S0057,Hilltop Residence,4.2,7.1,0
+S0057,Garden Court,2.6,8.9,3
+S0058,Old Town Suites,0.4,7.6,2
+S0058,Bridge Hotel,3.9,7.6,1
+S0058,Maple House,1.1,7.1,1
+S0058,The Linden,6.2,9.3,2
+S0058,Blue Door B&B,6.1,6.9,0
+S0058,Garden Court,5.7,7.3,0
+S0058,Grand Central,5.4,7.1,0
+S0058,Cathedral View,2.6,8.3,3
+S0059,Hilltop Residence,1.6,6.3,0
+S0059,Bridge Hotel,4.4,9.7,3
+S0059,Cathedral View,5.8,8.8,1
+S0059,Maple House,0.3,8.8,2
+S0059,The Linden,0.3,6.2,1
+S0059,Blue Door B&B,11.5,6.6,0
+S0059,City Nest,0.4,7.2,2
+S0059,Old Town Suites,11.5,6.1,0
+S0060,Harbour View,0.7,6.1,2
+S0060,Hilltop Residence,0.6,9.3,3
+S0060,Garden Court,0.6,6.4,1
+S0060,Riverside Inn,6.4,7.2,0
+S0060,Blue Door B&B,7.5,6.1,0
+S0060,Grand Central,4.7,6.3,0
+S0060,Marina Bay Rooms,0.4,8.7,2
+S0060,Union Hotel,0.9,6.9,1
+S0061,Station Lodge,3.1,9.7,3
+S0061,Lakeside Retreat,6,8.6,2
+S0061,Skyline Tower,6.6,7.7,0
+S0061,Riverside Inn,8.5,8.1,0
+S0061,Marina Bay Rooms,0.4,8.1,2
+S0061,Market Square Hotel,3.4,9,1
+S0061,Old Town Suites,9.9,7.1,0
+S0061,City Nest,0.2,7.5,1
+S0062,Grand Central,2.2,7.3,1
+S0062,Riverside Inn,8,9.8,1
+S0062,Ivy Gate,0.8,7.1,2
+S0062,Park Lane Hotel,3.2,6.3,0
+S0062,The Courtyard,0.8,8.6,2
+S0062,Marina Bay Rooms,4.9,8.2,0
+S0062,Station Lodge,0.2,8.4,3
+S0062,Hotel Aurora,5.3,8,0
+S0063,Maple House,6.2,9.5,2
+S0063,Park Lane Hotel,4.6,6.7,0
+S0063,Union Hotel,4.7,6.8,1
+S0063,Market Square Hotel,3.4,7.5,1
+S0063,Northern Lights,6.8,8.5,2
+S0063,Garden Court,12,6.5,0
+S0063,Bridge Hotel,1.6,8.7,3
+S0063,Cathedral View,4.2,6.1,0
+S0064,The Linden,7.5,8.7,0
+S0064,Ivy Gate,3.3,9.3,1
+S0064,Union Hotel,0.7,6.2,1
+S0064,Garden Court,11.2,8.7,0
+S0064,Lakeside Retreat,3.3,8.8,2
+S0064,Market Square Hotel,10.3,9.3,0
+S0064,Riverside Inn,1.1,8.9,3
+S0064,Station Lodge,0.3,7.5,2
+S0065,Garden Court,7.7,6.9,0
+S0065,Blue Door B&B,11.1,9.4,1
+S0065,Old Town Suites,1.3,7.8,2
+S0065,Lakeside Retreat,10.2,7.4,0
+S0065,Harbour View,0.3,9.7,3
+S0065,Northern Lights,2.2,6.4,1
+S0065,Marina Bay Rooms,7.1,6.9,0
+S0065,The Linden,0.3,7.9,2
+S0066,Ivy Gate,0.4,8,1
+S0066,The Linden,0.2,7.8,0
+S0066,Lakeside Retreat,3.5,7.5,0
+S0066,Riverside Inn,2.8,8.7,2
+S0066,Copper Kettle Inn,0.5,7.7,1
+S0066,Garden Court,0.2,8.1,2
+S0066,Blue Door B&B,0.4,8.9,3
+S0066,Bridge Hotel,6.6,8.2,0
+S0067,Hotel Aurora,9,9,0
+S0067,Garden Court,5.7,6.5,0
+S0067,Maple House,0.3,7.4,2
+S0067,Skyline Tower,1.1,8.8,3
+S0067,Harbour View,5.7,9.5,2
+S0067,Bridge Hotel,6.8,7.3,1
+S0067,Blue Door B&B,7.2,7.2,0
+S0067,Old Town Suites,5.9,7.6,1
+S0068,Park Lane Hotel,6.8,9.5,2
+S0068,Northern Lights,3.7,7,1
+S0068,Union Hotel,0.2,6.4,0
+S0068,Hotel Aurora,7.3,6.2,0
+S0068,Grand Central,5.1,6.1,0
+S0068,Maple House,2.5,9.2,3
+S0068,Ivy Gate,0.2,6.3,1
+S0068,Cathedral View,0.3,8.4,2
+S0069,Skyline Tower,8.6,6,0
+S0069,Park Lane Hotel,0.5,7.2,2
+S0069,Union Hotel,0.7,8.5,3
+S0069,The Linden,8.4,8.5,0
+S0069,Riverside Inn,5.1,6.5,0
+S0069,Harbour View,9.7,8.5,1
+S0069,The Courtyard,6.6,8.8,1
+S0069,Grand Central,0.3,9.7,2
+S0070,Bridge Hotel,10.8,6.8,0
+S0070,Park Lane Hotel,0.2,9.6,3
+S0070,Maple House,1.9,7.6,2
+S0070,Blue Door B&B,9.2,6.2,0
+S0070,Hotel Aurora,0.3,7.6,2
+S0070,Cathedral View,10,6.4,0
+S0070,Harbour View,5.1,8.4,1
+S0070,Grand Central,9.3,8.9,1
+S0071,Skyline Tower,2.8,6.8,0
+S0071,Northern Lights,2,9.3,2
+S0071,Maple House,9.6,9,0
+S0071,Hilltop Residence,0.2,9.7,3
+S0071,Hotel Aurora,1.2,6.7,0
+S0071,Blue Door B&B,0.2,8.6,1
+S0071,The Linden,1.2,8.9,2
+S0071,Market Square Hotel,0.6,7.9,1
+S0072,Lakeside Retreat,1.6,7.8,2
+S0072,Riverside Inn,1.5,6.6,0
+S0072,Blue Door B&B,0.9,9.7,3
+S0072,Grand Central,0.9,6.8,0
+S0072,Hilltop Residence,0.2,6.7,1
+S0072,Garden Court,4.9,8.8,1
+S0072,Old Town Suites,8.7,7.5,0
+S0072,Park Lane Hotel,4.6,8.9,2
+S0073,Hilltop Residence,6.3,8,1
+S0073,Union Hotel,8.9,6.8,0
+S0073,Riverside Inn,9.4,6.6,0
+S0073,Park Lane Hotel,0.3,6.2,2
+S0073,Station Lodge,0.8,8.4,3
+S0073,Market Square Hotel,0.4,6,0
+S0073,Maple House,3.5,7.9,2
+S0073,Lakeside Retreat,5.7,8.1,1
+S0074,Northern Lights,10.4,9.1,0
+S0074,Maple House,1,6,0
+S0074,Skyline Tower,5,8.5,2
+S0074,Blue Door B&B,3,7.9,1
+S0074,Riverside Inn,1.4,8.6,2
+S0074,Marina Bay Rooms,0.9,7,1
+S0074,City Nest,3.5,8.4,3
+S0074,Hilltop Residence,12.2,8.6,0
+S0075,Maple House,1.4,9.1,2
+S0075,Hilltop Residence,9.8,7.2,0
+S0075,City Nest,0.9,6.5,0
+S0075,Ivy Gate,0.8,7.1,1
+S0075,Market Square Hotel,3.1,9.7,3
+S0075,Blue Door B&B,5.1,7.1,0
+S0075,Copper Kettle Inn,1.2,8.7,1
+S0075,Marina Bay Rooms,3,9.1,2
+S0076,Ivy Gate,0.3,7,2
+S0076,Skyline Tower,3.7,8,1
+S0076,Maple House,0.4,8.4,3
+S0076,Riverside Inn,8.5,6.4,0
+S0076,Northern Lights,11.3,6.4,0
+S0076,Bridge Hotel,0.8,6.5,1
+S0076,The Linden,0.9,6.3,0
+S0076,Garden Court,0.2,7.3,2
+S0077,Station Lodge,7.3,7.4,0
+S0077,Market Square Hotel,2.5,7.9,2
+S0077,Cathedral View,5.4,7.8,0
+S0077,Union Hotel,0.2,6.9,1
+S0077,Riverside Inn,4.8,6.6,0
+S0077,Northern Lights,9.9,9.6,1
+S0077,Skyline Tower,2.2,9.3,2
+S0077,Ivy Gate,0.2,9.5,3
+S0078,Lakeside Retreat,0.3,9.5,3
+S0078,Copper Kettle Inn,2.5,9.1,2
+S0078,Ivy Gate,0.2,6.9,1
+S0078,Marina Bay Rooms,2.9,9.8,2
+S0078,Garden Court,7.7,9.1,0
+S0078,City Nest,7.8,9.1,0
+S0078,Station Lodge,5.4,8.5,1
+S0078,Northern Lights,2.5,6.1,0
+S0079,City Nest,3.3,9,2
+S0079,Riverside Inn,0.8,7.5,2
+S0079,Lakeside Retreat,10.9,7.6,0
+S0079,Union Hotel,7.6,7.2,0
+S0079,Bridge Hotel,7.4,9.5,1
+S0079,Station Lodge,0.9,6.6,1
+S0079,The Courtyard,0.7,7.7,3
+S0079,Maple House,9.3,7.8,0
+S0080,Copper Kettle Inn,0.4,6.3,1
+S0080,Station Lodge,0.3,6.9,1
+S0080,Riverside Inn,2.5,8.2,2
+S0080,Garden Court,7.5,9.5,2
+S0080,Northern Lights,0.4,9.2,3
+S0080,The Courtyard,0.3,6,0
+S0080,Old Town Suites,10.4,8.5,0
+S0080,Market Square Hotel,3.9,6.1,0
+S0081,City Nest,2.5,8.2,3
+S0081,Hilltop Residence,1.5,6.2,0
+S0081,Old Town Suites,0.2,6.6,1
+S0081,The Linden,6.6,6.2,0
+S0081,Station Lodge,3.5,6.8,0
+S0081,Marina Bay Rooms,2.8,6.8,1
+S0081,Maple House,0.6,8,2
+S0081,Bridge Hotel,0.7,9,2
+S0082,Blue Door B&B,11.8,9,1
+S0082,Cathedral View,0.5,7.2,1
+S0082,Market Square Hotel,0.9,8.9,2
+S0082,Bridge Hotel,0.5,8.9,3
+S0082,The Courtyard,6.3,6.1,0
+S0082,Harbour View,2.9,8.3,2
+S0082,City Nest,7,8,0
+S0082,Skyline Tower,10.9,9.4,0
+S0083,The Linden,1.4,8.7,3
+S0083,Union Hotel,6.8,9.4,0
+S0083,The Courtyard,2.8,8.9,2
+S0083,Garden Court,4.7,7.9,1
+S0083,Park Lane Hotel,10.8,6.1,0
+S0083,Bridge Hotel,0.9,7.4,0
+S0083,Cathedral View,1.8,9.3,2
+S0083,Hilltop Residence,6.7,9.6,1
+S0084,Hotel Aurora,0.4,7.4,0
+S0084,Union Hotel,2.4,9.5,2
+S0084,The Linden,2.8,7.9,0
+S0084,The Courtyard,4.8,7.9,1
+S0084,Northern Lights,3.3,6.4,0
+S0084,Blue Door B&B,1.6,6.4,1
+S0084,Market Square Hotel,1.7,9.8,3
+S0084,Copper Kettle Inn,0.3,8.3,2
+S0085,City Nest,1.4,6.9,0
+S0085,Northern Lights,7.9,7.2,0
+S0085,The Linden,3.5,9.2,2
+S0085,Ivy Gate,1.8,9.3,1
+S0085,Skyline Tower,5.8,6.9,0
+S0085,Hilltop Residence,1.4,8,2
+S0085,Blue Door B&B,1.2,7.5,1
+S0085,Maple House,0.2,8.3,3
+S0086,Northern Lights,1.6,6.2,0
+S0086,Blue Door B&B,0.5,9.8,2
+S0086,Park Lane Hotel,1.9,7.6,1
+S0086,City Nest,11.4,6.5,0
+S0086,Maple House,9.7,9.7,0
+S0086,Garden Court,0.3,9.1,3
+S0086,Copper Kettle Inn,1.2,8.1,1
+S0086,Union Hotel,0.3,7.6,2
+S0087,Garden Court,1.1,7.5,2
+S0087,Station Lodge,11,7.6,0
+S0087,The Linden,6.4,6.3,0
+S0087,Copper Kettle Inn,0.3,8.1,3
+S0087,Northern Lights,9.9,9.3,1
+S0087,Hilltop Residence,3.8,8.8,2
+S0087,Market Square Hotel,8.3,7.7,0
+S0087,Cathedral View,0.6,7.7,1
+S0088,Riverside Inn,2.8,7.9,2
+S0088,Cathedral View,4.2,6.8,0
+S0088,Garden Court,1.1,6,1
+S0088,Maple House,10.9,8.9,0
+S0088,Park Lane Hotel,5.9,9.7,3
+S0088,Hotel Aurora,5.8,8,1
+S0088,Harbour View,0.3,6.7,2
+S0088,Market Square Hotel,10.8,8.6,0
+S0089,Hilltop Residence,2.9,9.5,2
+S0089,Skyline Tower,0.9,6.6,1
+S0089,Harbour View,0.2,9.2,3
+S0089,Old Town Suites,8.5,9.7,0
+S0089,Marina Bay Rooms,2.2,9.5,2
+S0089,The Courtyard,5.5,9.2,1
+S0089,Market Square Hotel,5,6.6,0
+S0089,Copper Kettle Inn,1.8,6.5,0
+S0090,Marina Bay Rooms,6.4,6.7,0
+S0090,Maple House,6.3,7.3,0
+S0090,Ivy Gate,1.6,8,2
+S0090,Market Square Hotel,0.7,7.4,1
+S0090,Harbour View,2.7,9.3,3
+S0090,Hilltop Residence,11,9,0
+S0090,Cathedral View,4.6,8.6,2
+S0090,Old Town Suites,0.3,7.4,1
+S0091,Grand Central,0.2,6.7,1
+S0091,Lakeside Retreat,2.4,7.8,0
+S0091,Ivy Gate,2,8.6,2
+S0091,Garden Court,0.3,8.1,3
+S0091,Riverside Inn,1.5,6.2,0
+S0091,Marina Bay Rooms,0.4,6.9,0
+S0091,Blue Door B&B,0.8,6.9,2
+S0091,Hotel Aurora,3.7,8.6,1
+S0092,Station Lodge,0.6,6.4,0
+S0092,Hilltop Residence,6.2,8.5,1
+S0092,Cathedral View,1.9,7,0
+S0092,The Courtyard,0.6,8.3,2
+S0092,Maple House,1.1,9.8,3
+S0092,Riverside Inn,2.6,7.9,1
+S0092,Bridge Hotel,0.7,8,2
+S0092,Hotel Aurora,7.4,9.5,0
+S0093,Blue Door B&B,3.6,8.9,1
+S0093,Garden Court,5.3,7,1
+S0093,Old Town Suites,11.2,6.7,0
+S0093,Union Hotel,1,7.9,2
+S0093,Cathedral View,0.4,9,3
+S0093,Park Lane Hotel,5.4,6.5,0
+S0093,Hilltop Residence,3.9,7.4,0
+S0093,Station Lodge,2,9.6,2
+S0094,Park Lane Hotel,0.7,9.2,2
+S0094,Marina Bay Rooms,8.3,7.7,0
+S0094,The Linden,1.3,7.7,2
+S0094,The Courtyard,12,8.5,0
+S0094,Ivy Gate,10.1,6.6,0
+S0094,Blue Door B&B,1.6,7.1,1
+S0094,Hilltop Residence,0.2,8.4,3
+S0094,Cathedral View,4.5,6.5,1
+S0095,Blue Door B&B,3.3,6.1,0
+S0095,Old Town Suites,0.9,9.8,3
+S0095,The Courtyard,3,9.6,2
+S0095,Bridge Hotel,1.3,6.4,1
+S0095,Hilltop Residence,1.7,7,2
+S0095,The Linden,10,7,0
+S0095,Copper Kettle Inn,4.6,6.5,0
+S0095,Marina Bay Rooms,1.3,6.9,1
+S0096,Blue Door B&B,4.5,9.8,2
+S0096,The Linden,0.8,6.9,2
+S0096,Copper Kettle Inn,0.7,6.1,0
+S0096,The Courtyard,0.3,7,1
+S0096,Park Lane Hotel,0.5,8.3,3
+S0096,Cathedral View,1.6,7.4,1
+S0096,City Nest,1.8,6.5,0
+S0096,Market Square Hotel,8.3,7.9,0
+S0097,The Linden,4.4,7.4,0
+S0097,Harbour View,3,7.8,2
+S0097,Station Lodge,1.8,9.3,3
+S0097,Garden Court,1.9,7.7,2
+S0097,Hotel Aurora,6.7,9.7,1
+S0097,Old Town Suites,1.5,6.8,1
+S0097,Marina Bay Rooms,8.3,7.9,0
+S0097,Ivy Gate,0.2,6.6,0
+S0098,The Courtyard,2.9,7,0
+S0098,Old Town Suites,0.4,6.4,0
+S0098,Union Hotel,1.2,7.8,2
+S0098,The Linden,3.7,6.5,0
+S0098,Bridge Hotel,0.7,9.2,2
+S0098,Maple House,0.5,9.7,3
+S0098,Copper Kettle Inn,3.6,8.8,1
+S0098,Lakeside Retreat,1.9,8.6,1
+S0099,Garden Court,2.1,9,3
+S0099,Blue Door B&B,1.4,8.3,2
+S0099,Marina Bay Rooms,9,8.5,0
+S0099,Park Lane Hotel,2.1,6.8,0
+S0099,Bridge Hotel,9.4,7.4,0
+S0099,Harbour View,0.3,8.2,2
+S0099,Lakeside Retreat,3.3,7.4,1
+S0099,Ivy Gate,1.8,7.7,1
+S0100,Skyline Tower,3.4,6.9,0
+S0100,Maple House,1.2,8.9,2
+S0100,Harbour View,4.7,7.1,0
+S0100,Cathedral View,4.5,8.8,1
+S0100,Garden Court,8,7.6,0
+S0100,Northern Lights,1.3,8.1,2
+S0100,Grand Central,0.3,6.3,1
+S0100,Bridge Hotel,0.2,9,3
+S0101,Maple House,7.9,6.4,0
+S0101,Cathedral View,11.8,6.9,0
+S0101,Copper Kettle Inn,4.8,7.9,1
+S0101,Northern Lights,0.2,6.5,1
+S0101,Hotel Aurora,2.6,9,3
+S0101,The Linden,5.5,9.4,2
+S0101,Hilltop Residence,2.2,7.6,2
+S0101,The Courtyard,5.7,7.4,0
+S0102,Hilltop Residence,3.3,9.3,2
+S0102,Maple House,3.7,9.3,2
+S0102,Marina Bay Rooms,8.6,6.1,0
+S0102,Hotel Aurora,2.1,7.5,0
+S0102,Skyline Tower,0.6,9,3
+S0102,Union Hotel,4.1,8.8,1
+S0102,The Courtyard,2.9,8.1,0
+S0102,The Linden,5.8,8.7,1
+S0103,Harbour View,8,7.8,0
+S0103,Blue Door B&B,0.5,8.6,3
+S0103,Market Square Hotel,1.3,9.7,2
+S0103,Northern Lights,2.2,8.5,1
+S0103,City Nest,3.2,7.6,0
+S0103,Hotel Aurora,1.7,7.4,1
+S0103,Marina Bay Rooms,5.8,6,0
+S0103,Park Lane Hotel,0.7,8.9,2
+S0104,Grand Central,0.3,6.6,1
+S0104,Skyline Tower,7.8,6.2,0
+S0104,Park Lane Hotel,4.8,6.6,1
+S0104,Market Square Hotel,0.8,7.1,2
+S0104,Marina Bay Rooms,1.8,8.9,2
+S0104,Northern Lights,10.9,7.9,0
+S0104,Bridge Hotel,9,6.6,0
+S0104,City Nest,3.9,8.4,3
+S0105,Station Lodge,12,7.2,0
+S0105,Park Lane Hotel,8.2,6.4,0
+S0105,Hilltop Residence,0.3,6.5,1
+S0105,Maple House,0.2,8.8,3
+S0105,Union Hotel,3.4,7.9,1
+S0105,Market Square Hotel,1,7.6,2
+S0105,The Courtyard,11.3,9.2,0
+S0105,Hotel Aurora,1.3,8.9,2
+S0106,Old Town Suites,5.6,9.2,1
+S0106,Cathedral View,2.4,9.4,3
+S0106,The Linden,2,8.4,2
+S0106,Northern Lights,8.8,7,0
+S0106,The Courtyard,10.5,9.3,0
+S0106,Grand Central,2,9.6,2
+S0106,Park Lane Hotel,8.2,6.9,0
+S0106,Lakeside Retreat,1.9,6,1
+S0107,Blue Door B&B,0.5,8.9,2
+S0107,The Courtyard,10.8,8,0
+S0107,Skyline Tower,2.6,8.8,3
+S0107,Cathedral View,2,8.3,1
+S0107,Marina Bay Rooms,2.1,9.5,2
+S0107,Park Lane Hotel,6.3,6.6,0
+S0107,Old Town Suites,0.3,6.2,1
+S0107,Maple House,7.7,6.1,0
+S0108,The Linden,1.7,8.6,2
+S0108,Union Hotel,4.9,7.3,1
+S0108,Copper Kettle Inn,3,7.9,1
+S0108,Marina Bay Rooms,0.4,9.4,3
+S0108,Cathedral View,8.3,6.8,0
+S0108,Park Lane Hotel,0.2,8.7,2
+S0108,Hilltop Residence,1.3,6.9,0
+S0108,Garden Court,11.7,7.8,0
+S0109,Hilltop Residence,1.5,8.3,3
+S0109,Ivy Gate,3.9,8.4,1
+S0109,The Linden,2.5,7,0
+S0109,Market Square Hotel,8.3,6.7,0
+S0109,Maple House,7.9,8.2,0
+S0109,Harbour View,2.6,8.3,2
+S0109,Lakeside Retreat,4.9,9.7,2
+S0109,City Nest,1.7,8.1,1
+S0110,Harbour View,0.6,6.5,0
+S0110,Ivy Gate,0.7,8.4,2
+S0110,Blue Door B&B,6.2,7.7,0
+S0110,The Linden,0.7,7.9,2
+S0110,Old Town Suites,5.5,9.3,1
+S0110,Union Hotel,9.8,9.7,1
+S0110,Lakeside Retreat,12,8.8,0
+S0110,Park Lane Hotel,0.3,8.5,3
+S0111,Lakeside Retreat,0.4,6.5,2
+S0111,Old Town Suites,4.7,6.7,0
+S0111,Blue Door B&B,4.9,6.9,1
+S0111,Garden Court,12.2,6.2,0
+S0111,Copper Kettle Inn,0.3,7.3,2
+S0111,Grand Central,5.2,8.1,1
+S0111,Ivy Gate,3.9,6.5,0
+S0111,City Nest,2.7,9.8,3
+S0112,Bridge Hotel,0.4,8.3,3
+S0112,Park Lane Hotel,7.2,7.3,1
+S0112,Grand Central,12,7.2,0
+S0112,Cathedral View,4.3,6.5,0
+S0112,Ivy Gate,7.8,9.3,1
+S0112,Garden Court,1.7,7.5,2
+S0112,Station Lodge,0.6,6.6,2
+S0112,Copper Kettle Inn,8.6,6.2,0
+S0113,Skyline Tower,2.6,8.2,2
+S0113,Blue Door B&B,5.5,9.3,1
+S0113,Grand Central,6.8,6.8,0
+S0113,Cathedral View,3,8.9,2
+S0113,Copper Kettle Inn,10.7,6.1,0
+S0113,Maple House,4.4,9.4,1
+S0113,Harbour View,4.6,7.3,0
+S0113,Riverside Inn,1.6,9.3,3
+S0114,Cathedral View,3.6,6.7,0
+S0114,The Courtyard,0.4,6.7,2
+S0114,Station Lodge,5.3,7.6,0
+S0114,Copper Kettle Inn,11.4,7,0
+S0114,Grand Central,7.9,9,1
+S0114,Lakeside Retreat,1.3,8,2
+S0114,Maple House,3,8.6,3
+S0114,The Linden,0.7,7.3,1
+S0115,Park Lane Hotel,7.6,6.2,0
+S0115,Ivy Gate,7.6,7.3,1
+S0115,Garden Court,11.3,6.4,0
+S0115,Hilltop Residence,3.2,7.8,3
+S0115,Market Square Hotel,11.1,9.6,2
+S0115,Lakeside Retreat,7.7,8.4,1
+S0115,Union Hotel,8.1,7.9,0
+S0115,Maple House,10.8,9,2
+S0116,Skyline Tower,10.7,7.3,0
+S0116,Maple House,6.4,9.2,1
+S0116,The Courtyard,0.7,7.9,2
+S0116,Garden Court,7,8,0
+S0116,Station Lodge,0.9,9.7,3
+S0116,Harbour View,0.4,8.4,2
+S0116,Union Hotel,6.6,9.4,1
+S0116,Grand Central,6.9,6.3,0
+S0117,Marina Bay Rooms,5.2,7.6,1
+S0117,Skyline Tower,1.9,6.3,0
+S0117,Hotel Aurora,4.2,6.2,0
+S0117,Cathedral View,0.9,8.8,3
+S0117,Union Hotel,2.6,9,2
+S0117,Harbour View,10.4,8.1,0
+S0117,Garden Court,0.9,8.9,2
+S0117,Park Lane Hotel,8.1,9.2,1
+S0118,Maple House,3.2,9.3,3
+S0118,Ivy Gate,7.9,6.4,0
+S0118,Skyline Tower,3.7,6.7,1
+S0118,Marina Bay Rooms,0.3,8.1,2
+S0118,City Nest,8.9,8.8,0
+S0118,Grand Central,5.3,8.6,2
+S0118,Bridge Hotel,9.7,6.3,0
+S0118,Harbour View,3.7,7,1
+S0119,Maple House,5.8,9.2,2
+S0119,Copper Kettle Inn,0.5,7.3,2
+S0119,The Courtyard,2.2,8.6,3
+S0119,Skyline Tower,1.9,8.7,1
+S0119,Hotel Aurora,2.3,8,0
+S0119,Northern Lights,1.4,6.1,0
+S0119,Lakeside Retreat,10.5,8.9,0
+S0119,Bridge Hotel,5.6,9.1,1
+S0120,City Nest,2.2,8.5,1
+S0120,Northern Lights,0.3,9.3,1
+S0120,Garden Court,10.8,8.4,0
+S0120,Cathedral View,0.8,7.5,2
+S0120,Blue Door B&B,2.3,9.8,3
+S0120,Old Town Suites,10.2,9.7,0
+S0120,Copper Kettle Inn,10.8,8.7,0
+S0120,The Courtyard,1.2,9.3,2
+S0121,Market Square Hotel,2.7,7.2,1
+S0121,Hilltop Residence,2.2,7.8,0
+S0121,Grand Central,4.3,9.8,2
+S0121,Park Lane Hotel,3.6,8,2
+S0121,Lakeside Retreat,0.5,9.5,3
+S0121,Harbour View,4.7,6.3,0
+S0121,Blue Door B&B,7.9,9.3,0
+S0121,City Nest,1.2,7.2,1
+S0122,The Linden,0.4,9.3,3
+S0122,Northern Lights,1.1,7.3,1
+S0122,Maple House,8.5,9.5,1
+S0122,Park Lane Hotel,1.2,8.2,2
+S0122,Market Square Hotel,5.9,6.3,0
+S0122,Marina Bay Rooms,7,6.8,0
+S0122,Grand Central,3.3,8.6,2
+S0122,City Nest,10.1,6.4,0
+S0123,Union Hotel,1.4,8.6,3
+S0123,Maple House,0.2,7,1
+S0123,Cathedral View,0.5,7.8,0
+S0123,Hotel Aurora,4,7.2,0
+S0123,The Courtyard,7.5,7.3,0
+S0123,Hilltop Residence,2.4,8,1
+S0123,City Nest,0.3,8.2,2
+S0123,Market Square Hotel,4.3,9.4,2
+S0124,Cathedral View,1,6.7,1
+S0124,Market Square Hotel,11.8,8.1,0
+S0124,Ivy Gate,5.2,6.5,0
+S0124,Riverside Inn,3.6,7.9,2
+S0124,Station Lodge,2.5,9.6,2
+S0124,The Linden,6.1,9.3,1
+S0124,The Courtyard,0.3,9.1,3
+S0124,City Nest,8.9,8.5,0
+S0125,Hilltop Residence,0.7,6.2,1
+S0125,Riverside Inn,10.2,7.3,0
+S0125,Harbour View,1.2,8.7,2
+S0125,Market Square Hotel,12,6.6,0
+S0125,Maple House,6.8,6.2,1
+S0125,Ivy Gate,6.4,9,2
+S0125,The Linden,2.3,9.3,3
+S0125,Union Hotel,9.4,7.1,0
+S0126,Grand Central,7.6,7.4,0
+S0126,Ivy Gate,0.5,6.1,1
+S0126,City Nest,1.7,6.7,2
+S0126,Park Lane Hotel,5.7,7.1,0
+S0126,Market Square Hotel,0.3,8.6,3
+S0126,The Linden,0.5,8,2
+S0126,Cathedral View,0.6,6.9,1
+S0126,Union Hotel,3.2,6.2,0
+S0127,Northern Lights,1.7,6.2,0
+S0127,Station Lodge,9.6,8.1,0
+S0127,The Linden,0.2,8.7,3
+S0127,Copper Kettle Inn,5.9,9.3,2
+S0127,Hotel Aurora,3.4,6.9,1
+S0127,Union Hotel,3.7,8.6,2
+S0127,Park Lane Hotel,9.8,8,0
+S0127,Old Town Suites,2.7,7,1
+S0128,Garden Court,1.3,8.1,2
+S0128,Skyline Tower,0.2,7.1,1
+S0128,Ivy Gate,3.5,8,0
+S0128,Grand Central,0.3,8.4,2
+S0128,Union Hotel,7.2,8,0
+S0128,Marina Bay Rooms,4.2,6.7,0
+S0128,Harbour View,9,9.6,1
+S0128,Cathedral View,3.3,8.8,3
+S0129,Lakeside Retreat,0.2,6.6,1
+S0129,Old Town Suites,4,6.5,1
+S0129,Garden Court,2,9.6,3
+S0129,Copper Kettle Inn,9.5,8.6,0
+S0129,Maple House,0.5,6.6,2
+S0129,Hilltop Residence,6,8.8,2
+S0129,The Linden,9.6,8.8,0
+S0129,Hotel Aurora,10.9,7.1,0
+S0130,Skyline Tower,0.2,7.8,2
+S0130,The Courtyard,5.6,6.2,0
+S0130,Lakeside Retreat,0.8,9.3,2
+S0130,The Linden,1.2,8.9,1
+S0130,Union Hotel,0.2,8.7,3
+S0130,Old Town Suites,9,9.5,0
+S0130,Park Lane Hotel,1.6,7.6,1
+S0130,Station Lodge,6.5,9.5,0
+S0131,Hotel Aurora,3.3,7.9,1
+S0131,Old Town Suites,9.1,9.3,1
+S0131,Harbour View,0.2,8.6,3
+S0131,Blue Door B&B,5.6,7.6,0
+S0131,City Nest,5.6,7.1,0
+S0131,The Linden,0.9,6.7,2
+S0131,Marina Bay Rooms,0.6,6.3,0
+S0131,Market Square Hotel,5.7,8.3,2
+S0132,Harbour View,1.1,6.9,1
+S0132,City Nest,1.1,9.5,3
+S0132,Market Square Hotel,11.3,6.3,0
+S0132,The Linden,1.5,7.8,2
+S0132,Skyline Tower,7.6,6.8,0
+S0132,Blue Door B&B,0.3,9.1,2
+S0132,Hilltop Residence,3.7,6.9,0
+S0132,Bridge Hotel,1.2,7.7,1
+S0133,Station Lodge,2.9,9,3
+S0133,Garden Court,1.7,6.8,2
+S0133,Lakeside Retreat,5.9,7.4,1
+S0133,Blue Door B&B,4,6.7,1
+S0133,Bridge Hotel,6.1,7.6,0
+S0133,City Nest,6.3,6.6,0
+S0133,Northern Lights,10.7,8.3,0
+S0133,Union Hotel,3.7,6.8,2
+S0134,Cathedral View,0.2,9,3
+S0134,City Nest,6.3,9,1
+S0134,Grand Central,2.2,6.6,0
+S0134,Station Lodge,1.3,9,2
+S0134,Union Hotel,0.2,9.2,1
+S0134,Hotel Aurora,2.9,7.6,0
+S0134,The Courtyard,0.6,8.9,2
+S0134,Garden Court,1.8,6.1,0
+S0135,Lakeside Retreat,2.8,7.8,2
+S0135,Market Square Hotel,5,8.5,1
+S0135,Skyline Tower,2.4,6.9,1
+S0135,Marina Bay Rooms,7.5,6.1,0
+S0135,City Nest,4.9,7.2,0
+S0135,The Courtyard,0.3,6.9,2
+S0135,Blue Door B&B,0.5,8,3
+S0135,Grand Central,6.9,6.1,0
+S0136,City Nest,6.2,6.9,2
+S0136,The Courtyard,11.5,6.5,0
+S0136,Union Hotel,0.9,6.2,3
+S0136,Old Town Suites,8.4,8.3,1
+S0136,Hilltop Residence,0.3,6.2,1
+S0136,Blue Door B&B,10.5,8.7,0
+S0136,Maple House,5.6,6.2,0
+S0136,Grand Central,9,8.3,2
+S0137,Cathedral View,11.1,6.1,0
+S0137,City Nest,4.6,8.7,2
+S0137,Hotel Aurora,4.1,6.2,0
+S0137,Marina Bay Rooms,0.6,6.6,2
+S0137,Grand Central,5.8,7.7,1
+S0137,Garden Court,0.2,6.9,3
+S0137,Ivy Gate,9.2,7,0
+S0137,Maple House,0.8,6.8,1
+S0138,Marina Bay Rooms,0.5,7,2
+S0138,Cathedral View,3.6,6.1,0
+S0138,The Linden,0.6,8.1,2
+S0138,Blue Door B&B,0.3,6.7,1
+S0138,Northern Lights,10.8,6,0
+S0138,City Nest,1.7,9.3,3
+S0138,Bridge Hotel,5.9,8,1
+S0138,Ivy Gate,6.3,8.1,0
+S0139,Grand Central,0.2,8.4,1
+S0139,Station Lodge,1.4,8.9,2
+S0139,Skyline Tower,11.9,7.3,0
+S0139,Garden Court,10.2,7.6,0
+S0139,Maple House,0.5,8,3
+S0139,Riverside Inn,5.9,9.5,1
+S0139,Lakeside Retreat,11.2,7.3,0
+S0139,Market Square Hotel,3.1,8.3,2
+S0140,Market Square Hotel,3.3,8.2,2
+S0140,Park Lane Hotel,3.9,8.4,1
+S0140,Northern Lights,11.4,9,0
+S0140,Old Town Suites,0.2,6.9,2
+S0140,Harbour View,5,6.6,0
+S0140,Bridge Hotel,0.6,9.6,3
+S0140,Hotel Aurora,1.8,7,1
+S0140,Riverside Inn,11.1,7.9,0
+S0141,The Linden,7.6,7.5,0
+S0141,Ivy Gate,11.9,9.6,0
+S0141,Station Lodge,9.3,6.2,0
+S0141,Hotel Aurora,0.4,6.4,1
+S0141,Skyline Tower,3.5,7.8,2
+S0141,Copper Kettle Inn,9,9.6,2
+S0141,Market Square Hotel,7.7,9.3,3
+S0141,Lakeside Retreat,6.9,9.2,1
+S0142,Skyline Tower,4.6,8.4,0
+S0142,Bridge Hotel,2.1,7.2,0
+S0142,Maple House,0.3,7.6,2
+S0142,Marina Bay Rooms,11.5,6.8,0
+S0142,Cathedral View,0.2,8.6,2
+S0142,Northern Lights,0.3,9.7,3
+S0142,Hotel Aurora,3.4,7.3,1
+S0142,Lakeside Retreat,3.1,9.2,1
+S0143,Old Town Suites,1.4,8.9,2
+S0143,Harbour View,9.2,9.1,1
+S0143,Market Square Hotel,0.2,7.6,2
+S0143,Station Lodge,8.1,6,0
+S0143,Union Hotel,11.2,7.1,0
+S0143,The Courtyard,10.7,6,0
+S0143,Bridge Hotel,2.8,8.1,3
+S0143,Hotel Aurora,2.7,6.6,1
+S0144,Marina Bay Rooms,0.8,8.6,2
+S0144,Bridge Hotel,5.3,7.1,0
+S0144,Maple House,8.9,9.6,1
+S0144,Hilltop Residence,9.5,8.9,0
+S0144,The Courtyard,1.1,8.7,1
+S0144,Station Lodge,8.5,6.9,0
+S0144,Northern Lights,1.2,8.9,2
+S0144,Old Town Suites,0.2,9.3,3
+S0145,Station Lodge,5.4,7.8,0
+S0145,Lakeside Retreat,3,8.9,1
+S0145,Maple House,0.6,7,1
+S0145,The Courtyard,12.1,8.4,0
+S0145,Hotel Aurora,1.3,9.5,3
+S0145,Marina Bay Rooms,8.7,6.9,0
+S0145,Union Hotel,3.5,9.8,2
+S0145,Old Town Suites,2.4,9.6,2
+S0146,Riverside Inn,10.4,6.7,0
+S0146,Old Town Suites,0.8,8.9,3
+S0146,City Nest,6.3,9.8,1
+S0146,Grand Central,4.4,6.2,0
+S0146,The Linden,1.3,8.3,2
+S0146,Hilltop Residence,2.3,8.1,2
+S0146,Market Square Hotel,11.1,9.1,0
+S0146,Marina Bay Rooms,9.1,9.1,1
+S0147,Harbour View,0.7,7.6,1
+S0147,Hilltop Residence,0.5,9.4,3
+S0147,Hotel Aurora,2,7.3,1
+S0147,Cathedral View,3.3,7,0
+S0147,Old Town Suites,0.5,9.1,2
+S0147,The Linden,2.5,6.7,0
+S0147,Blue Door B&B,0.4,9.2,2
+S0147,Union Hotel,0.2,6.3,0
+S0148,Hotel Aurora,0.4,9.1,3
+S0148,The Courtyard,0.7,9.3,2
+S0148,Harbour View,0.5,6.4,1
+S0148,Market Square Hotel,1.1,8.2,2
+S0148,Maple House,6.9,6.7,0
+S0148,Northern Lights,0.5,7.2,0
+S0148,Ivy Gate,5.9,7.5,0
+S0148,Copper Kettle Inn,0.9,7.1,1
+S0149,Ivy Gate,3.2,6.7,0
+S0149,The Courtyard,0.2,6.1,1
+S0149,Station Lodge,1.3,8.3,2
+S0149,Skyline Tower,0.2,6.2,0
+S0149,Harbour View,0.6,9.7,3
+S0149,Riverside Inn,0.4,9.2,2
+S0149,Maple House,4.9,7.8,0
+S0149,Grand Central,0.2,7.4,1
+S0150,Skyline Tower,7.2,7.6,1
+S0150,The Courtyard,12.2,6.4,0
+S0150,Lakeside Retreat,6.1,6.5,0
+S0150,Marina Bay Rooms,6.1,7.4,0
+S0150,Old Town Suites,3,7.8,3
+S0150,City Nest,10.1,8.7,2
+S0150,Ivy Gate,2.5,6.1,1
+S0150,Hilltop Residence,8.9,9.4,2
+S0151,The Courtyard,8,6.5,0
+S0151,Copper Kettle Inn,2,8.4,3
+S0151,Hotel Aurora,1,6.2,0
+S0151,Blue Door B&B,2.9,9.3,2
+S0151,Harbour View,6.2,6.8,0
+S0151,Bridge Hotel,3.2,9.5,2
+S0151,Cathedral View,2.8,6.2,1
+S0151,Maple House,0.4,8.1,1
+S0152,The Linden,6.4,9.7,1
+S0152,Skyline Tower,0.8,9.6,3
+S0152,Blue Door B&B,0.5,8.5,2
+S0152,Marina Bay Rooms,2.6,6,0
+S0152,Riverside Inn,2.1,9.1,2
+S0152,Harbour View,5.5,9.6,1
+S0152,The Courtyard,5.8,8.5,0
+S0152,Park Lane Hotel,8.9,9.1,0
+S0153,Garden Court,8.6,6.3,0
+S0153,Marina Bay Rooms,0.3,6.9,1
+S0153,The Courtyard,1.5,8.8,2
+S0153,Cathedral View,0.9,6.3,1
+S0153,Old Town Suites,0.3,6.9,2
+S0153,The Linden,1.4,6.9,0
+S0153,Park Lane Hotel,9.3,8.1,0
+S0153,Ivy Gate,1.3,9.7,3
+S0154,Station Lodge,5.4,8.4,1
+S0154,Marina Bay Rooms,1.8,8,2
+S0154,Park Lane Hotel,10.9,8.9,0
+S0154,Harbour View,2.3,6.2,0
+S0154,Hilltop Residence,1,9.4,3
+S0154,Northern Lights,11.3,7.8,0
+S0154,Union Hotel,4.8,9.2,2
+S0154,Skyline Tower,12.1,9.3,1
+S0155,Park Lane Hotel,8,7.4,0
+S0155,Skyline Tower,1.4,7.7,2
+S0155,Hotel Aurora,2.1,8,2
+S0155,The Linden,0.4,7,1
+S0155,Bridge Hotel,0.2,7.5,3
+S0155,Station Lodge,3.2,6.7,0
+S0155,Grand Central,10.6,8.7,0
+S0155,Northern Lights,7,8.4,1
+S0156,The Courtyard,3.5,9.7,3
+S0156,Park Lane Hotel,2.5,9,1
+S0156,Market Square Hotel,1.6,7.7,1
+S0156,Northern Lights,3.6,7.1,0
+S0156,Maple House,4.8,8.3,0
+S0156,Marina Bay Rooms,1.2,8.5,2
+S0156,Harbour View,0.2,8.1,2
+S0156,Skyline Tower,3.9,9.2,0
+S0157,Old Town Suites,2.5,6.4,2
+S0157,Riverside Inn,6.1,7.2,0
+S0157,Grand Central,1.7,8.4,2
+S0157,The Linden,4.4,7,1
+S0157,Union Hotel,9.8,8.6,0
+S0157,Copper Kettle Inn,2.3,6.5,1
+S0157,Garden Court,6.8,9.6,3
+S0157,Market Square Hotel,8.4,6.5,0
+S0158,Hilltop Residence,5.5,8.9,1
+S0158,Copper Kettle Inn,0.2,7,2
+S0158,The Courtyard,7.3,9.3,0
+S0158,Skyline Tower,1.4,8.1,2
+S0158,Hotel Aurora,6.9,7,0
+S0158,Lakeside Retreat,11,7.4,0
+S0158,Park Lane Hotel,2.1,9.7,3
+S0158,The Linden,1.2,6.4,1
+S0159,The Linden,6.5,6.1,0
+S0159,Grand Central,0.2,8.6,3
+S0159,Riverside Inn,6.5,7.3,0
+S0159,Hotel Aurora,9.8,9.5,1
+S0159,Lakeside Retreat,2.8,6.5,2
+S0159,Station Lodge,0.6,6.6,2
+S0159,Marina Bay Rooms,6.4,8.8,1
+S0159,Garden Court,7.3,7.8,0
+S0160,Bridge Hotel,0.3,7.7,2
+S0160,Copper Kettle Inn,1.2,7.6,0
+S0160,Market Square Hotel,0.2,7.8,1
+S0160,Maple House,0.2,8.4,2
+S0160,City Nest,6.8,6.8,0
+S0160,Old Town Suites,1.5,9.8,3
+S0160,Hotel Aurora,6.8,7.7,0
+S0160,Harbour View,1.4,8.3,1
+S0161,Union Hotel,0.7,9,3
+S0161,Ivy Gate,3.7,6.1,0
+S0161,Harbour View,4.2,8.9,2
+S0161,The Courtyard,1.9,8.3,1
+S0161,Cathedral View,1.2,7.7,1
+S0161,Northern Lights,3.9,9.2,2
+S0161,Market Square Hotel,9.8,8.4,0
+S0161,Grand Central,10,7.7,0
+S0162,Copper Kettle Inn,2,8.4,2
+S0162,Skyline Tower,0.6,7.8,1
+S0162,Bridge Hotel,0.2,7.6,1
+S0162,Ivy Gate,1.8,8.8,3
+S0162,Market Square Hotel,2.9,6.1,0
+S0162,Lakeside Retreat,0.3,8.5,2
+S0162,The Courtyard,5.8,7.6,0
+S0162,Station Lodge,0.7,6.1,0
+S0163,Park Lane Hotel,5.3,7.3,0
+S0163,Harbour View,3,9.7,2
+S0163,City Nest,10.5,9.5,0
+S0163,Bridge Hotel,2.4,8.4,2
+S0163,Station Lodge,1.2,9.2,3
+S0163,The Courtyard,8.1,7.1,0
+S0163,Cathedral View,3.6,8.1,1
+S0163,Copper Kettle Inn,6.6,9.5,1
+S0164,Garden Court,2.6,6.7,0
+S0164,Union Hotel,6.2,9.5,1
+S0164,Riverside Inn,6.4,9.1,0
+S0164,Harbour View,1.2,7.5,1
+S0164,City Nest,9.2,6.8,0
+S0164,Ivy Gate,0.4,8.2,3
+S0164,Old Town Suites,0.5,7.4,2
+S0164,Cathedral View,1.5,8.6,2
+S0165,Old Town Suites,2,6.5,0
+S0165,Hotel Aurora,10.5,7.4,0
+S0165,Ivy Gate,3.9,8.1,1
+S0165,Cathedral View,5.4,9.2,3
+S0165,Marina Bay Rooms,0.6,8.1,2
+S0165,Park Lane Hotel,2.5,8.8,2
+S0165,Hilltop Residence,10.7,8.7,1
+S0165,Northern Lights,6.9,7.9,0
+S0166,The Courtyard,6.3,9.4,1
+S0166,The Linden,7,7.8,0
+S0166,Lakeside Retreat,3.5,9.6,2
+S0166,Bridge Hotel,4.6,7.8,0
+S0166,Market Square Hotel,0.9,8.4,3
+S0166,Old Town Suites,0.3,8.5,1
+S0166,Garden Court,6.1,9.5,2
+S0166,City Nest,11.5,8.6,0
+S0167,The Linden,4.1,9.3,2
+S0167,Lakeside Retreat,10.3,7.9,0
+S0167,Copper Kettle Inn,2.8,7.7,1
+S0167,Garden Court,4,9.3,2
+S0167,The Courtyard,2.6,8.3,3
+S0167,Hotel Aurora,3,8.1,1
+S0167,City Nest,8.6,9.3,0
+S0167,Hilltop Residence,11.6,6.6,0
+S0168,Hilltop Residence,7.5,8.1,1
+S0168,Station Lodge,6,9.2,2
+S0168,Lakeside Retreat,5.9,6.2,0
+S0168,Market Square Hotel,9.2,6.5,0
+S0168,Bridge Hotel,9.3,9.2,1
+S0168,Union Hotel,0.4,8.9,3
+S0168,City Nest,8.6,7.5,0
+S0168,Blue Door B&B,5,9.3,2
+S0169,Station Lodge,5.9,9.4,1
+S0169,Copper Kettle Inn,8.2,9.7,2
+S0169,Skyline Tower,0.8,9.5,3
+S0169,The Courtyard,1.1,6.6,0
+S0169,Park Lane Hotel,7.9,7.7,0
+S0169,Bridge Hotel,4.4,7.1,0
+S0169,Old Town Suites,1.7,6.4,1
+S0169,Maple House,0.6,6.4,2
+S0170,Park Lane Hotel,3.4,7.9,1
+S0170,Copper Kettle Inn,3.6,9.4,2
+S0170,Union Hotel,3.4,8.6,1
+S0170,Blue Door B&B,6.3,6.1,0
+S0170,City Nest,7.8,6.6,0
+S0170,Northern Lights,9.2,7.6,0
+S0170,Hilltop Residence,1.5,9,3
+S0170,The Courtyard,1.3,8.4,2
+S0171,The Linden,1.4,9.5,2
+S0171,Union Hotel,6.7,6.8,1
+S0171,Grand Central,0.2,9.4,3
+S0171,Station Lodge,7.3,6.4,0
+S0171,Garden Court,7.6,7.8,0
+S0171,Riverside Inn,6.3,8.2,2
+S0171,The Courtyard,4,7.1,1
+S0171,Maple House,7.9,6.2,0
+S0172,Station Lodge,6.4,7.5,0
+S0172,Hotel Aurora,2.8,6,0
+S0172,Bridge Hotel,0.3,9.7,3
+S0172,Blue Door B&B,0.7,7.9,2
+S0172,Lakeside Retreat,2.6,9.2,2
+S0172,Harbour View,1.5,8.2,1
+S0172,Old Town Suites,9.8,8,0
+S0172,Market Square Hotel,6.5,9.8,1
+S0173,Riverside Inn,0.4,9.7,3
+S0173,Ivy Gate,5.9,7.8,0
+S0173,Copper Kettle Inn,0.3,7.9,1
+S0173,Union Hotel,0.9,9.3,2
+S0173,Garden Court,7.9,8.9,1
+S0173,Northern Lights,2.4,9.3,2
+S0173,Blue Door B&B,3.9,6.4,0
+S0173,Cathedral View,1.9,6.8,0
+S0174,Northern Lights,3,8.5,1
+S0174,Marina Bay Rooms,7,8.5,1
+S0174,Harbour View,4.4,7.2,0
+S0174,Hilltop Residence,0.9,8.6,2
+S0174,Old Town Suites,0.5,7.4,2
+S0174,Grand Central,0.6,8.9,3
+S0174,Riverside Inn,6.9,8.3,0
+S0174,Hotel Aurora,7.3,8.5,0
+S0175,Ivy Gate,11.3,8,0
+S0175,Maple House,0.6,6.9,1
+S0175,Bridge Hotel,3.9,9.6,3
+S0175,The Linden,5.1,8.6,2
+S0175,Harbour View,7.5,8,0
+S0175,Copper Kettle Inn,4,6.6,0
+S0175,Union Hotel,1.5,7.9,2
+S0175,City Nest,8.5,9.5,1
+S0176,Bridge Hotel,0.3,7.8,2
+S0176,Copper Kettle Inn,5.3,8.7,1
+S0176,Lakeside Retreat,5,7.1,0
+S0176,Hotel Aurora,0.7,6.2,0
+S0176,Harbour View,4.8,9.3,1
+S0176,Maple House,9.4,9.7,0
+S0176,Skyline Tower,2.3,8.6,2
+S0176,Union Hotel,1.2,9.6,3
+S0177,Old Town Suites,6.3,8.4,1
+S0177,The Courtyard,2,7.6,2
+S0177,Riverside Inn,2.5,8,2
+S0177,Lakeside Retreat,5.4,6,0
+S0177,Market Square Hotel,9.9,7.1,0
+S0177,City Nest,0.6,8.6,3
+S0177,Garden Court,12.1,9.4,0
+S0177,Station Lodge,0.9,7.9,1
+S0178,Copper Kettle Inn,2.9,9.2,0
+S0178,Hotel Aurora,1.5,9.1,3
+S0178,Hilltop Residence,1.3,7.9,2
+S0178,Northern Lights,3.5,7.1,0
+S0178,Riverside Inn,2.3,8.3,1
+S0178,Maple House,0.6,7.1,1
+S0178,Union Hotel,5.2,7.4,0
+S0178,Market Square Hotel,3.3,9.2,2
+S0179,Union Hotel,2.2,9.7,3
+S0179,Old Town Suites,5.3,8,0
+S0179,The Courtyard,3.4,6.1,1
+S0179,Ivy Gate,1.2,6.7,1
+S0179,Lakeside Retreat,7,9.1,2
+S0179,Skyline Tower,7,6.9,0
+S0179,Maple House,4.6,8.3,0
+S0179,Grand Central,5.7,8.8,2
+S0180,Hotel Aurora,0.9,8.1,3
+S0180,Old Town Suites,1.7,7.6,2
+S0180,Hilltop Residence,6.9,8.2,0
+S0180,Skyline Tower,0.2,7.5,1
+S0180,Bridge Hotel,0.7,6.3,0
+S0180,Union Hotel,1.5,9.6,2
+S0180,Ivy Gate,3,7.4,1
+S0180,Market Square Hotel,10.1,7.3,0
+S0181,Ivy Gate,1.5,9.1,3
+S0181,Riverside Inn,0.2,7.4,1
+S0181,Old Town Suites,0.7,8.8,2
+S0181,Northern Lights,0.2,7.9,2
+S0181,Blue Door B&B,0.6,8.2,0
+S0181,Station Lodge,2.3,7.5,0
+S0181,Grand Central,1.2,6.7,1
+S0181,Bridge Hotel,4.1,7.3,0
+S0182,Hilltop Residence,0.2,6.7,0
+S0182,Maple House,2.6,7.3,1
+S0182,City Nest,1.1,8.8,3
+S0182,Lakeside Retreat,1.9,8.2,2
+S0182,Station Lodge,8.5,6.7,0
+S0182,The Courtyard,2.8,7.3,0
+S0182,Cathedral View,4.1,8.9,2
+S0182,Copper Kettle Inn,2.9,8,1
+S0183,Old Town Suites,1.6,7,0
+S0183,Riverside Inn,5,9.7,2
+S0183,Grand Central,9.7,9.5,0
+S0183,Copper Kettle Inn,5.6,8.4,1
+S0183,The Linden,1.4,9.3,2
+S0183,Marina Bay Rooms,11.7,8.2,0
+S0183,Station Lodge,0.5,9.2,3
+S0183,Skyline Tower,3.3,7.8,1
+S0184,Northern Lights,5.8,9.6,1
+S0184,City Nest,2.1,7.3,0
+S0184,Blue Door B&B,0.3,8.2,2
+S0184,Ivy Gate,10,6.8,0
+S0184,Harbour View,1.5,9.4,3
+S0184,Market Square Hotel,11.5,8.8,0
+S0184,Hotel Aurora,1,8.5,2
+S0184,Park Lane Hotel,4,8.7,1
+S0185,City Nest,5.4,8.2,1
+S0185,Blue Door B&B,6.4,8.3,0
+S0185,Station Lodge,0.2,6.4,2
+S0185,Maple House,7.3,7.4,0
+S0185,Riverside Inn,10,8.8,1
+S0185,Copper Kettle Inn,0.2,8.1,3
+S0185,The Courtyard,3,6.9,0
+S0185,Lakeside Retreat,0.5,6.8,2
+S0186,Harbour View,3.6,6.9,0
+S0186,Old Town Suites,5.7,9.5,3
+S0186,Hilltop Residence,8.3,6.9,0
+S0186,Bridge Hotel,0.2,7.5,1
+S0186,The Linden,5,9.3,1
+S0186,Station Lodge,1.2,8.6,2
+S0186,Union Hotel,1.2,9,2
+S0186,Hotel Aurora,0.7,6.7,0
+S0187,Cathedral View,4.7,7.9,2
+S0187,Harbour View,11,6.2,0
+S0187,Marina Bay Rooms,1.5,8.4,3
+S0187,Union Hotel,0.4,6,1
+S0187,Ivy Gate,1.7,8.3,2
+S0187,Blue Door B&B,10,7.3,1
+S0187,Bridge Hotel,8.8,6.6,0
+S0187,Grand Central,7.1,7,0
+S0188,Riverside Inn,1.5,9.3,2
+S0188,Hotel Aurora,11.7,7.7,0
+S0188,Cathedral View,7.8,6.4,0
+S0188,Maple House,1.2,9.7,3
+S0188,Blue Door B&B,6,6.8,0
+S0188,Station Lodge,2,6.1,1
+S0188,Park Lane Hotel,4.3,9.2,2
+S0188,The Courtyard,4.8,7.3,1
+S0189,Grand Central,6.2,6.4,0
+S0189,Marina Bay Rooms,3.2,8,2
+S0189,Station Lodge,1.5,7.5,2
+S0189,Union Hotel,0.2,8.3,3
+S0189,The Courtyard,8.8,6.5,0
+S0189,Harbour View,1.6,7,0
+S0189,The Linden,0.6,6.4,1
+S0189,Market Square Hotel,0.3,6.6,1
+S0190,Garden Court,0.3,7.1,1
+S0190,Grand Central,0.7,8.2,2
+S0190,The Linden,1.9,9.8,3
+S0190,Maple House,0.8,8.6,1
+S0190,The Courtyard,5.7,9.7,0
+S0190,Hilltop Residence,1.6,8.7,2
+S0190,Ivy Gate,9.6,9.3,0
+S0190,Skyline Tower,11,9.8,0
+S0191,City Nest,10.4,9.5,0
+S0191,Station Lodge,3,8.8,2
+S0191,The Linden,5.5,6.9,1
+S0191,The Courtyard,7.8,8.5,0
+S0191,Market Square Hotel,0.3,9.3,3
+S0191,Hilltop Residence,1.1,6.4,1
+S0191,Grand Central,5,9.6,2
+S0191,Copper Kettle Inn,1.7,6.1,0
+S0192,Blue Door B&B,0.5,9.4,2
+S0192,Garden Court,0.2,8.8,3
+S0192,Station Lodge,7.4,9.6,0
+S0192,Ivy Gate,7.1,9.5,1
+S0192,Cathedral View,10.4,7,0
+S0192,Skyline Tower,0.3,7,2
+S0192,Harbour View,1.3,7.3,1
+S0192,Hotel Aurora,3.3,7.8,0
+S0193,Hotel Aurora,1.5,7.2,2
+S0193,The Courtyard,0.2,7.9,1
+S0193,Market Square Hotel,5.1,8.5,0
+S0193,Bridge Hotel,3.5,8.6,2
+S0193,Copper Kettle Inn,2.9,8,1
+S0193,Riverside Inn,11.1,7.2,0
+S0193,Park Lane Hotel,6.3,7,0
+S0193,Union Hotel,0.2,8.4,3
+S0194,Ivy Gate,9.1,8.8,0
+S0194,The Courtyard,0.9,7,1
+S0194,Park Lane Hotel,0.2,6.7,1
+S0194,Northern Lights,2,9.5,3
+S0194,Hotel Aurora,1.3,7.7,2
+S0194,Station Lodge,2.3,7.3,2
+S0194,Maple House,3.5,6.7,0
+S0194,Old Town Suites,8.2,6.2,0
+S0195,Maple House,0.7,9.4,3
+S0195,Cathedral View,0.5,7.1,1
+S0195,The Courtyard,11.7,7.7,0
+S0195,Riverside Inn,2.6,8.9,2
+S0195,Hilltop Residence,4.2,7.8,1
+S0195,Market Square Hotel,8.4,8,0
+S0195,Blue Door B&B,0.4,8.7,2
+S0195,Northern Lights,12.1,7.4,0
+S0196,Hotel Aurora,0.5,7.5,2
+S0196,Grand Central,10.7,8.3,0
+S0196,Copper Kettle Inn,1,9.4,3
+S0196,Old Town Suites,2.9,8.5,1
+S0196,Station Lodge,6.2,9,0
+S0196,The Courtyard,0.3,7.7,2
+S0196,Cathedral View,0.8,6,0
+S0196,Northern Lights,0.2,7.6,1
+S0197,Station Lodge,11.6,6.7,0
+S0197,Riverside Inn,11,8,0
+S0197,The Courtyard,11.4,8.3,1
+S0197,Harbour View,0.7,8.7,3
+S0197,Park Lane Hotel,1.9,6.4,0
+S0197,The Linden,5.5,8,1
+S0197,Northern Lights,0.7,7.1,2
+S0197,Market Square Hotel,1,8.8,2
+S0198,Park Lane Hotel,0.6,9.5,3
+S0198,Cathedral View,9.2,7.5,0
+S0198,Northern Lights,0.3,7.5,1
+S0198,Harbour View,4.8,9.6,1
+S0198,The Linden,1.3,9.2,2
+S0198,Union Hotel,1.5,6.6,0
+S0198,Riverside Inn,2.8,8.7,2
+S0198,Hilltop Residence,1.9,7.8,0
+S0199,Skyline Tower,3.9,8.3,1
+S0199,Lakeside Retreat,9,6.8,0
+S0199,Northern Lights,2.3,9.5,3
+S0199,Grand Central,4.6,9.3,2
+S0199,Hilltop Residence,11.6,8.9,0
+S0199,Cathedral View,7.7,9.2,1
+S0199,Riverside Inn,7,9.5,2
+S0199,Harbour View,10.9,6.6,0
+S0200,Station Lodge,10.3,6.3,0
+S0200,Park Lane Hotel,0.8,8.2,2
+S0200,Cathedral View,7.3,8.4,0
+S0200,Marina Bay Rooms,1.8,7.9,3
+S0200,Grand Central,1.6,7.9,1
+S0200,City Nest,4.4,6.3,0
+S0200,Old Town Suites,8.6,9.1,1
+S0200,The Linden,4.1,9.4,2
+S0201,Lakeside Retreat,4.1,7.1,1
+S0201,Hilltop Residence,0.5,6.1,1
+S0201,Old Town Suites,10.6,6.9,0
+S0201,Harbour View,10,6.5,0
+S0201,Garden Court,2.8,7.1,2
+S0201,City Nest,6.4,9.3,2
+S0201,The Linden,1.5,9.4,3
+S0201,Copper Kettle Inn,5.7,6.9,0
+S0202,Garden Court,7,9.6,2
+S0202,The Courtyard,0.4,9.2,2
+S0202,Bridge Hotel,0.5,9.4,3
+S0202,Market Square Hotel,2.2,6.2,0
+S0202,Ivy Gate,6.6,8.1,0
+S0202,Skyline Tower,5.7,7.2,0
+S0202,Hilltop Residence,3.8,8.1,1
+S0202,Blue Door B&B,6.1,8,1
+S0203,Northern Lights,10.2,8.1,0
+S0203,Garden Court,5.9,7.8,1
+S0203,Ivy Gate,2.9,6.2,0
+S0203,Cathedral View,11,9.2,0
+S0203,Grand Central,9.1,8.9,2
+S0203,Old Town Suites,3.6,8.7,3
+S0203,Lakeside Retreat,6.5,8.5,1
+S0203,Blue Door B&B,1.6,7.1,2
+S0204,Blue Door B&B,11.7,9.7,0
+S0204,Union Hotel,5.6,8.8,1
+S0204,Bridge Hotel,3.6,8,2
+S0204,Station Lodge,0.2,7.3,3
+S0204,Ivy Gate,11,8.2,0
+S0204,Maple House,0.3,6.5,1
+S0204,Market Square Hotel,2.9,6.2,0
+S0204,The Courtyard,3.9,8.4,2
+S0205,Lakeside Retreat,6.6,8.7,1
+S0205,Union Hotel,4.5,6.9,0
+S0205,Grand Central,6.8,9.7,2
+S0205,Bridge Hotel,0.4,7.2,0
+S0205,City Nest,3.3,9.7,2
+S0205,The Courtyard,1.5,9.6,3
+S0205,Hotel Aurora,5.4,8.3,0
+S0205,Maple House,0.7,7.4,1
+S0206,Ivy Gate,7.6,7.3,0
+S0206,The Linden,0.5,7.3,2
+S0206,Maple House,1.6,7,2
+S0206,Skyline Tower,0.2,8.9,3
+S0206,Lakeside Retreat,4.4,6.7,0
+S0206,Harbour View,2.2,6.8,1
+S0206,Union Hotel,6.9,6.1,0
+S0206,Cathedral View,10.3,8.9,1
+S0207,Park Lane Hotel,0.5,9,2
+S0207,Station Lodge,4.7,7.8,0
+S0207,Grand Central,5.5,9.5,1
+S0207,Maple House,0.4,9,2
+S0207,Cathedral View,0.2,8.4,1
+S0207,Old Town Suites,2.1,9.5,3
+S0207,The Courtyard,0.2,6.1,0
+S0207,Riverside Inn,5.3,6.3,0
+S0208,Garden Court,1.4,7.2,1
+S0208,Station Lodge,0.2,6.5,1
+S0208,Harbour View,0.4,8.4,3
+S0208,Maple House,3,9.3,2
+S0208,The Linden,6.8,9.6,2
+S0208,Ivy Gate,9.5,9.7,0
+S0208,Hotel Aurora,3.4,7.8,0
+S0208,Lakeside Retreat,0.4,8.5,0
+S0209,Maple House,1.7,7.9,3
+S0209,Marina Bay Rooms,11.2,6.8,0
+S0209,Skyline Tower,0.2,6.6,2
+S0209,City Nest,12.1,9.6,0
+S0209,Station Lodge,10.8,7.6,0
+S0209,Garden Court,1.4,7.6,2
+S0209,Union Hotel,4.2,7.5,1
+S0209,Cathedral View,6.1,7.4,1
+S0210,The Linden,10.8,9,0
+S0210,Park Lane Hotel,1,6.3,0
+S0210,Skyline Tower,2.8,8.3,3
+S0210,Lakeside Retreat,6.4,7.5,0
+S0210,Market Square Hotel,3.8,7.3,2
+S0210,Copper Kettle Inn,3.1,6.9,1
+S0210,Marina Bay Rooms,0.8,6.5,2
+S0210,City Nest,5.8,7.7,1
+S0211,Garden Court,9.1,7,0
+S0211,Park Lane Hotel,0.3,7.2,1
+S0211,Grand Central,9.9,8,0
+S0211,Copper Kettle Inn,7,7.2,0
+S0211,The Linden,0.2,6.7,2
+S0211,Maple House,0.3,7,3
+S0211,Cathedral View,8,9,1
+S0211,Old Town Suites,4.7,8.3,2
+S0212,Harbour View,7.7,6.3,0
+S0212,Lakeside Retreat,3.6,8.8,1
+S0212,Union Hotel,1.2,9.7,3
+S0212,Marina Bay Rooms,7.3,6.7,0
+S0212,Market Square Hotel,2.6,9.4,2
+S0212,Maple House,0.4,7,0
+S0212,The Linden,0.6,7.8,2
+S0212,Skyline Tower,0.4,6.9,1
+S0213,Hilltop Residence,4.9,6.4,0
+S0213,Blue Door B&B,9.6,6.1,0
+S0213,Northern Lights,3.7,7.3,1
+S0213,Garden Court,7.6,9.2,1
+S0213,Bridge Hotel,8.7,7,0
+S0213,Old Town Suites,1,8,3
+S0213,City Nest,0.3,8.5,2
+S0213,The Courtyard,2.1,8.4,2
+S0214,Park Lane Hotel,4.9,6.3,0
+S0214,The Courtyard,6.1,9.3,1
+S0214,Hilltop Residence,10.1,6.8,0
+S0214,Garden Court,6.5,9.5,2
+S0214,Hotel Aurora,0.4,9.3,3
+S0214,Grand Central,0.4,7.3,2
+S0214,The Linden,2.1,7.8,0
+S0214,Northern Lights,0.9,7.5,1
+S0215,Harbour View,2.7,9.7,3
+S0215,Old Town Suites,0.2,6.6,0
+S0215,Bridge Hotel,1.6,7.7,1
+S0215,Station Lodge,4.3,8.9,1
+S0215,Lakeside Retreat,0.3,8,2
+S0215,Copper Kettle Inn,0.9,7.7,2
+S0215,City Nest,7.9,7.3,0
+S0215,Park Lane Hotel,0.6,6.2,0
+S0216,Park Lane Hotel,7.9,8.6,0
+S0216,City Nest,10.2,9,1
+S0216,Hotel Aurora,6.2,7.2,0
+S0216,Maple House,1.9,7.2,2
+S0216,Northern Lights,11.4,6.6,0
+S0216,Skyline Tower,0.3,7.8,3
+S0216,Grand Central,0.9,7.1,2
+S0216,Riverside Inn,7.8,7.9,1
+S0217,Hotel Aurora,0.4,8.8,3
+S0217,Garden Court,5.9,8.3,1
+S0217,Station Lodge,11,6.7,0
+S0217,Marina Bay Rooms,8.7,6.3,0
+S0217,Blue Door B&B,4.6,8.5,2
+S0217,City Nest,5.4,9.4,1
+S0217,Old Town Suites,7.9,7.5,0
+S0217,Skyline Tower,0.3,9.1,2
+S0218,Garden Court,0.6,6.6,2
+S0218,Ivy Gate,0.3,9.2,3
+S0218,Park Lane Hotel,0.9,7,1
+S0218,Market Square Hotel,3.2,8,1
+S0218,Lakeside Retreat,1.8,8,2
+S0218,Grand Central,0.4,7.7,0
+S0218,Hilltop Residence,8.4,6.6,0
+S0218,Union Hotel,7.6,8.7,0
+S0219,Skyline Tower,7,6.2,0
+S0219,Marina Bay Rooms,9.2,9,1
+S0219,Hotel Aurora,0.2,9.2,2
+S0219,Old Town Suites,0.3,9.8,3
+S0219,Market Square Hotel,10.9,6.2,0
+S0219,Station Lodge,3.3,9.7,2
+S0219,Riverside Inn,2.6,7.7,1
+S0219,Bridge Hotel,9.2,8.5,0
+S0220,Maple House,8.3,6.3,0
+S0220,Market Square Hotel,0.3,9,3
+S0220,Marina Bay Rooms,11.9,9.2,0
+S0220,Old Town Suites,2.2,8.9,2
+S0220,Grand Central,2.6,7.5,0
+S0220,Lakeside Retreat,1.8,9.1,2
+S0220,Riverside Inn,4.3,8,1
+S0220,The Linden,1.1,8.1,1
+S0221,Garden Court,2.1,7.9,1
+S0221,Grand Central,0.2,6.6,0
+S0221,Bridge Hotel,5.8,9.4,1
+S0221,Northern Lights,1.3,9.2,3
+S0221,Old Town Suites,8.6,8.6,0
+S0221,Station Lodge,0.3,7.5,2
+S0221,Copper Kettle Inn,5.2,9.7,2
+S0221,Marina Bay Rooms,4.4,7.4,0
+S0222,Grand Central,0.7,7.3,3
+S0222,Marina Bay Rooms,1.4,7.6,2
+S0222,Hilltop Residence,11.2,6.8,0
+S0222,Bridge Hotel,6.9,7.1,0
+S0222,Harbour View,6.3,6.9,0
+S0222,Riverside Inn,1.4,8,1
+S0222,City Nest,1.5,8.8,2
+S0222,Old Town Suites,0.2,6.1,1
+S0223,Union Hotel,3.1,7.2,1
+S0223,Northern Lights,11.6,6.2,0
+S0223,Skyline Tower,8.4,7.8,0
+S0223,Park Lane Hotel,4.8,6.6,0
+S0223,Hilltop Residence,7.2,9.6,2
+S0223,Garden Court,5.6,8.9,1
+S0223,Grand Central,0.9,9.7,2
+S0223,Marina Bay Rooms,0.5,9.3,3
+S0224,Market Square Hotel,0.2,8.6,2
+S0224,Maple House,0.2,7,1
+S0224,Ivy Gate,0.2,6.2,0
+S0224,Cathedral View,9.1,9,0
+S0224,Old Town Suites,0.3,9.5,2
+S0224,Blue Door B&B,0.5,8.3,3
+S0224,Bridge Hotel,1.1,7.3,1
+S0224,Harbour View,5.3,8.4,0
+S0225,Lakeside Retreat,1,8.7,3
+S0225,City Nest,5.3,8.1,2
+S0225,Park Lane Hotel,7.7,7.7,0
+S0225,Cathedral View,9.2,8.7,1
+S0225,Copper Kettle Inn,4.7,7,0
+S0225,Garden Court,5.3,6.8,0
+S0225,Station Lodge,2.8,6.9,1
+S0225,Harbour View,4.5,9.4,2
+S0226,Harbour View,7.7,8.5,0
+S0226,Skyline Tower,4.4,8.2,1
+S0226,Station Lodge,2.7,9.2,3
+S0226,Garden Court,9.8,7.4,0
+S0226,Ivy Gate,1.4,8.9,2
+S0226,Old Town Suites,6.7,8.6,1
+S0226,Riverside Inn,0.2,8.1,2
+S0226,Maple House,10,6.7,0
+S0227,Old Town Suites,6.6,9,1
+S0227,Northern Lights,6.1,6.9,0
+S0227,Blue Door B&B,0.4,7.1,2
+S0227,The Linden,2.7,7.4,1
+S0227,Hilltop Residence,3.6,9.7,3
+S0227,Maple House,4.8,9,2
+S0227,Marina Bay Rooms,4.2,7,0
+S0227,Ivy Gate,7,7,0
+S0228,Blue Door B&B,1,7.4,1
+S0228,Harbour View,0.6,7.3,0
+S0228,The Courtyard,2.8,8,3
+S0228,Hilltop Residence,0.6,7.7,2
+S0228,Copper Kettle Inn,1.8,7,2
+S0228,Riverside Inn,7.1,6.3,0
+S0228,Station Lodge,5,9,1
+S0228,Northern Lights,3.3,6.9,0
+S0229,Blue Door B&B,1.1,7.6,1
+S0229,Hilltop Residence,1.2,8.2,3
+S0229,Hotel Aurora,3.8,6,0
+S0229,The Linden,1.6,6,1
+S0229,City Nest,9.8,8.3,0
+S0229,Skyline Tower,0.2,9.1,2
+S0229,Union Hotel,1.5,6.6,0
+S0229,Cathedral View,0.2,7.9,2
+S0230,Lakeside Retreat,1.2,8.8,2
+S0230,Hilltop Residence,2.8,9.8,2
+S0230,Ivy Gate,1,9.7,3
+S0230,The Linden,10.2,6.3,0
+S0230,Market Square Hotel,10,6.1,0
+S0230,Skyline Tower,1.4,7.3,1
+S0230,Copper Kettle Inn,9.5,9.2,1
+S0230,Grand Central,1.3,6.1,0
+S0231,Market Square Hotel,10.4,7.2,0
+S0231,Riverside Inn,0.7,8.5,3
+S0231,Grand Central,5.7,6.7,0
+S0231,Garden Court,10,9,1
+S0231,The Linden,2.3,6.6,2
+S0231,Lakeside Retreat,2.7,9,2
+S0231,Cathedral View,1.6,6,1
+S0231,Blue Door B&B,0.5,6.1,0
+S0232,Lakeside Retreat,2.2,9,2
+S0232,Northern Lights,0.6,7.1,2
+S0232,Copper Kettle Inn,11,8.5,0
+S0232,Market Square Hotel,1.1,6.5,1
+S0232,Blue Door B&B,0.3,6.4,1
+S0232,Park Lane Hotel,4.4,6.8,0
+S0232,City Nest,4.4,6.5,0
+S0232,Old Town Suites,5.7,9.4,3
+S0233,Marina Bay Rooms,0.9,6.8,2
+S0233,Station Lodge,2.1,7.2,2
+S0233,City Nest,11.6,6,0
+S0233,Skyline Tower,10.5,8.8,1
+S0233,Maple House,3,6.3,1
+S0233,Lakeside Retreat,0.6,6.2,0
+S0233,Bridge Hotel,7.5,6.7,0
+S0233,Park Lane Hotel,0.7,8.2,3
+S0234,Lakeside Retreat,0.4,7.8,1
+S0234,Riverside Inn,1.2,9.2,3
+S0234,Northern Lights,10.9,6.1,0
+S0234,Garden Court,10.1,9.3,0
+S0234,The Courtyard,5.3,7.1,0
+S0234,Skyline Tower,7.5,9.8,1
+S0234,Bridge Hotel,4,9.4,2
+S0234,Ivy Gate,0.7,9.3,2
+S0235,Station Lodge,1.6,6.3,1
+S0235,The Linden,1.7,8.9,2
+S0235,Northern Lights,8.1,7.7,0
+S0235,Cathedral View,0.4,7.9,3
+S0235,Hilltop Residence,5.1,6.4,0
+S0235,Marina Bay Rooms,9.6,8.5,0
+S0235,Riverside Inn,0.2,6.2,1
+S0235,Blue Door B&B,8.8,8.6,2
+S0236,Northern Lights,0.2,6.3,1
+S0236,Union Hotel,0.3,8.2,3
+S0236,Cathedral View,1.4,8.1,2
+S0236,Park Lane Hotel,11.8,7.5,0
+S0236,Marina Bay Rooms,5.9,8.2,1
+S0236,Harbour View,4.2,9,2
+S0236,Garden Court,4.9,6.9,0
+S0236,Old Town Suites,11.9,6.9,0
+S0237,Skyline Tower,1.1,7.6,1
+S0237,Market Square Hotel,0.6,8.2,3
+S0237,Grand Central,8.9,7.4,0
+S0237,The Courtyard,4.7,9,2
+S0237,City Nest,3.8,7.8,1
+S0237,Blue Door B&B,12.2,8.6,0
+S0237,Marina Bay Rooms,7.9,6.4,0
+S0237,Copper Kettle Inn,0.3,8.7,2
+S0238,Ivy Gate,0.5,9.2,2
+S0238,Copper Kettle Inn,9.9,6.8,0
+S0238,Garden Court,2.9,6.4,0
+S0238,The Courtyard,0.3,9.4,2
+S0238,Northern Lights,0.2,6.4,0
+S0238,Park Lane Hotel,0.6,7.4,1
+S0238,Harbour View,0.4,9,3
+S0238,Skyline Tower,2.3,8.2,1
+S0239,Harbour View,1.6,7.4,1
+S0239,City Nest,0.9,7.8,2
+S0239,Northern Lights,2.6,6.6,0
+S0239,Copper Kettle Inn,0.4,6.2,0
+S0239,Cathedral View,0.2,8.6,3
+S0239,Old Town Suites,9.6,8.5,0
+S0239,Riverside Inn,7.1,8,1
+S0239,Union Hotel,8.3,9.6,2
+S0240,Bridge Hotel,1.1,9.6,2
+S0240,Grand Central,1.3,9.2,3
+S0240,Park Lane Hotel,1.6,9.4,2
+S0240,Hilltop Residence,9,8.2,0
+S0240,Northern Lights,1.3,7.5,1
+S0240,Copper Kettle Inn,6.8,9.3,0
+S0240,Lakeside Retreat,5.5,9.3,0
+S0240,Harbour View,0.2,8.6,1
+S0241,Park Lane Hotel,4,7.8,1
+S0241,Hilltop Residence,0.2,6.5,2
+S0241,Old Town Suites,10.4,9,0
+S0241,Copper Kettle Inn,0.5,6,0
+S0241,Station Lodge,2.8,7.1,2
+S0241,The Linden,11.1,8.9,0
+S0241,Cathedral View,2.8,7.9,1
+S0241,Lakeside Retreat,0.2,9.5,3
+S0242,Garden Court,1.3,8.7,3
+S0242,Park Lane Hotel,1.2,7.6,2
+S0242,Harbour View,7,7,0
+S0242,City Nest,3.5,8.3,2
+S0242,Skyline Tower,3.8,8.2,1
+S0242,Ivy Gate,5.4,6.5,0
+S0242,Old Town Suites,11.2,7.8,0
+S0242,Hilltop Residence,1.7,6.4,1
+S0243,Copper Kettle Inn,9.8,8.2,0
+S0243,Hotel Aurora,0.3,6,1
+S0243,Northern Lights,3,8.6,3
+S0243,Marina Bay Rooms,1.5,6.6,2
+S0243,Riverside Inn,11.5,9.7,1
+S0243,Maple House,6.3,6.4,0
+S0243,Union Hotel,0.5,7.4,2
+S0243,Hilltop Residence,10.8,7.8,0
+S0244,Garden Court,7.9,6.3,0
+S0244,Skyline Tower,1,8.5,0
+S0244,Union Hotel,2.4,9.7,3
+S0244,Ivy Gate,0.2,7.7,1
+S0244,Hilltop Residence,2.1,7.6,1
+S0244,Bridge Hotel,0.6,8.1,2
+S0244,Harbour View,1,9.4,2
+S0244,Blue Door B&B,1.2,6,0
+S0245,Riverside Inn,11.1,7.5,0
+S0245,Station Lodge,1.6,6.4,0
+S0245,The Courtyard,0.6,6.2,0
+S0245,Northern Lights,0.2,9.4,3
+S0245,Bridge Hotel,1.3,8.7,2
+S0245,The Linden,1.8,7.5,1
+S0245,Blue Door B&B,0.2,7.6,1
+S0245,Garden Court,2.5,9.3,2
+S0246,Ivy Gate,0.5,6.4,0
+S0246,Cathedral View,3.3,7.6,1
+S0246,Hilltop Residence,1.8,6.2,1
+S0246,Skyline Tower,1.7,6.7,0
+S0246,Copper Kettle Inn,4.8,6.1,0
+S0246,Maple House,0.5,8.1,3
+S0246,Union Hotel,6.5,9.1,2
+S0246,The Linden,2.4,9.4,2
+S0247,Skyline Tower,6.2,6.7,0
+S0247,City Nest,0.2,6.7,1
+S0247,Union Hotel,2.8,9.6,2
+S0247,Bridge Hotel,0.9,8.6,2
+S0247,Hotel Aurora,1.4,7.2,0
+S0247,Grand Central,4,9.2,1
+S0247,Blue Door B&B,5.1,7.8,0
+S0247,Marina Bay Rooms,2.8,9.8,3
+S0248,Maple House,9,7.4,0
+S0248,Ivy Gate,4.1,9,1
+S0248,Hotel Aurora,2.1,7.9,0
+S0248,Lakeside Retreat,1.4,8.4,3
+S0248,Old Town Suites,1.8,8.6,2
+S0248,Skyline Tower,7.5,9.5,1
+S0248,Market Square Hotel,3.2,6.9,0
+S0248,The Linden,0.5,8,2
+S0249,Riverside Inn,0.8,9.7,2
+S0249,Maple House,0.4,9.5,3
+S0249,Union Hotel,4.2,6.6,0
+S0249,Hotel Aurora,0.6,6.1,1
+S0249,Blue Door B&B,0.4,6.9,2
+S0249,Ivy Gate,4.1,6.1,0
+S0249,Station Lodge,1.1,7.6,1
+S0249,The Linden,8.9,6.8,0
+S0250,Union Hotel,2.9,6.7,2
+S0250,Riverside Inn,12,7.6,0
+S0250,Old Town Suites,7.4,8.6,2
+S0250,The Courtyard,4.8,6.3,0
+S0250,Station Lodge,3.5,8.1,3
+S0250,Garden Court,3.6,6.7,0
+S0250,Park Lane Hotel,9.2,9.2,1
+S0250,Blue Door B&B,1.1,6,1
+S0251,City Nest,4.6,9.7,2
+S0251,Grand Central,0.4,7.8,3
+S0251,Hotel Aurora,7.3,7.5,0
+S0251,Lakeside Retreat,0.2,8.4,2
+S0251,Blue Door B&B,0.8,6.1,1
+S0251,Garden Court,4.1,6.6,0
+S0251,Bridge Hotel,11.3,8.3,0
+S0251,The Courtyard,0.3,7,1
+S0252,Union Hotel,2.1,6.1,1
+S0252,Lakeside Retreat,5.3,8.1,1
+S0252,Market Square Hotel,7,8.8,0
+S0252,Blue Door B&B,0.6,8.7,3
+S0252,City Nest,1.8,6.1,0
+S0252,Riverside Inn,5,9.5,2
+S0252,Marina Bay Rooms,0.2,8.3,2
+S0252,The Linden,3.7,6.7,0
+S0253,Old Town Suites,8.9,8.7,0
+S0253,Park Lane Hotel,2,6.2,1
+S0253,Lakeside Retreat,2.9,9.5,3
+S0253,Maple House,4.9,8,1
+S0253,Hilltop Residence,4,6.5,0
+S0253,Grand Central,2.7,8.4,2
+S0253,Skyline Tower,11.1,9.5,2
+S0253,Ivy Gate,10.2,9.6,0
+S0254,Lakeside Retreat,5.4,7.6,0
+S0254,Garden Court,3.3,8.9,2
+S0254,Copper Kettle Inn,6.7,7.2,0
+S0254,Ivy Gate,3.1,9.5,2
+S0254,Hilltop Residence,12.1,8,0
+S0254,Union Hotel,1.4,7.6,1
+S0254,Cathedral View,0.4,9.1,3
+S0254,Market Square Hotel,0.4,7.7,1
+S0255,Garden Court,6.9,8.1,0
+S0255,The Linden,1.6,8.8,3
+S0255,Blue Door B&B,5.8,9.2,0
+S0255,Station Lodge,2.5,7.9,2
+S0255,Grand Central,2.1,8.1,1
+S0255,Skyline Tower,1.7,7.8,1
+S0255,Copper Kettle Inn,0.2,7,0
+S0255,City Nest,3.3,8.8,2
+S0256,Marina Bay Rooms,2.8,6.8,1
+S0256,City Nest,3.5,8.9,1
+S0256,Blue Door B&B,1.3,8.5,3
+S0256,Hotel Aurora,9.8,7.8,0
+S0256,Hilltop Residence,0.7,6.2,2
+S0256,Bridge Hotel,4.9,6.2,0
+S0256,Copper Kettle Inn,10.1,8.4,0
+S0256,The Courtyard,5.8,9.5,2
+S0257,Park Lane Hotel,1.4,8.9,1
+S0257,Hilltop Residence,3.1,7.8,0
+S0257,Northern Lights,3.4,6.7,0
+S0257,Grand Central,0.2,7.8,2
+S0257,Market Square Hotel,0.4,8,2
+S0257,Bridge Hotel,1.4,7.3,1
+S0257,Blue Door B&B,0.7,6.6,0
+S0257,The Courtyard,2.9,9.8,3
+S0258,Copper Kettle Inn,9.5,6.9,0
+S0258,Riverside Inn,1.2,8.9,3
+S0258,Garden Court,6.7,8.1,1
+S0258,Hotel Aurora,10.3,8.2,2
+S0258,Station Lodge,12.2,7.8,0
+S0258,The Linden,10.2,9.7,1
+S0258,City Nest,1.3,7.3,2
+S0258,Lakeside Retreat,5.6,6.9,0
+S0259,Market Square Hotel,3.4,6.3,1
+S0259,The Linden,9.9,8.3,0
+S0259,Northern Lights,0.3,8.6,3
+S0259,The Courtyard,7.8,6.2,0
+S0259,Park Lane Hotel,1.3,6.5,1
+S0259,Garden Court,5.1,6.3,0
+S0259,Lakeside Retreat,1.8,6.1,2
+S0259,Hotel Aurora,0.4,8.9,2
+S0260,Copper Kettle Inn,6.4,7.4,1
+S0260,Station Lodge,10.1,7,0
+S0260,Blue Door B&B,7.5,9,1
+S0260,Hotel Aurora,0.6,8.6,3
+S0260,Cathedral View,5.8,6.5,0
+S0260,Marina Bay Rooms,0.5,7.3,2
+S0260,Hilltop Residence,8.8,7.1,0
+S0260,Union Hotel,5,8.9,2
+S0261,Hilltop Residence,11,9.7,0
+S0261,Cathedral View,0.6,7.5,1
+S0261,Hotel Aurora,4.9,9.5,3
+S0261,Riverside Inn,0.2,7.8,2
+S0261,Park Lane Hotel,0.3,6.4,1
+S0261,Garden Court,10.6,8.1,0
+S0261,Market Square Hotel,4.1,6.3,0
+S0261,City Nest,4.6,9.7,2
+S0262,Riverside Inn,10.3,7.3,0
+S0262,Park Lane Hotel,0.3,9.2,3
+S0262,Northern Lights,1.2,9.7,2
+S0262,Copper Kettle Inn,0.2,9.2,2
+S0262,Grand Central,0.7,6.2,1
+S0262,Union Hotel,11.1,9.6,0
+S0262,Hilltop Residence,6.9,9.2,1
+S0262,Garden Court,1.6,6.8,0
+S0263,Cathedral View,5.1,6.6,0
+S0263,Northern Lights,8.5,7.7,1
+S0263,Maple House,4.2,6.1,0
+S0263,Bridge Hotel,10.9,7.3,0
+S0263,Marina Bay Rooms,4.8,8.2,2
+S0263,Union Hotel,2.6,7.8,2
+S0263,The Courtyard,1,9.3,3
+S0263,Ivy Gate,8.6,7.5,1
+S0264,Blue Door B&B,2.5,8.5,3
+S0264,Garden Court,4.5,7.6,1
+S0264,Riverside Inn,10.1,8.5,0
+S0264,City Nest,7.8,7.2,0
+S0264,Market Square Hotel,0.7,7.1,2
+S0264,Park Lane Hotel,5.3,7.6,0
+S0264,Cathedral View,0.3,8.4,2
+S0264,Lakeside Retreat,0.4,7.2,1
+S0265,Grand Central,0.7,6.5,2
+S0265,Blue Door B&B,6,6.9,0
+S0265,Bridge Hotel,0.2,8.7,2
+S0265,The Linden,0.3,8.6,3
+S0265,City Nest,12,8.7,0
+S0265,Ivy Gate,8.5,9,0
+S0265,Lakeside Retreat,1.1,6.6,1
+S0265,Copper Kettle Inn,7.6,8.7,1
+S0266,Park Lane Hotel,8.2,7.8,0
+S0266,Blue Door B&B,0.9,8.3,3
+S0266,Riverside Inn,1.5,6.2,1
+S0266,Old Town Suites,0.6,7.5,2
+S0266,Maple House,0.6,6.7,0
+S0266,Lakeside Retreat,2.7,7.4,1
+S0266,Garden Court,10.4,8.8,0
+S0266,Grand Central,3.7,8.4,2
+S0267,Riverside Inn,6.6,8.5,0
+S0267,Maple House,0.3,7.1,1
+S0267,Bridge Hotel,11.1,7.2,0
+S0267,Ivy Gate,5.9,9.2,1
+S0267,Park Lane Hotel,2.2,9.2,2
+S0267,Hotel Aurora,0.5,8.6,2
+S0267,Skyline Tower,0.3,9.7,3
+S0267,City Nest,10.1,7.7,0
+S0268,Hilltop Residence,0.5,9.7,3
+S0268,Marina Bay Rooms,5,7.4,0
+S0268,Garden Court,2.1,8.2,1
+S0268,Maple House,0.2,7.7,1
+S0268,Lakeside Retreat,0.8,6.6,0
+S0268,Riverside Inn,4.3,6.9,0
+S0268,Union Hotel,0.2,8.8,2
+S0268,Grand Central,0.7,8.5,2
+S0269,City Nest,0.8,9.4,3
+S0269,Blue Door B&B,0.9,8.6,2
+S0269,Union Hotel,3.5,8.4,1
+S0269,Maple House,8.6,9,0
+S0269,Cathedral View,8.1,7.2,0
+S0269,Marina Bay Rooms,9.4,6.4,0
+S0269,Harbour View,4.3,9.1,2
+S0269,Lakeside Retreat,1.2,7,1
+S0270,Harbour View,0.5,8.3,3
+S0270,Old Town Suites,0.3,6.1,2
+S0270,Marina Bay Rooms,10,9.3,0
+S0270,Northern Lights,1.9,6.2,0
+S0270,Cathedral View,7.1,7.9,0
+S0270,Station Lodge,4.1,7.6,1
+S0270,Market Square Hotel,1.6,6.9,2
+S0270,Maple House,10.3,9.5,1
+S0271,City Nest,9.8,6,0
+S0271,Market Square Hotel,9.5,7.1,0
+S0271,Union Hotel,1.3,7.9,2
+S0271,Hilltop Residence,8.4,9.5,1
+S0271,Maple House,3.5,7.1,1
+S0271,Lakeside Retreat,1.9,9.4,3
+S0271,Northern Lights,4.3,6.5,0
+S0271,Copper Kettle Inn,0.2,8.8,2
+S0272,Northern Lights,2,7.9,2
+S0272,Union Hotel,0.4,6.5,1
+S0272,Ivy Gate,5,7.6,1
+S0272,Market Square Hotel,0.9,9.5,3
+S0272,Station Lodge,10.7,9.4,0
+S0272,Bridge Hotel,5.6,8.6,2
+S0272,Lakeside Retreat,6.3,8.3,0
+S0272,Grand Central,5.8,7.6,0
+S0273,Bridge Hotel,9.6,9,1
+S0273,The Linden,2.2,9.3,3
+S0273,Hotel Aurora,8.5,6.3,0
+S0273,Cathedral View,5.3,8.3,2
+S0273,Union Hotel,0.3,6,2
+S0273,Northern Lights,9.6,6.2,0
+S0273,Blue Door B&B,6.2,6.9,0
+S0273,Ivy Gate,9,8.3,1
+S0274,Blue Door B&B,3.8,7.2,1
+S0274,Skyline Tower,2.9,8.4,2
+S0274,Old Town Suites,1.8,8.6,2
+S0274,The Linden,10.8,7.9,0
+S0274,Hilltop Residence,4.4,9.3,3
+S0274,Maple House,12.1,8.1,0
+S0274,Bridge Hotel,3.5,7.8,1
+S0274,Harbour View,8.1,7.2,0
+S0275,Hilltop Residence,3.1,8.7,0
+S0275,Bridge Hotel,5.1,6.3,0
+S0275,Harbour View,1.3,9.3,3
+S0275,Lakeside Retreat,0.7,7.8,2
+S0275,The Linden,11.1,7.2,0
+S0275,Cathedral View,0.5,8,1
+S0275,Station Lodge,4.3,9.7,2
+S0275,Ivy Gate,3.5,7.1,1
+S0276,Ivy Gate,3.9,9.6,3
+S0276,Garden Court,6.7,9.5,2
+S0276,Marina Bay Rooms,7.5,6.6,0
+S0276,The Linden,7.3,8.1,0
+S0276,Market Square Hotel,11.4,6.8,0
+S0276,Lakeside Retreat,1.3,6.8,1
+S0276,Station Lodge,10.9,9.5,1
+S0276,Blue Door B&B,6.9,9.2,2
+S0277,Hilltop Residence,9.1,9.1,1
+S0277,Skyline Tower,9.3,6.3,0
+S0277,Station Lodge,0.2,7.4,1
+S0277,Marina Bay Rooms,0.2,9.7,3
+S0277,Cathedral View,0.5,9.3,2
+S0277,Grand Central,0.4,7.8,2
+S0277,City Nest,6.3,6.4,0
+S0277,The Linden,9.4,7.4,0
+S0278,Harbour View,0.5,8.6,3
+S0278,Park Lane Hotel,6.9,8.4,0
+S0278,Union Hotel,2.3,6,0
+S0278,Riverside Inn,4.8,9.5,2
+S0278,Bridge Hotel,6,7.6,0
+S0278,Old Town Suites,0.5,7.5,2
+S0278,The Linden,0.6,7.9,1
+S0278,Grand Central,3.8,7.9,1
+S0279,Hotel Aurora,0.9,7.2,1
+S0279,Blue Door B&B,7.5,6.2,0
+S0279,Old Town Suites,4,7.8,0
+S0279,Bridge Hotel,0.2,6.8,0
+S0279,Northern Lights,3.9,9.6,2
+S0279,Garden Court,0.8,9.4,3
+S0279,City Nest,3.1,9.2,2
+S0279,Lakeside Retreat,3,7.7,1
+S0280,The Linden,3.8,8.5,2
+S0280,Maple House,0.2,7.1,2
+S0280,City Nest,1.1,9.5,3
+S0280,Riverside Inn,11.9,9.6,0
+S0280,Ivy Gate,0.2,6.8,1
+S0280,Old Town Suites,4.4,7.5,1
+S0280,Garden Court,8.9,9.2,0
+S0280,The Courtyard,12.1,7.8,0
+S0281,Union Hotel,3.4,7.8,1
+S0281,Hilltop Residence,12.1,6.2,0
+S0281,Old Town Suites,2.7,8.1,2
+S0281,Park Lane Hotel,7.4,9.6,1
+S0281,Copper Kettle Inn,10.9,7.7,0
+S0281,Ivy Gate,2.8,8.2,2
+S0281,Lakeside Retreat,2.3,8.8,3
+S0281,Blue Door B&B,6.2,7.2,0
+S0282,Union Hotel,6.9,9,2
+S0282,The Linden,0.2,8.1,3
+S0282,Garden Court,6.7,7,0
+S0282,Ivy Gate,7.9,6.9,0
+S0282,Hotel Aurora,1.9,6.2,1
+S0282,Station Lodge,3.5,8.4,2
+S0282,Riverside Inn,6.1,7.3,1
+S0282,Old Town Suites,11.7,7.8,0
+S0283,Old Town Suites,6.3,6.9,0
+S0283,Bridge Hotel,1.2,7.1,1
+S0283,Northern Lights,5.6,7.8,1
+S0283,Marina Bay Rooms,5.4,6.3,0
+S0283,Station Lodge,0.5,9,2
+S0283,Grand Central,3.1,8.3,2
+S0283,Copper Kettle Inn,2,9.2,3
+S0283,Harbour View,10.1,7.3,0
+S0284,Old Town Suites,0.4,8.8,3
+S0284,Station Lodge,0.4,6.2,0
+S0284,Ivy Gate,9.8,9.5,0
+S0284,Copper Kettle Inn,1.9,8.4,2
+S0284,Cathedral View,7.4,9.4,0
+S0284,Hilltop Residence,1.6,7.3,1
+S0284,City Nest,5.4,9.6,1
+S0284,Skyline Tower,2.8,9.3,2
+S0285,Copper Kettle Inn,1.6,6.9,1
+S0285,Ivy Gate,2.6,9.3,2
+S0285,Skyline Tower,0.7,8.6,3
+S0285,Garden Court,4.9,8,2
+S0285,Grand Central,10.4,8.7,0
+S0285,Blue Door B&B,9.4,8,0
+S0285,Northern Lights,8.9,9.2,1
+S0285,Union Hotel,9.4,6.5,0
+S0286,Market Square Hotel,3.3,8.3,3
+S0286,Cathedral View,10.1,6.6,0
+S0286,Riverside Inn,2.8,7.7,1
+S0286,Bridge Hotel,10.2,9.1,1
+S0286,Station Lodge,0.2,7.1,2
+S0286,Blue Door B&B,1.7,6.1,0
+S0286,Marina Bay Rooms,1.4,7,2
+S0286,Garden Court,10.5,8.3,0
+S0287,Riverside Inn,4,9,1
+S0287,Garden Court,7.3,9.4,1
+S0287,Marina Bay Rooms,0.3,8.2,2
+S0287,Northern Lights,1.4,6.1,0
+S0287,Old Town Suites,10.8,8.8,0
+S0287,Bridge Hotel,6,6.8,0
+S0287,The Linden,0.5,6.2,2
+S0287,The Courtyard,0.2,8.4,3
+S0288,Skyline Tower,7.7,7.2,0
+S0288,The Linden,2.9,7.9,1
+S0288,The Courtyard,4.8,8.6,1
+S0288,Market Square Hotel,10.2,6.8,0
+S0288,Hotel Aurora,0.2,8.1,3
+S0288,Garden Court,1.4,7.9,2
+S0288,City Nest,0.3,6.7,2
+S0288,Harbour View,9.6,8.7,0
+S0289,Grand Central,1.2,6.7,2
+S0289,Harbour View,8.5,6.7,0
+S0289,Hilltop Residence,0.3,7.6,3
+S0289,Hotel Aurora,5.6,6.4,0
+S0289,Northern Lights,7.9,6.7,1
+S0289,Copper Kettle Inn,11.3,7.8,1
+S0289,Blue Door B&B,10.9,8.8,0
+S0289,Park Lane Hotel,10.5,9.5,2
+S0290,Old Town Suites,2.8,6.7,0
+S0290,Market Square Hotel,6.1,7.6,0
+S0290,Grand Central,0.2,6.4,2
+S0290,Union Hotel,0.2,6,1
+S0290,City Nest,6.5,8.4,0
+S0290,Northern Lights,1,8.4,3
+S0290,The Courtyard,0.5,7.5,1
+S0290,Ivy Gate,1,9.1,2
+S0291,Station Lodge,1,7.4,0
+S0291,Hilltop Residence,0.6,7.3,1
+S0291,Blue Door B&B,1.6,8.9,1
+S0291,Union Hotel,1.5,9.4,3
+S0291,Cathedral View,4.9,9.8,2
+S0291,The Linden,1,8.9,2
+S0291,City Nest,10,9.8,0
+S0291,Park Lane Hotel,1,6.1,0
+S0292,The Linden,2.7,6.6,1
+S0292,Blue Door B&B,1.9,6.2,1
+S0292,Riverside Inn,0.9,8.4,3
+S0292,Bridge Hotel,0.3,6.4,2
+S0292,Harbour View,7.4,6.2,0
+S0292,Garden Court,7.6,7.2,0
+S0292,Copper Kettle Inn,6.4,9.3,2
+S0292,Grand Central,10.9,7.5,0
+S0293,Riverside Inn,1,7.3,2
+S0293,Skyline Tower,10.2,9.2,0
+S0293,Harbour View,3,6.3,0
+S0293,Old Town Suites,3.6,8.9,1
+S0293,The Linden,0.6,7.7,2
+S0293,Market Square Hotel,5.8,7.6,0
+S0293,Hotel Aurora,1.5,9.6,3
+S0293,Maple House,7.5,9.2,1
+S0294,Ivy Gate,4.1,7.6,1
+S0294,Northern Lights,8.5,7.9,0
+S0294,Maple House,5.6,6.8,0
+S0294,Cathedral View,3.2,9.5,3
+S0294,Hotel Aurora,1.4,7.6,1
+S0294,Marina Bay Rooms,2.2,7.6,2
+S0294,Riverside Inn,7.9,9.7,0
+S0294,Skyline Tower,0.2,9.4,2
+S0295,Market Square Hotel,7.3,7.2,0
+S0295,Northern Lights,0.3,6.9,1
+S0295,Maple House,10.7,6.6,0
+S0295,Station Lodge,3.7,8.7,2
+S0295,Hilltop Residence,1.5,6.8,1
+S0295,Old Town Suites,9.6,8.4,0
+S0295,Cathedral View,5.3,9,2
+S0295,Copper Kettle Inn,3.9,9.7,3
+S0296,Northern Lights,1.3,8.3,3
+S0296,Cathedral View,7.8,9.4,0
+S0296,Garden Court,1.5,7.4,1
+S0296,Riverside Inn,1.5,7.7,1
+S0296,The Linden,0.3,6.8,2
+S0296,Market Square Hotel,2.5,7.4,0
+S0296,Station Lodge,0.4,6,0
+S0296,Blue Door B&B,1,8.6,2
+S0297,Northern Lights,3.7,9.8,1
+S0297,Hilltop Residence,8.3,8.4,0
+S0297,The Linden,1.7,6.1,0
+S0297,Bridge Hotel,2.1,9.3,2
+S0297,Skyline Tower,2.2,9,3
+S0297,Station Lodge,9.7,8.5,0
+S0297,Marina Bay Rooms,1.7,8.6,1
+S0297,Maple House,0.4,7.4,2
+S0298,Bridge Hotel,2.4,9.5,2
+S0298,Skyline Tower,0.9,7,1
+S0298,Cathedral View,0.2,8.2,3
+S0298,Maple House,4.7,8,1
+S0298,Market Square Hotel,8.3,7.3,0
+S0298,Hotel Aurora,10.2,7.1,0
+S0298,City Nest,11,9.4,0
+S0298,Station Lodge,0.5,6.6,2
+S0299,Marina Bay Rooms,4.8,9,1
+S0299,Bridge Hotel,10.4,9.4,0
+S0299,Harbour View,3.7,9.4,2
+S0299,Market Square Hotel,4.7,9.8,2
+S0299,Park Lane Hotel,8.1,8.5,0
+S0299,Union Hotel,3.3,6.9,0
+S0299,Cathedral View,0.2,9.2,3
+S0299,Hilltop Residence,0.7,8,1
+S0300,Copper Kettle Inn,1.3,6.6,0
+S0300,Union Hotel,5.2,9.6,2
+S0300,Garden Court,0.4,7.7,3
+S0300,Park Lane Hotel,4.1,8.7,1
+S0300,Northern Lights,4.5,8.2,0
+S0300,Harbour View,0.4,8,2
+S0300,Maple House,4.6,7.5,0
+S0300,Lakeside Retreat,3.4,7.8,1
+S0301,The Linden,4.5,6.2,0
+S0301,Blue Door B&B,2.4,9.6,3
+S0301,Bridge Hotel,2.1,8.3,1
+S0301,Market Square Hotel,5.8,7.6,0
+S0301,Hilltop Residence,1.7,8.2,2
+S0301,Northern Lights,8.9,6.7,0
+S0301,Riverside Inn,3.6,6.9,1
+S0301,The Courtyard,1.9,8,2
+S0302,City Nest,3.3,7.3,2
+S0302,Marina Bay Rooms,10.8,6.4,0
+S0302,Bridge Hotel,0.7,8.8,3
+S0302,Cathedral View,9.4,8.9,1
+S0302,Copper Kettle Inn,11.3,9.3,1
+S0302,Park Lane Hotel,2.3,6.1,2
+S0302,Hotel Aurora,10.4,6.6,0
+S0302,Ivy Gate,3.7,7,0
+S0303,Ivy Gate,4.7,7.7,1
+S0303,The Courtyard,2.4,7.6,2
+S0303,Union Hotel,0.5,6.8,1
+S0303,City Nest,0.7,7.1,3
+S0303,Old Town Suites,6.6,8.7,0
+S0303,Riverside Inn,11.1,6.9,0
+S0303,Grand Central,2.3,6.6,0
+S0303,Northern Lights,3.3,8.5,2
+S0304,Grand Central,4,6.2,0
+S0304,Garden Court,0.3,7.1,2
+S0304,Cathedral View,0.4,6.9,1
+S0304,Blue Door B&B,0.6,9.3,3
+S0304,Marina Bay Rooms,2.2,8.9,2
+S0304,Hotel Aurora,2.6,7.1,1
+S0304,Park Lane Hotel,6.5,7.7,0
+S0304,Ivy Gate,9,7,0
+S0305,Maple House,2.5,9.1,2
+S0305,City Nest,0.3,7.9,2
+S0305,Harbour View,11.6,6.4,0
+S0305,Cathedral View,6.5,7.6,0
+S0305,Blue Door B&B,4.7,6.8,1
+S0305,Hilltop Residence,11.9,8.1,0
+S0305,Lakeside Retreat,8.5,8.7,1
+S0305,Riverside Inn,0.2,9.6,3
+S0306,Hilltop Residence,5.8,8.7,1
+S0306,City Nest,10.3,9.1,0
+S0306,Blue Door B&B,0.5,8.5,3
+S0306,The Courtyard,1.9,8.4,2
+S0306,Grand Central,9.9,7.3,0
+S0306,Park Lane Hotel,0.6,6.8,2
+S0306,Riverside Inn,6.2,7.7,1
+S0306,Marina Bay Rooms,11.1,8.8,0
+S0307,Market Square Hotel,0.3,6.2,2
+S0307,Skyline Tower,11.4,7.3,0
+S0307,Maple House,0.3,7.1,2
+S0307,Northern Lights,7.8,9.6,1
+S0307,Copper Kettle Inn,4.9,7.2,1
+S0307,Riverside Inn,11.7,8.7,0
+S0307,Hilltop Residence,8.1,8.5,0
+S0307,Station Lodge,0.3,9.7,3
+S0308,Lakeside Retreat,10.6,8.9,0
+S0308,Hotel Aurora,5.9,7.2,0
+S0308,Ivy Gate,7.2,8.8,1
+S0308,The Linden,1.2,7.1,2
+S0308,Market Square Hotel,5.3,7.1,1
+S0308,Grand Central,0.9,7.4,3
+S0308,Union Hotel,5.9,9.3,2
+S0308,Garden Court,1.4,6.2,0
+S0309,Copper Kettle Inn,11.7,6.5,0
+S0309,Hotel Aurora,7.1,7,0
+S0309,Bridge Hotel,7.9,7.5,0
+S0309,Grand Central,0.3,6.5,1
+S0309,Blue Door B&B,0.6,7.2,2
+S0309,Union Hotel,0.5,8.9,3
+S0309,Market Square Hotel,6.4,6.9,1
+S0309,Marina Bay Rooms,0.3,7.7,2
+S0310,City Nest,6.4,7.8,0
+S0310,Blue Door B&B,11.2,8.3,0
+S0310,Bridge Hotel,11.6,9.5,1
+S0310,Riverside Inn,3.7,8.9,2
+S0310,Copper Kettle Inn,7.6,6.6,0
+S0310,Northern Lights,1.8,8.6,2
+S0310,Ivy Gate,0.3,9,3
+S0310,Cathedral View,0.3,6.3,1
+S0311,Copper Kettle Inn,11.8,8.1,0
+S0311,Riverside Inn,4.1,7.4,0
+S0311,Bridge Hotel,3.8,7,0
+S0311,Old Town Suites,3.3,7.2,2
+S0311,Maple House,0.7,6.2,1
+S0311,Cathedral View,2.3,7.1,1
+S0311,Grand Central,0.2,6.9,2
+S0311,City Nest,1.5,9.3,3
+S0312,Lakeside Retreat,5.9,8.3,0
+S0312,Blue Door B&B,0.2,8.8,3
+S0312,Market Square Hotel,1.9,9,2
+S0312,Hilltop Residence,6.5,6.5,0
+S0312,Skyline Tower,8.8,8.9,0
+S0312,Hotel Aurora,5.1,9.5,1
+S0312,The Courtyard,0.8,8.6,2
+S0312,Union Hotel,2.9,7.7,1
+S0313,Harbour View,6.7,7,0
+S0313,Hotel Aurora,2.6,9.8,3
+S0313,Hilltop Residence,11.1,9.4,0
+S0313,Maple House,0.4,7.8,2
+S0313,City Nest,1.7,8.4,2
+S0313,Old Town Suites,2.2,7.1,1
+S0313,Blue Door B&B,5.4,9.1,1
+S0313,Cathedral View,11.3,6.7,0
+S0314,Old Town Suites,4.4,9.2,3
+S0314,Harbour View,10.4,6.1,0
+S0314,Marina Bay Rooms,5.9,7.2,1
+S0314,Northern Lights,6.2,6.8,0
+S0314,Garden Court,6.2,6.7,0
+S0314,Hotel Aurora,0.3,7.6,2
+S0314,The Courtyard,1.9,7.9,2
+S0314,Hilltop Residence,4.4,7.2,1
+S0315,Skyline Tower,1.3,7.7,2
+S0315,Copper Kettle Inn,10,7,0
+S0315,Bridge Hotel,2,9.4,3
+S0315,Cathedral View,7.5,6.5,1
+S0315,City Nest,6.2,7,1
+S0315,The Linden,9.9,7,0
+S0315,Union Hotel,0.6,7.7,2
+S0315,Hilltop Residence,8.7,6.1,0
+S0316,Garden Court,1.7,9.3,2
+S0316,Copper Kettle Inn,2.6,6.4,0
+S0316,Cathedral View,10.4,6,0
+S0316,Market Square Hotel,2.2,9.8,2
+S0316,Station Lodge,3.3,7.3,0
+S0316,The Linden,0.5,6.4,1
+S0316,Park Lane Hotel,0.4,9.6,3
+S0316,Riverside Inn,1.4,6.1,1
+S0317,Station Lodge,0.6,9.7,2
+S0317,Bridge Hotel,3.5,7.6,0
+S0317,Copper Kettle Inn,2.3,8,1
+S0317,Hilltop Residence,1.6,7,1
+S0317,Union Hotel,2.2,7.2,0
+S0317,Lakeside Retreat,0.9,9.1,3
+S0317,Hotel Aurora,2,9.3,2
+S0317,Riverside Inn,1.8,7.6,0
+S0318,Old Town Suites,0.6,7.6,2
+S0318,Marina Bay Rooms,6.2,9.7,1
+S0318,City Nest,0.6,8.1,2
+S0318,Riverside Inn,4.5,7.2,0
+S0318,Lakeside Retreat,0.2,9.1,3
+S0318,Copper Kettle Inn,9,9.3,0
+S0318,Bridge Hotel,10,7.3,0
+S0318,Harbour View,0.4,6.7,1
+S0319,Market Square Hotel,1,6.6,1
+S0319,Hilltop Residence,5.5,7.4,0
+S0319,Union Hotel,1.7,9.4,2
+S0319,Grand Central,0.3,8.2,2
+S0319,Skyline Tower,2.4,9.6,3
+S0319,Hotel Aurora,3.4,7.6,0
+S0319,Harbour View,2.3,8.1,1
+S0319,Northern Lights,9.7,7.7,0
+S0320,Hilltop Residence,1.3,6.6,2
+S0320,Bridge Hotel,3.6,8,3
+S0320,Marina Bay Rooms,7.5,6.5,0
+S0320,Ivy Gate,2.1,6.2,0
+S0320,Hotel Aurora,0.2,7,2
+S0320,Market Square Hotel,4.1,6.9,1
+S0320,Grand Central,6.8,8.3,1
+S0320,Cathedral View,11.3,6.9,0
+S0321,Northern Lights,0.9,6.4,0
+S0321,Park Lane Hotel,1.7,6.4,1
+S0321,Blue Door B&B,0.2,9.5,3
+S0321,Ivy Gate,1.3,9.6,2
+S0321,Bridge Hotel,7.1,7.6,0
+S0321,Marina Bay Rooms,0.3,6.9,1
+S0321,Hotel Aurora,5.2,7.2,0
+S0321,Lakeside Retreat,0.4,8.1,2
+S0322,Hotel Aurora,5.2,7.5,2
+S0322,Garden Court,5.2,6.6,1
+S0322,Grand Central,5.2,6,0
+S0322,Harbour View,2.6,7.8,2
+S0322,Old Town Suites,7.6,7.2,0
+S0322,Bridge Hotel,2.7,9.6,3
+S0322,Skyline Tower,7.4,6.5,0
+S0322,City Nest,2,6.6,1
+S0323,Copper Kettle Inn,1.8,7.6,1
+S0323,Garden Court,1.3,6.7,0
+S0323,Station Lodge,0.4,8.9,2
+S0323,Marina Bay Rooms,0.2,7.2,1
+S0323,Market Square Hotel,4.4,7.1,0
+S0323,Riverside Inn,0.2,8.1,2
+S0323,Blue Door B&B,0.4,9.6,3
+S0323,Northern Lights,4,8.7,0
+S0324,Blue Door B&B,12.1,6.8,0
+S0324,Skyline Tower,0.3,6.2,2
+S0324,Hotel Aurora,6.7,6.3,0
+S0324,Ivy Gate,0.3,9,3
+S0324,Hilltop Residence,2,6.2,1
+S0324,Harbour View,2.5,6.8,1
+S0324,Bridge Hotel,4.9,7.3,0
+S0324,Garden Court,0.7,8.4,2
+S0325,Riverside Inn,0.4,9.8,3
+S0325,Hilltop Residence,9.3,6.1,0
+S0325,Ivy Gate,9.3,6.5,0
+S0325,Union Hotel,3.9,8.4,0
+S0325,Marina Bay Rooms,2.8,7.6,1
+S0325,Hotel Aurora,3.8,9.1,2
+S0325,Cathedral View,0.7,8.9,2
+S0325,Harbour View,0.4,6.8,1
+S0326,Old Town Suites,1.2,7.2,0
+S0326,Northern Lights,0.6,7.9,1
+S0326,Station Lodge,9.1,7.5,0
+S0326,The Linden,4.1,9.4,1
+S0326,Harbour View,1.7,6.5,0
+S0326,Garden Court,0.2,9.7,3
+S0326,City Nest,0.3,9.7,2
+S0326,Marina Bay Rooms,0.2,9.5,2
+S0327,Market Square Hotel,7,8.6,1
+S0327,Riverside Inn,3.2,6.1,0
+S0327,Grand Central,0.8,8.2,3
+S0327,Skyline Tower,1,8.9,2
+S0327,Marina Bay Rooms,8.8,8,0
+S0327,Park Lane Hotel,0.5,6.6,1
+S0327,Old Town Suites,4.2,6.3,0
+S0327,Bridge Hotel,2,8.8,2
+S0328,Marina Bay Rooms,1.4,8.4,3
+S0328,City Nest,2.1,6.9,2
+S0328,Copper Kettle Inn,3.4,8.9,2
+S0328,Ivy Gate,0.5,6.1,1
+S0328,Harbour View,4.5,6.5,0
+S0328,Hotel Aurora,10.4,9.6,0
+S0328,The Courtyard,1.4,7,1
+S0328,Maple House,6.8,6.3,0
+S0329,The Linden,1.6,7.5,1
+S0329,Cathedral View,10.7,6.9,0
+S0329,Park Lane Hotel,0.7,8.8,3
+S0329,Bridge Hotel,3.6,9.1,1
+S0329,Northern Lights,10.1,7.5,0
+S0329,Hotel Aurora,1.3,7.3,2
+S0329,Lakeside Retreat,4.1,9.2,2
+S0329,Old Town Suites,2.3,8,0
+S0330,Hilltop Residence,0.7,8.4,2
+S0330,Harbour View,6.8,8.3,1
+S0330,Marina Bay Rooms,11.3,7,0
+S0330,Copper Kettle Inn,7.4,7.2,0
+S0330,Old Town Suites,5.1,8.8,2
+S0330,Riverside Inn,3.3,7.1,1
+S0330,Ivy Gate,6,6.1,0
+S0330,Blue Door B&B,0.5,8,3
+S0331,Park Lane Hotel,0.3,8.3,1
+S0331,Bridge Hotel,0.6,6.3,0
+S0331,Grand Central,7.4,7.3,0
+S0331,Cathedral View,0.4,7.4,2
+S0331,Copper Kettle Inn,7.8,8,0
+S0331,Marina Bay Rooms,0.7,9.7,3
+S0331,Blue Door B&B,0.3,8.1,2
+S0331,Northern Lights,3.6,8.6,1
+S0332,Park Lane Hotel,2.7,6.3,1
+S0332,Garden Court,0.2,9.7,3
+S0332,Lakeside Retreat,7.2,6.9,0
+S0332,Market Square Hotel,3.6,7.1,2
+S0332,Riverside Inn,9.6,8.2,0
+S0332,Bridge Hotel,9.3,9.4,2
+S0332,Hotel Aurora,7.4,6.6,0
+S0332,Copper Kettle Inn,1,6.9,1
+S0333,Northern Lights,7.4,9.1,0
+S0333,Ivy Gate,0.2,8.3,3
+S0333,Garden Court,0.3,6.1,1
+S0333,Park Lane Hotel,6.9,9.4,2
+S0333,Blue Door B&B,1.2,6.1,0
+S0333,Market Square Hotel,3.2,8.1,1
+S0333,Cathedral View,8.7,7.1,0
+S0333,Grand Central,0.2,7.5,2
+S0334,Old Town Suites,4.8,8.8,0
+S0334,Northern Lights,2.6,7.7,1
+S0334,City Nest,0.2,7.7,2
+S0334,Skyline Tower,7.1,7.2,0
+S0334,Harbour View,1,7.7,1
+S0334,Garden Court,1.3,9.4,3
+S0334,Marina Bay Rooms,3.7,9.5,2
+S0334,Park Lane Hotel,8.5,8,0
+S0335,Bridge Hotel,0.9,9.7,2
+S0335,Hotel Aurora,6.8,6.2,0
+S0335,Cathedral View,1.7,7.8,2
+S0335,Hilltop Residence,1.6,7.9,1
+S0335,The Linden,7.4,9.5,1
+S0335,Ivy Gate,0.5,6.3,0
+S0335,Blue Door B&B,5.2,9.8,3
+S0335,Park Lane Hotel,7.6,6.8,0
+S0336,Bridge Hotel,10.9,8.9,0
+S0336,Garden Court,1.9,7.3,2
+S0336,Maple House,5.4,9.2,1
+S0336,Union Hotel,0.3,7,1
+S0336,The Linden,4.6,6.1,0
+S0336,Blue Door B&B,0.7,7.6,3
+S0336,The Courtyard,4,9.6,2
+S0336,Market Square Hotel,8.5,9,0
+S0337,Marina Bay Rooms,4.8,9,1
+S0337,Northern Lights,7.5,6.5,0
+S0337,Bridge Hotel,3,7.7,2
+S0337,The Linden,3,7.8,1
+S0337,Copper Kettle Inn,11.2,7.3,0
+S0337,Union Hotel,7.4,8.4,0
+S0337,Garden Court,6,9.1,3
+S0337,City Nest,0.8,7.8,2
+S0338,The Courtyard,4.3,6.1,0
+S0338,Grand Central,2.1,9.6,3
+S0338,Lakeside Retreat,0.2,7.6,2
+S0338,Skyline Tower,6.9,8.3,0
+S0338,Harbour View,0.3,8.6,2
+S0338,The Linden,4.6,7.9,1
+S0338,Maple House,9.3,9.4,0
+S0338,Copper Kettle Inn,1.5,8.8,1
+S0339,Marina Bay Rooms,1.4,6.2,0
+S0339,Market Square Hotel,12.1,8.8,0
+S0339,Grand Central,4,8.6,2
+S0339,Riverside Inn,8.7,9.7,1
+S0339,Lakeside Retreat,12.2,9.4,0
+S0339,Blue Door B&B,0.2,7.7,3
+S0339,Copper Kettle Inn,0.8,9,2
+S0339,Maple House,6.2,9.3,1
+S0340,Cathedral View,4.8,6.1,0
+S0340,Hilltop Residence,4.2,8.1,0
+S0340,City Nest,2.4,6.3,0
+S0340,Maple House,4,8.5,2
+S0340,Hotel Aurora,0.4,6.6,1
+S0340,Skyline Tower,0.4,9.4,3
+S0340,Old Town Suites,3.9,7.8,2
+S0340,Riverside Inn,0.4,6.8,1
+S0341,Union Hotel,5.1,8.7,2
+S0341,Ivy Gate,3.1,7.2,2
+S0341,Maple House,7.9,7.8,1
+S0341,Northern Lights,11.8,8.4,0
+S0341,Blue Door B&B,4,6.6,1
+S0341,Garden Court,2.1,6.3,0
+S0341,The Courtyard,2.3,8,3
+S0341,City Nest,9,8.4,0
+S0342,The Linden,8.1,8.1,0
+S0342,Market Square Hotel,6.6,9.6,2
+S0342,Cathedral View,10.4,8.7,0
+S0342,Grand Central,8.5,8.5,1
+S0342,Old Town Suites,10.9,8.5,0
+S0342,Garden Court,3.3,8.1,1
+S0342,Blue Door B&B,0.3,7.1,2
+S0342,Harbour View,1.8,9.6,3
+S0343,Blue Door B&B,3.9,6.3,0
+S0343,Riverside Inn,0.8,7.6,2
+S0343,Hilltop Residence,5.3,8.6,1
+S0343,City Nest,3.3,7.4,2
+S0343,Park Lane Hotel,8.8,8.1,1
+S0343,The Linden,12,6.8,0
+S0343,Grand Central,1.7,8.5,3
+S0343,Ivy Gate,4,6.1,0
+S0344,Marina Bay Rooms,1.9,8.3,2
+S0344,Harbour View,10.3,7.2,0
+S0344,Old Town Suites,6.4,6.3,0
+S0344,Hilltop Residence,0.4,9.6,3
+S0344,Station Lodge,1,9.1,2
+S0344,Cathedral View,2.6,7,1
+S0344,Bridge Hotel,3.3,7.7,1
+S0344,Market Square Hotel,12.1,7.6,0
+S0345,Lakeside Retreat,0.9,8.1,2
+S0345,Copper Kettle Inn,2.3,9.3,2
+S0345,Hilltop Residence,4.8,7.8,0
+S0345,Hotel Aurora,5.5,8.4,1
+S0345,Bridge Hotel,0.5,7.4,1
+S0345,Grand Central,4.3,6.6,0
+S0345,Northern Lights,11.7,8.4,0
+S0345,Marina Bay Rooms,0.5,9.3,3
+S0346,Harbour View,0.9,8.5,2
+S0346,Blue Door B&B,0.5,7.7,2
+S0346,Northern Lights,5.7,9.1,0
+S0346,Copper Kettle Inn,3.5,6.3,0
+S0346,City Nest,0.2,9.6,3
+S0346,Grand Central,7.2,9.4,1
+S0346,Old Town Suites,11.4,6.3,0
+S0346,Hilltop Residence,4.6,8.9,1
+S0347,Blue Door B&B,4.8,6.2,0
+S0347,Park Lane Hotel,0.4,8.8,3
+S0347,Skyline Tower,7.4,7.6,0
+S0347,Grand Central,1.2,8.3,2
+S0347,The Courtyard,1.5,9,1
+S0347,Bridge Hotel,3.6,6.8,1
+S0347,Maple House,9.2,7.5,0
+S0347,Market Square Hotel,0.2,8.9,2
+S0348,Harbour View,8.7,7,0
+S0348,Skyline Tower,1.3,9.3,3
+S0348,Maple House,0.2,7,2
+S0348,The Linden,2.8,6.3,1
+S0348,Ivy Gate,10.5,7,0
+S0348,Marina Bay Rooms,6.2,8.7,1
+S0348,Hotel Aurora,8.1,6.3,0
+S0348,Lakeside Retreat,3.1,7.4,2
+S0349,Garden Court,0.5,7.1,2
+S0349,Market Square Hotel,2.4,9.4,2
+S0349,Blue Door B&B,5.8,9.3,1
+S0349,Station Lodge,2.3,8,0
+S0349,Hotel Aurora,1.2,9.4,3
+S0349,Hilltop Residence,12.2,8.7,0
+S0349,Old Town Suites,4.7,8.2,0
+S0349,The Linden,0.5,7.9,1
+S0350,City Nest,0.2,7.3,1
+S0350,Northern Lights,0.6,8.6,2
+S0350,Hotel Aurora,0.4,9.2,3
+S0350,Blue Door B&B,6.1,7.3,0
+S0350,Ivy Gate,11.5,6.8,0
+S0350,The Linden,1.3,9.4,2
+S0350,Bridge Hotel,0.2,7.9,1
+S0350,Garden Court,4,9,0
+S0351,Park Lane Hotel,6.6,8.7,1
+S0351,Union Hotel,10.8,9.2,0
+S0351,Garden Court,0.6,6.7,2
+S0351,Riverside Inn,0.2,9.2,3
+S0351,Copper Kettle Inn,5.9,8.1,1
+S0351,Grand Central,1.5,9,2
+S0351,Northern Lights,1.2,6,0
+S0351,Ivy Gate,10.4,9.5,0
+S0352,Market Square Hotel,8.5,8.6,1
+S0352,Marina Bay Rooms,9.5,6.3,0
+S0352,Maple House,5.9,6.3,0
+S0352,Hilltop Residence,10.3,6.5,0
+S0352,Hotel Aurora,0.8,9.4,2
+S0352,Blue Door B&B,0.2,6.7,1
+S0352,Garden Court,0.2,9.1,2
+S0352,Station Lodge,1.4,9.1,3
+S0353,Riverside Inn,0.2,8.4,3
+S0353,Harbour View,0.7,8.7,2
+S0353,Hotel Aurora,10.5,8.7,1
+S0353,Hilltop Residence,10.3,7.8,0
+S0353,Market Square Hotel,11,7.4,0
+S0353,Skyline Tower,7.1,6.8,1
+S0353,Lakeside Retreat,10.8,7.3,0
+S0353,City Nest,4,8.7,2
+S0354,Grand Central,0.6,6.6,1
+S0354,City Nest,1,8.8,2
+S0354,Park Lane Hotel,1.1,9.3,2
+S0354,The Courtyard,1.3,9.6,3
+S0354,Copper Kettle Inn,7.2,6.1,0
+S0354,Hilltop Residence,11.3,8.2,0
+S0354,Blue Door B&B,3,6.2,0
+S0354,Riverside Inn,0.3,6.4,1
+S0355,The Courtyard,6.5,7.4,0
+S0355,Riverside Inn,5.4,9.3,2
+S0355,Grand Central,0.2,8.1,2
+S0355,Copper Kettle Inn,0.6,9.5,3
+S0355,Hotel Aurora,3,6.6,0
+S0355,Market Square Hotel,11.2,7,0
+S0355,Hilltop Residence,0.9,6.9,1
+S0355,Maple House,4.4,8.5,1
+S0356,Northern Lights,11.9,9.5,0
+S0356,Hotel Aurora,0.9,9,3
+S0356,Ivy Gate,6.5,6.5,0
+S0356,Harbour View,0.3,8.6,2
+S0356,Bridge Hotel,3.7,8.6,1
+S0356,Union Hotel,0.4,6.9,2
+S0356,Garden Court,0.3,6.8,1
+S0356,Marina Bay Rooms,4,8.6,0
+S0357,City Nest,7.2,9.1,0
+S0357,The Courtyard,1.1,8.3,3
+S0357,Grand Central,1.7,7.2,2
+S0357,Blue Door B&B,2.3,7.4,1
+S0357,Lakeside Retreat,0.3,6.2,1
+S0357,Copper Kettle Inn,7,8.3,0
+S0357,Station Lodge,11.9,7.9,0
+S0357,Maple House,6.2,9.6,2
+S0358,The Courtyard,1.5,9.3,3
+S0358,Marina Bay Rooms,1.5,8,1
+S0358,Grand Central,0.9,9.1,2
+S0358,Copper Kettle Inn,0.6,7,2
+S0358,Garden Court,0.7,6.3,1
+S0358,Skyline Tower,9.3,8.4,0
+S0358,Blue Door B&B,4,6.5,0
+S0358,Riverside Inn,2.2,6.6,0
+S0359,Lakeside Retreat,0.3,8.6,2
+S0359,Ivy Gate,0.2,7.2,1
+S0359,Hilltop Residence,2.9,6.8,0
+S0359,Old Town Suites,3,9,2
+S0359,Park Lane Hotel,7.4,8.7,0
+S0359,Hotel Aurora,4.7,6.7,0
+S0359,Cathedral View,0.5,8.1,3
+S0359,Northern Lights,4.8,8,1
+S0360,Union Hotel,1.6,6.5,0
+S0360,Blue Door B&B,0.9,6.3,1
+S0360,Cathedral View,0.4,6.8,0
+S0360,Northern Lights,2.9,9.7,2
+S0360,Riverside Inn,0.6,9.8,3
+S0360,Marina Bay Rooms,0.5,6.7,1
+S0360,Skyline Tower,1.3,8.4,2
+S0360,Station Lodge,4,6.5,0
+S0361,Harbour View,3.3,6.6,2
+S0361,Northern Lights,0.9,6.4,1
+S0361,Marina Bay Rooms,11.3,6.4,0
+S0361,Garden Court,5.8,6.9,0
+S0361,Riverside Inn,0.2,6.8,3
+S0361,Market Square Hotel,3.1,7.7,2
+S0361,Station Lodge,12,7.1,0
+S0361,The Linden,4,6,1
+S0362,Garden Court,8.3,9.4,0
+S0362,Grand Central,1.8,6.1,0
+S0362,Blue Door B&B,7.9,9.2,1
+S0362,Copper Kettle Inn,10.4,9.7,0
+S0362,Cathedral View,1.5,9.6,2
+S0362,Harbour View,0.7,6.5,1
+S0362,Union Hotel,0.4,6.8,2
+S0362,The Linden,0.3,9.5,3
+S0363,City Nest,1.5,7.5,0
+S0363,Station Lodge,1.2,9.1,3
+S0363,Marina Bay Rooms,5,7.4,1
+S0363,Hilltop Residence,5.8,6.1,0
+S0363,Copper Kettle Inn,6.1,8.7,1
+S0363,Harbour View,1.3,8.1,2
+S0363,Northern Lights,0.6,7.2,2
+S0363,Old Town Suites,1.4,6.3,0
+S0364,Riverside Inn,5.8,7.4,0
+S0364,Cathedral View,0.5,6.4,1
+S0364,The Courtyard,0.4,6.4,2
+S0364,Marina Bay Rooms,6.5,6.3,0
+S0364,Lakeside Retreat,1.5,7.6,3
+S0364,City Nest,9.9,9.4,1
+S0364,Garden Court,0.2,6.8,2
+S0364,Park Lane Hotel,10.9,6.3,0
+S0365,Bridge Hotel,1.5,9.5,3
+S0365,Harbour View,1.6,7.7,1
+S0365,Hilltop Residence,0.2,6.2,0
+S0365,Garden Court,10.3,7.6,0
+S0365,Station Lodge,0.3,9.3,2
+S0365,Ivy Gate,2.3,9.6,2
+S0365,Cathedral View,0.3,6.7,1
+S0365,Marina Bay Rooms,8.3,9.6,0
+S0366,Harbour View,2.1,8.9,2
+S0366,Park Lane Hotel,5.2,6.7,0
+S0366,Skyline Tower,10.4,9.3,0
+S0366,Maple House,1.1,8.2,1
+S0366,Old Town Suites,3.3,7.6,1
+S0366,Market Square Hotel,4.9,8.8,0
+S0366,The Courtyard,4.8,9.5,3
+S0366,Blue Door B&B,0.2,8.8,2
+S0367,Lakeside Retreat,4.6,8.7,1
+S0367,Bridge Hotel,11.2,7.2,0
+S0367,Harbour View,0.8,8.9,2
+S0367,The Courtyard,0.6,9.3,2
+S0367,The Linden,1.6,8,1
+S0367,Northern Lights,1,7.7,0
+S0367,Garden Court,11.9,7.2,0
+S0367,Old Town Suites,0.7,9.6,3
+S0368,Skyline Tower,0.6,8.9,3
+S0368,Market Square Hotel,2.1,8.7,2
+S0368,Park Lane Hotel,1.3,7.2,2
+S0368,Union Hotel,12,9.2,0
+S0368,The Linden,7,8.1,1
+S0368,Grand Central,3.8,6.1,0
+S0368,Marina Bay Rooms,1.1,6.2,1
+S0368,The Courtyard,2.3,7.2,0
+S0369,City Nest,1.1,6.7,0
+S0369,The Courtyard,3,8,1
+S0369,Park Lane Hotel,4.4,6.6,0
+S0369,Riverside Inn,10,6.6,0
+S0369,Harbour View,1,6.8,1
+S0369,Maple House,4.9,9.4,2
+S0369,Northern Lights,0.7,9.1,2
+S0369,Hotel Aurora,0.3,9.6,3
+S0370,Union Hotel,0.5,7.3,1
+S0370,Old Town Suites,2.7,7.1,0
+S0370,Harbour View,6.1,8.7,1
+S0370,Ivy Gate,0.2,9.7,3
+S0370,Bridge Hotel,1.1,7.8,2
+S0370,Market Square Hotel,2.9,8.9,2
+S0370,The Linden,8.5,7.3,0
+S0370,The Courtyard,3,7,0
+S0371,Northern Lights,0.6,8.5,2
+S0371,Grand Central,6,7.9,0
+S0371,Market Square Hotel,0.2,7.5,1
+S0371,Lakeside Retreat,0.5,8.9,2
+S0371,Hilltop Residence,0.7,9.4,3
+S0371,City Nest,10.3,6.5,0
+S0371,Maple House,8.7,8,0
+S0371,Station Lodge,7.9,8.1,1
+S0372,Lakeside Retreat,8.8,9.7,0
+S0372,Station Lodge,4.3,7.8,1
+S0372,Park Lane Hotel,0.2,8.8,3
+S0372,Old Town Suites,1.7,6,1
+S0372,Bridge Hotel,9,7.7,0
+S0372,Marina Bay Rooms,0.3,7.6,2
+S0372,City Nest,6,9.8,2
+S0372,Hotel Aurora,10.5,6.5,0
+S0373,Riverside Inn,1.5,9.5,2
+S0373,Skyline Tower,3,7.6,1
+S0373,Maple House,0.8,7.1,0
+S0373,Bridge Hotel,4.2,9.4,3
+S0373,Harbour View,1.9,7.8,2
+S0373,Marina Bay Rooms,0.2,6.1,0
+S0373,Garden Court,1.3,6.7,0
+S0373,Ivy Gate,0.2,7.1,1
+S0374,The Linden,0.2,9,3
+S0374,The Courtyard,5.3,8.9,0
+S0374,Harbour View,3.1,7.8,1
+S0374,Maple House,0.3,7.5,0
+S0374,Garden Court,4.5,9.4,1
+S0374,Union Hotel,0.2,8.8,2
+S0374,Blue Door B&B,1.5,8.5,0
+S0374,Grand Central,6.9,9.8,2
+S0375,The Courtyard,7.2,6.3,0
+S0375,Harbour View,1.2,7.3,3
+S0375,Copper Kettle Inn,1.3,8.5,2
+S0375,Riverside Inn,12.1,7.9,0
+S0375,Skyline Tower,4.4,9.4,2
+S0375,Old Town Suites,3.9,8.4,1
+S0375,Grand Central,5,9.8,1
+S0375,Northern Lights,10.7,6.2,0
+S0376,Union Hotel,9,6.8,0
+S0376,Skyline Tower,1.4,8.7,2
+S0376,The Linden,2.9,8.7,1
+S0376,Cathedral View,1.3,7.1,1
+S0376,Hotel Aurora,5.6,8.2,0
+S0376,Old Town Suites,3.9,7.5,0
+S0376,Harbour View,0.6,7.6,2
+S0376,Bridge Hotel,0.3,9.6,3
+S0377,Ivy Gate,2.1,7.9,0
+S0377,Blue Door B&B,1.1,6.8,2
+S0377,Market Square Hotel,0.3,7.1,1
+S0377,Lakeside Retreat,7.6,6.1,0
+S0377,City Nest,10.2,8,0
+S0377,Copper Kettle Inn,0.7,9.1,2
+S0377,Harbour View,0.8,7.2,1
+S0377,Riverside Inn,1.9,8.9,3
+S0378,The Linden,3.6,9.6,1
+S0378,Garden Court,0.2,7.2,1
+S0378,Hotel Aurora,6.4,8.2,0
+S0378,Grand Central,0.2,8,2
+S0378,Hilltop Residence,7.8,6.1,0
+S0378,Copper Kettle Inn,9.6,6.1,0
+S0378,Old Town Suites,0.2,8.4,3
+S0378,Marina Bay Rooms,0.8,8.5,2
+S0379,City Nest,4.3,9.5,2
+S0379,Union Hotel,2.8,9,2
+S0379,Lakeside Retreat,3.6,6,0
+S0379,The Courtyard,2.1,9.8,3
+S0379,Park Lane Hotel,10.6,8.7,0
+S0379,Ivy Gate,10,9.6,1
+S0379,Grand Central,10.8,8.1,0
+S0379,Northern Lights,5.4,6.7,1
+S0380,Lakeside Retreat,7.2,7.5,0
+S0380,Cathedral View,3.7,8.5,1
+S0380,Station Lodge,0.8,8.9,3
+S0380,Union Hotel,11.3,6.7,0
+S0380,Park Lane Hotel,10.8,7,0
+S0380,The Courtyard,1,7.4,2
+S0380,Old Town Suites,6.1,7,1
+S0380,Grand Central,0.3,7.2,2
+S0381,Harbour View,6.2,7.1,0
+S0381,Maple House,1.8,6.1,0
+S0381,Skyline Tower,10.6,7.3,0
+S0381,Park Lane Hotel,3.8,7.1,1
+S0381,Bridge Hotel,0.3,7.1,2
+S0381,Cathedral View,2.2,9.1,3
+S0381,The Linden,3.6,9.3,2
+S0381,Garden Court,0.2,6.8,1
+S0382,Northern Lights,0.7,7.7,2
+S0382,Hilltop Residence,5,9.5,3
+S0382,Riverside Inn,0.4,6.1,1
+S0382,Station Lodge,5.1,7.6,1
+S0382,The Linden,10.8,6.5,0
+S0382,Maple House,5.6,7.5,0
+S0382,City Nest,0.6,6.9,2
+S0382,The Courtyard,8.8,8.5,0
+S0383,Union Hotel,8,8.1,0
+S0383,Park Lane Hotel,2.4,7.1,0
+S0383,Garden Court,0.6,7.5,0
+S0383,Hilltop Residence,0.7,8.6,1
+S0383,Grand Central,1.3,8.4,2
+S0383,Market Square Hotel,4.3,9.7,3
+S0383,Cathedral View,4,8.5,1
+S0383,Hotel Aurora,0.5,8.4,2
+S0384,Old Town Suites,5.4,8.7,1
+S0384,Copper Kettle Inn,0.5,6.5,1
+S0384,Hilltop Residence,1.6,7.1,2
+S0384,Union Hotel,1,8.7,3
+S0384,Hotel Aurora,9.7,7.5,0
+S0384,Harbour View,9.4,6.2,0
+S0384,Station Lodge,6,9.2,2
+S0384,Lakeside Retreat,9.8,6.9,0
+S0385,Maple House,7.6,6.4,0
+S0385,Old Town Suites,5.4,7.6,1
+S0385,Grand Central,0.6,6.6,2
+S0385,Skyline Tower,5.7,6.5,0
+S0385,Riverside Inn,9.1,9.7,2
+S0385,Park Lane Hotel,5.6,7.3,1
+S0385,Ivy Gate,2.8,8.4,3
+S0385,Cathedral View,3.7,6.6,0
+S0386,Lakeside Retreat,9.7,6.6,0
+S0386,Blue Door B&B,3.6,9,2
+S0386,Harbour View,7.2,6.5,0
+S0386,Cathedral View,2.5,9.1,2
+S0386,Maple House,10.8,9.8,1
+S0386,Market Square Hotel,3.9,7.1,1
+S0386,City Nest,5.8,7.3,0
+S0386,The Courtyard,2.8,7.9,3
+S0387,Station Lodge,1,9.4,2
+S0387,Harbour View,0.3,6.5,0
+S0387,Union Hotel,4,8.6,1
+S0387,Cathedral View,2,7.1,0
+S0387,Garden Court,2.9,8.9,2
+S0387,Bridge Hotel,4,9.7,1
+S0387,Riverside Inn,3.7,7.8,0
+S0387,Blue Door B&B,0.2,9.1,3
+S0388,Northern Lights,0.3,6.2,1
+S0388,City Nest,4.8,7.6,0
+S0388,Garden Court,8.6,6.3,0
+S0388,Station Lodge,0.4,6.7,2
+S0388,Maple House,0.2,7.2,2
+S0388,Old Town Suites,4.4,9,3
+S0388,Market Square Hotel,2.7,7,1
+S0388,Skyline Tower,2,6.4,0
+S0389,Hilltop Residence,3.2,8,2
+S0389,Park Lane Hotel,6.9,6.9,0
+S0389,Garden Court,1.5,7.9,3
+S0389,Riverside Inn,7.7,6.7,1
+S0389,Northern Lights,8.6,8.4,0
+S0389,Station Lodge,1.8,6.4,2
+S0389,Maple House,6.9,7.3,0
+S0389,City Nest,9.2,8.4,1
+S0390,Grand Central,0.7,9.4,3
+S0390,Maple House,1.6,7.1,2
+S0390,Hotel Aurora,8.7,8,0
+S0390,Hilltop Residence,10.3,9,0
+S0390,Ivy Gate,1.4,6.6,1
+S0390,Cathedral View,5,6.2,0
+S0390,Blue Door B&B,1.8,6.8,1
+S0390,Copper Kettle Inn,2,9,2
+S0391,Bridge Hotel,7.2,9.5,0
+S0391,Maple House,6.1,8.6,1
+S0391,Riverside Inn,2.9,9.7,2
+S0391,Cathedral View,11.3,8.6,0
+S0391,Grand Central,2.4,9.1,2
+S0391,Garden Court,8.4,8.5,0
+S0391,Ivy Gate,0.5,9.7,3
+S0391,Park Lane Hotel,6.4,8.8,1
+S0392,The Courtyard,0.7,6.6,3
+S0392,Hotel Aurora,2.5,7.1,1
+S0392,Garden Court,8.1,8.6,0
+S0392,Market Square Hotel,3.5,8.7,2
+S0392,Station Lodge,0.2,6.7,2
+S0392,Northern Lights,4.1,8.6,1
+S0392,Skyline Tower,8.5,7.1,0
+S0392,Grand Central,11.5,7.3,0
+S0393,City Nest,3.8,6.7,1
+S0393,Union Hotel,3.4,6.1,0
+S0393,Hilltop Residence,7.2,6.1,0
+S0393,Riverside Inn,10.1,8.4,0
+S0393,Cathedral View,4.9,7.9,2
+S0393,Skyline Tower,4.4,7.3,2
+S0393,Northern Lights,1.8,8.8,3
+S0393,Station Lodge,1.5,6.3,1
+S0394,Skyline Tower,6.3,6.9,0
+S0394,Lakeside Retreat,3.5,6.9,1
+S0394,Marina Bay Rooms,0.2,6.7,1
+S0394,Park Lane Hotel,1.7,6,0
+S0394,Copper Kettle Inn,11.9,8.1,0
+S0394,Garden Court,6.3,9.4,2
+S0394,Blue Door B&B,1.4,6.5,2
+S0394,Ivy Gate,6.7,9.2,3
+S0395,City Nest,2.4,6.3,0
+S0395,Garden Court,10.6,8.4,0
+S0395,Lakeside Retreat,6,7.3,0
+S0395,Hilltop Residence,4.3,9,3
+S0395,The Courtyard,3.1,7.2,1
+S0395,Station Lodge,0.2,6.6,2
+S0395,The Linden,0.6,7,2
+S0395,Harbour View,0.2,6.2,1
+S0396,The Linden,0.4,8.1,2
+S0396,Park Lane Hotel,0.9,6.4,1
+S0396,Northern Lights,6.3,8.6,1
+S0396,Ivy Gate,1.5,9.1,3
+S0396,Old Town Suites,4,6.4,0
+S0396,Maple House,6.9,6.7,0
+S0396,Union Hotel,0.7,8.1,2
+S0396,Hotel Aurora,7.4,6.3,0
+S0397,Northern Lights,5.8,9.3,1
+S0397,Maple House,2.6,7.8,2
+S0397,Blue Door B&B,2,8.3,2
+S0397,Marina Bay Rooms,8.4,7.5,0
+S0397,Harbour View,2.1,6.2,0
+S0397,Hotel Aurora,5.3,6.3,0
+S0397,Old Town Suites,0.4,6.1,1
+S0397,Union Hotel,2.2,9,3
+S0398,Riverside Inn,0.2,7,2
+S0398,Harbour View,2.2,7.6,1
+S0398,Old Town Suites,11.3,8.9,0
+S0398,Lakeside Retreat,11.9,9.2,1
+S0398,Marina Bay Rooms,11.9,8.5,0
+S0398,Hotel Aurora,9.5,8,0
+S0398,Garden Court,0.6,8.7,3
+S0398,Northern Lights,2,7.6,2
+S0399,Lakeside Retreat,0.4,8.5,3
+S0399,Hilltop Residence,8.7,6.2,0
+S0399,The Courtyard,5,6.2,0
+S0399,Station Lodge,2.8,7.8,1
+S0399,Northern Lights,2.7,9,2
+S0399,Grand Central,0.9,7.5,1
+S0399,Bridge Hotel,2.9,8.9,2
+S0399,City Nest,0.8,6.3,0
+S0400,Hotel Aurora,0.7,6.1,2
+S0400,Copper Kettle Inn,1.7,6.3,2
+S0400,Grand Central,7.5,6.8,0
+S0400,Northern Lights,7.9,8.7,1
+S0400,Blue Door B&B,6.4,7.5,0
+S0400,Maple House,8.8,7.6,0
+S0400,Garden Court,3.4,7.6,3
+S0400,Old Town Suites,6.8,8.6,1
+S0401,Station Lodge,7.3,9,1
+S0401,Northern Lights,2.2,7,0
+S0401,Market Square Hotel,1.1,7.8,1
+S0401,Ivy Gate,0.4,8.9,3
+S0401,The Courtyard,0.2,7.3,2
+S0401,Cathedral View,2.6,6.4,0
+S0401,Old Town Suites,1.8,6.6,0
+S0401,Marina Bay Rooms,1.9,9.4,2
+S0402,Harbour View,1.4,7.9,2
+S0402,Hotel Aurora,4,7.6,0
+S0402,Station Lodge,3.2,7.8,1
+S0402,Grand Central,12,7.6,0
+S0402,Park Lane Hotel,0.2,7.9,2
+S0402,Lakeside Retreat,0.4,9,3
+S0402,The Courtyard,4.8,7.9,1
+S0402,Ivy Gate,12,9.4,0
+S0403,Riverside Inn,9.1,9.5,1
+S0403,Grand Central,2.6,6.6,0
+S0403,Market Square Hotel,6.4,8.2,2
+S0403,Garden Court,7.5,8,0
+S0403,Harbour View,2.9,7.2,1
+S0403,Skyline Tower,0.4,7.1,2
+S0403,Maple House,4.8,8.7,3
+S0403,Station Lodge,7.4,7.6,0
+S0404,The Courtyard,2,9.5,3
+S0404,Northern Lights,0.3,9.4,2
+S0404,Hotel Aurora,8.3,7.9,0
+S0404,Union Hotel,0.7,9.1,2
+S0404,Cathedral View,2.2,7.6,1
+S0404,Market Square Hotel,2.5,8.5,1
+S0404,Grand Central,3.3,6.1,0
+S0404,Marina Bay Rooms,4.6,8.9,0
+S0405,The Linden,10.3,6.6,0
+S0405,Ivy Gate,1.1,8.6,3
+S0405,Market Square Hotel,8.1,7.2,0
+S0405,Hilltop Residence,2.5,7.3,1
+S0405,Northern Lights,3.3,7.4,1
+S0405,Skyline Tower,2.8,9.2,2
+S0405,The Courtyard,8.3,7.2,0
+S0405,Station Lodge,0.8,7.2,2
+S0406,Park Lane Hotel,9.5,8.6,1
+S0406,Cathedral View,3.9,7.4,0
+S0406,Market Square Hotel,0.9,6.6,2
+S0406,Bridge Hotel,5,9.7,3
+S0406,Maple House,5,6.4,0
+S0406,City Nest,3,7.3,2
+S0406,Blue Door B&B,10.5,8.8,0
+S0406,Union Hotel,3.4,7.1,1
+S0407,Skyline Tower,11.3,6.4,0
+S0407,Ivy Gate,5.1,6.6,0
+S0407,Marina Bay Rooms,0.4,9.4,3
+S0407,Old Town Suites,4.3,7.2,0
+S0407,The Linden,3.2,7.7,1
+S0407,Riverside Inn,0.2,6.8,1
+S0407,Lakeside Retreat,0.2,8.2,2
+S0407,Hotel Aurora,1.3,8.7,2
+S0408,Lakeside Retreat,4.9,9.4,2
+S0408,Hilltop Residence,4.4,8.5,1
+S0408,Northern Lights,2.7,6.2,0
+S0408,Harbour View,1.8,9.8,3
+S0408,Old Town Suites,5.2,7.1,0
+S0408,Copper Kettle Inn,1.8,8.5,2
+S0408,City Nest,1.5,7.6,1
+S0408,Bridge Hotel,7.1,9.2,0
+S0409,City Nest,0.8,6.9,1
+S0409,Hotel Aurora,2.8,6.4,0
+S0409,Riverside Inn,8.4,9.2,1
+S0409,Garden Court,6.4,7.3,0
+S0409,Harbour View,1.8,9.6,3
+S0409,Market Square Hotel,0.8,7.4,2
+S0409,Union Hotel,10.3,7.1,0
+S0409,Cathedral View,0.3,6.8,2
+S0410,Riverside Inn,6.6,7.6,1
+S0410,Marina Bay Rooms,5.9,6.9,0
+S0410,Northern Lights,0.4,9.1,3
+S0410,Old Town Suites,0.4,6.6,2
+S0410,Harbour View,7.4,9.5,2
+S0410,Garden Court,0.3,6.9,0
+S0410,Maple House,4,6.1,0
+S0410,Market Square Hotel,0.8,6.1,1
+S0411,Skyline Tower,2.2,9,2
+S0411,Riverside Inn,0.5,6.1,0
+S0411,Northern Lights,9,9.3,1
+S0411,City Nest,3.4,9.5,2
+S0411,Station Lodge,6,6.6,0
+S0411,Old Town Suites,11.1,6.1,0
+S0411,Bridge Hotel,1.4,6.9,1
+S0411,Hotel Aurora,0.2,8.7,3
+S0412,Cathedral View,1.1,6.1,1
+S0412,Riverside Inn,4.3,8.9,2
+S0412,Skyline Tower,9.9,6.9,0
+S0412,Northern Lights,8.3,8.7,0
+S0412,Bridge Hotel,8.3,6.6,0
+S0412,Union Hotel,1,9.6,3
+S0412,Harbour View,1.6,6.7,1
+S0412,Copper Kettle Inn,4.1,9.8,2
+S0413,Skyline Tower,2.1,9.7,3
+S0413,Cathedral View,0.2,7.6,2
+S0413,Hotel Aurora,0.5,8.2,2
+S0413,Northern Lights,9.3,8,0
+S0413,Old Town Suites,3,6.2,0
+S0413,Copper Kettle Inn,3.9,7.4,1
+S0413,City Nest,0.8,7.9,1
+S0413,Lakeside Retreat,2.6,6,0
+S0414,Maple House,4.3,6.1,0
+S0414,Old Town Suites,3.1,8.7,2
+S0414,Ivy Gate,0.6,7.1,2
+S0414,Union Hotel,2.6,7.6,1
+S0414,Skyline Tower,0.2,8.8,3
+S0414,Hotel Aurora,3.9,8.2,0
+S0414,The Linden,8.2,9.4,1
+S0414,Park Lane Hotel,2.9,7.5,0
+S0415,Hilltop Residence,7.6,7.7,0
+S0415,City Nest,10.3,7.1,0
+S0415,Marina Bay Rooms,5.8,8.6,2
+S0415,The Linden,3.5,7.7,1
+S0415,Riverside Inn,0.5,8.3,2
+S0415,Hotel Aurora,1,8.4,3
+S0415,Copper Kettle Inn,5.9,7.1,0
+S0415,Northern Lights,7.5,8.7,1
+S0416,Lakeside Retreat,7.9,8.9,1
+S0416,Ivy Gate,5.8,9.5,3
+S0416,Blue Door B&B,6.6,8.8,1
+S0416,Grand Central,0.4,6.6,0
+S0416,The Courtyard,0.9,7.3,2
+S0416,Skyline Tower,1.2,9,2
+S0416,Hotel Aurora,10.6,9.2,0
+S0416,Cathedral View,1.5,6.3,0
+S0417,Hotel Aurora,1.1,8.9,2
+S0417,Station Lodge,8.3,9,0
+S0417,Harbour View,5.2,6.2,0
+S0417,Bridge Hotel,0.8,7.8,2
+S0417,The Linden,5.5,9,1
+S0417,Blue Door B&B,0.5,9.6,3
+S0417,City Nest,0.8,6.8,0
+S0417,Marina Bay Rooms,0.2,7,1
+S0418,Blue Door B&B,6.4,6,0
+S0418,City Nest,2.5,6.6,1
+S0418,Marina Bay Rooms,3.9,6.9,0
+S0418,Station Lodge,4,8.7,2
+S0418,Maple House,10.7,9.4,1
+S0418,The Courtyard,4,9,3
+S0418,Garden Court,7.4,7.5,0
+S0418,Skyline Tower,0.2,7.7,2
+S0419,Marina Bay Rooms,3.1,8.7,2
+S0419,Northern Lights,11.1,7.4,0
+S0419,Ivy Gate,7.4,8.9,1
+S0419,Harbour View,7.9,8.1,0
+S0419,Station Lodge,7.1,9.1,1
+S0419,Lakeside Retreat,11.5,9.1,0
+S0419,Blue Door B&B,1.1,7,2
+S0419,Hotel Aurora,1.2,8,3
+S0420,Grand Central,0.5,6,0
+S0420,Market Square Hotel,5,9.2,1
+S0420,Riverside Inn,0.7,9.2,3
+S0420,Marina Bay Rooms,1.1,6.9,1
+S0420,Park Lane Hotel,0.6,8.5,2
+S0420,Skyline Tower,2.7,7.7,0
+S0420,The Linden,0.2,8.6,2
+S0420,Harbour View,2.5,8.2,0
+S0421,Harbour View,8.6,6.8,1
+S0421,The Linden,7.6,6,0
+S0421,Lakeside Retreat,8.2,6.4,0
+S0421,Copper Kettle Inn,0.7,8.5,3
+S0421,Bridge Hotel,0.7,8.7,2
+S0421,Northern Lights,10.2,7,0
+S0421,Blue Door B&B,5.1,9.4,2
+S0421,Marina Bay Rooms,11.1,7.9,1
+S0422,Garden Court,2.2,8.3,1
+S0422,Ivy Gate,2.8,7.3,1
+S0422,Market Square Hotel,0.2,7.4,2
+S0422,Station Lodge,0.3,8.4,3
+S0422,Hotel Aurora,2.9,6.6,0
+S0422,Lakeside Retreat,9.5,7,0
+S0422,Blue Door B&B,11.4,8.5,0
+S0422,Riverside Inn,2,9.2,2
+S0423,Skyline Tower,11,9,1
+S0423,Harbour View,0.5,7.1,2
+S0423,Copper Kettle Inn,2.5,7.5,2
+S0423,Hilltop Residence,9,8.6,0
+S0423,Market Square Hotel,10.8,7.9,0
+S0423,The Courtyard,1.6,6.3,0
+S0423,Garden Court,10.3,8.7,1
+S0423,Blue Door B&B,0.4,7.1,3
+S0424,Station Lodge,8.8,6.8,0
+S0424,Old Town Suites,6.3,9.7,2
+S0424,Market Square Hotel,0.2,6.1,2
+S0424,The Linden,8.7,7,0
+S0424,Maple House,5.1,6.6,1
+S0424,City Nest,0.2,8.5,3
+S0424,Cathedral View,5.1,6.7,1
+S0424,Marina Bay Rooms,7.1,6.2,0
+S0425,Ivy Gate,7.2,6,0
+S0425,The Courtyard,9.8,6.6,0
+S0425,Bridge Hotel,11,6.5,0
+S0425,Station Lodge,0.5,6.5,2
+S0425,City Nest,2.3,9.1,3
+S0425,Copper Kettle Inn,4.8,8.4,1
+S0425,Market Square Hotel,4,9.7,1
+S0425,Hilltop Residence,3.5,8.6,2
+S0426,Marina Bay Rooms,8.4,8,0
+S0426,Station Lodge,2.4,7.3,1
+S0426,Park Lane Hotel,10,6.3,0
+S0426,Union Hotel,2.3,9.6,2
+S0426,Skyline Tower,2.9,6.5,0
+S0426,Ivy Gate,0.9,6.5,1
+S0426,The Courtyard,5.6,8.8,2
+S0426,Bridge Hotel,0.7,9.5,3
+S0427,Grand Central,10.7,7.1,0
+S0427,Ivy Gate,4.7,8.2,2
+S0427,City Nest,0.2,8.5,3
+S0427,Skyline Tower,7.4,9.1,2
+S0427,Market Square Hotel,8.5,7.7,1
+S0427,Harbour View,10.8,8,0
+S0427,Blue Door B&B,12,6.8,0
+S0427,Hotel Aurora,11.3,8.8,1
+S0428,Copper Kettle Inn,3.5,8.8,2
+S0428,Northern Lights,1.4,6.7,1
+S0428,Cathedral View,3,7.9,2
+S0428,Park Lane Hotel,7.8,8.5,0
+S0428,Riverside Inn,0.7,7.2,1
+S0428,Hilltop Residence,0.4,8.7,3
+S0428,Union Hotel,8.9,8.3,0
+S0428,Blue Door B&B,11.9,8.2,0
+S0429,Market Square Hotel,2.4,8,1
+S0429,Ivy Gate,11.4,8.7,0
+S0429,Old Town Suites,1.3,7.1,1
+S0429,Hilltop Residence,9.8,7.9,0
+S0429,Northern Lights,1.3,8.1,2
+S0429,Union Hotel,9.4,7.6,0
+S0429,Park Lane Hotel,0.9,9.1,2
+S0429,The Linden,1.1,8.6,3
+S0430,Harbour View,3.9,8.4,2
+S0430,Ivy Gate,8.7,8.6,0
+S0430,The Linden,0.4,9.8,3
+S0430,Union Hotel,3.3,8.4,1
+S0430,Skyline Tower,8.5,9.3,0
+S0430,Riverside Inn,0.8,7,1
+S0430,Market Square Hotel,4.5,7.1,0
+S0430,Garden Court,5.8,9.3,2
+S0431,Bridge Hotel,1.6,7.1,2
+S0431,Skyline Tower,0.6,8.8,3
+S0431,Ivy Gate,3.9,6.1,0
+S0431,Northern Lights,5.3,9,2
+S0431,Station Lodge,5.4,7.6,1
+S0431,Copper Kettle Inn,8.2,7,0
+S0431,Old Town Suites,9.9,8.5,0
+S0431,Grand Central,3.4,7.5,1
+S0432,Harbour View,5.4,7.6,2
+S0432,Riverside Inn,8.1,7.1,0
+S0432,Marina Bay Rooms,11.6,7,0
+S0432,Skyline Tower,7.4,6.9,0
+S0432,Old Town Suites,2.5,8.5,2
+S0432,Hilltop Residence,3.9,7,1
+S0432,Garden Court,3.4,9.6,3
+S0432,Copper Kettle Inn,5.3,6.7,1
+S0433,Northern Lights,2.4,7.4,0
+S0433,Riverside Inn,0.3,7.7,0
+S0433,Blue Door B&B,0.4,6.8,0
+S0433,City Nest,0.3,8.1,2
+S0433,Ivy Gate,1.3,9,3
+S0433,The Courtyard,3.8,8.4,1
+S0433,Hotel Aurora,7.4,9.6,2
+S0433,The Linden,1.1,6.3,1
+S0434,Ivy Gate,8.3,8,0
+S0434,Cathedral View,3.9,7.2,0
+S0434,Union Hotel,0.8,9.7,3
+S0434,Skyline Tower,2.6,8.2,2
+S0434,Park Lane Hotel,4.1,9,2
+S0434,Old Town Suites,2,6.3,1
+S0434,Harbour View,1.9,6.4,0
+S0434,Station Lodge,2.5,6.8,1
+S0435,Bridge Hotel,0.4,7.9,2
+S0435,Skyline Tower,0.5,9.4,3
+S0435,Maple House,0.8,8.2,1
+S0435,Harbour View,0.2,7.8,2
+S0435,Grand Central,9.3,7.9,0
+S0435,City Nest,11,7.6,0
+S0435,Ivy Gate,0.3,6.5,0
+S0435,Park Lane Hotel,2.9,8.1,1
+S0436,Harbour View,6.2,8.2,1
+S0436,Ivy Gate,0.3,9.3,3
+S0436,Hotel Aurora,0.9,7.8,2
+S0436,Lakeside Retreat,1.4,7.4,0
+S0436,Union Hotel,11.5,7.6,0
+S0436,Cathedral View,3.1,6.5,1
+S0436,Park Lane Hotel,11.4,6,0
+S0436,The Courtyard,0.4,8.9,2
+S0437,Hotel Aurora,4.9,8,0
+S0437,Copper Kettle Inn,5.1,6.7,0
+S0437,Skyline Tower,5.6,8.4,1
+S0437,Cathedral View,9.4,9.3,0
+S0437,Union Hotel,0.2,7.4,3
+S0437,Northern Lights,3.7,8.9,2
+S0437,Bridge Hotel,0.2,8.1,1
+S0437,Harbour View,0.2,7.8,2
+S0438,Marina Bay Rooms,0.9,9.2,3
+S0438,Skyline Tower,0.9,8.8,2
+S0438,Bridge Hotel,4.6,8.4,2
+S0438,Cathedral View,4.4,7.9,0
+S0438,Ivy Gate,0.2,8.6,1
+S0438,Northern Lights,1.8,6.3,1
+S0438,Park Lane Hotel,9.3,7.5,0
+S0438,Hilltop Residence,4,8,0
+S0439,Riverside Inn,6.1,8.3,1
+S0439,Hilltop Residence,12,9.6,0
+S0439,Bridge Hotel,1.7,9.5,3
+S0439,Park Lane Hotel,6.4,8.6,0
+S0439,Market Square Hotel,2.1,9.7,2
+S0439,Station Lodge,7.5,6.4,0
+S0439,Old Town Suites,1.8,7.9,1
+S0439,The Courtyard,0.9,9.3,2
+S0440,City Nest,10.7,9.6,0
+S0440,Union Hotel,2.9,6.4,0
+S0440,Garden Court,3.5,9.6,3
+S0440,Market Square Hotel,2.9,7.3,2
+S0440,Blue Door B&B,5.1,9.5,2
+S0440,Hilltop Residence,11.6,9,0
+S0440,Riverside Inn,0.3,6.1,1
+S0440,Copper Kettle Inn,3.4,8.9,1
+S0441,Blue Door B&B,10.3,8.3,0
+S0441,The Linden,1.9,8.2,2
+S0441,Copper Kettle Inn,6.1,7.4,0
+S0441,Garden Court,0.8,8.5,2
+S0441,Bridge Hotel,7,7,0
+S0441,City Nest,0.3,9.1,3
+S0441,Union Hotel,7.1,9.1,1
+S0441,Cathedral View,7.2,9.1,1
+S0442,Maple House,1.8,8.8,2
+S0442,Station Lodge,4.4,7.7,1
+S0442,City Nest,10.6,9.4,0
+S0442,The Courtyard,10.4,6.4,0
+S0442,Copper Kettle Inn,4.2,6.6,0
+S0442,The Linden,0.5,8.6,3
+S0442,Skyline Tower,0.2,8.2,2
+S0442,Market Square Hotel,2.8,7.4,1
+S0443,Garden Court,0.7,8.1,1
+S0443,Northern Lights,8.9,9.2,1
+S0443,Hilltop Residence,7.9,6.1,0
+S0443,The Courtyard,0.5,8.7,2
+S0443,Maple House,0.7,9.1,2
+S0443,Park Lane Hotel,5.7,7,0
+S0443,Copper Kettle Inn,1.9,6.3,0
+S0443,Hotel Aurora,0.2,9,3
+S0444,Copper Kettle Inn,6.6,9.6,2
+S0444,Station Lodge,0.6,8.6,2
+S0444,Ivy Gate,3.5,8.9,1
+S0444,Market Square Hotel,8.2,9.1,0
+S0444,Union Hotel,2.1,9.4,3
+S0444,Marina Bay Rooms,5.7,7.4,0
+S0444,Bridge Hotel,2.5,8.8,1
+S0444,The Courtyard,9.5,7.3,0
+S0445,Northern Lights,4.4,9.8,3
+S0445,Park Lane Hotel,1.6,8.8,1
+S0445,Bridge Hotel,2.3,6.7,1
+S0445,Station Lodge,1,9.1,2
+S0445,Hotel Aurora,9.3,7.8,0
+S0445,Harbour View,0.5,8.1,2
+S0445,Riverside Inn,0.9,6.2,0
+S0445,Lakeside Retreat,0.8,6.7,0
+S0446,Hilltop Residence,1,8.1,3
+S0446,Marina Bay Rooms,5.2,7.8,2
+S0446,The Linden,4.6,8,1
+S0446,Blue Door B&B,7.1,7.3,0
+S0446,Skyline Tower,7.3,6.4,0
+S0446,Cathedral View,3.6,9.3,2
+S0446,Garden Court,3.7,6.6,1
+S0446,Grand Central,8.1,7.3,0
+S0447,Riverside Inn,7.5,7,0
+S0447,Blue Door B&B,5.8,6,0
+S0447,Marina Bay Rooms,2.1,7.1,1
+S0447,Harbour View,12,9.3,0
+S0447,Garden Court,1.4,7.4,2
+S0447,Ivy Gate,4.5,8.4,2
+S0447,Hilltop Residence,5,8.3,3
+S0447,Hotel Aurora,3.2,7.6,1
+S0448,Blue Door B&B,1.3,9.1,3
+S0448,Ivy Gate,3.1,6.2,1
+S0448,Hotel Aurora,1,9.6,2
+S0448,Copper Kettle Inn,11.8,8.9,0
+S0448,Old Town Suites,9.4,7.1,0
+S0448,The Linden,1.8,9.1,2
+S0448,Northern Lights,9.6,7.9,0
+S0448,Garden Court,3.4,7.8,1
+S0449,Park Lane Hotel,2,8.2,2
+S0449,Union Hotel,12,7.8,0
+S0449,City Nest,3.8,6.7,0
+S0449,Ivy Gate,0.7,9.7,3
+S0449,Station Lodge,6.1,8.2,1
+S0449,Maple House,3.1,6.8,1
+S0449,Market Square Hotel,0.2,7.8,2
+S0449,Copper Kettle Inn,11.1,6.7,0
+S0450,Copper Kettle Inn,12.2,8.5,0
+S0450,Lakeside Retreat,0.3,9.3,3
+S0450,Hotel Aurora,4.6,9.1,2
+S0450,Northern Lights,2.4,6.9,0
+S0450,Blue Door B&B,8.2,8,0
+S0450,Bridge Hotel,3.5,7.9,1
+S0450,Union Hotel,6.9,9.5,1
+S0450,Skyline Tower,6,9.5,2
+S0451,The Courtyard,8.2,7.4,0
+S0451,Northern Lights,10.8,9.5,0
+S0451,Union Hotel,1.2,7.9,1
+S0451,Garden Court,3.6,9.2,2
+S0451,Blue Door B&B,1.2,7.9,1
+S0451,Skyline Tower,0.7,9.2,3
+S0451,The Linden,0.2,7.7,2
+S0451,Copper Kettle Inn,5.2,6.3,0
+S0452,Union Hotel,2,7.2,1
+S0452,The Courtyard,8.1,8.4,0
+S0452,City Nest,1.4,6.7,2
+S0452,Station Lodge,0.2,7.3,3
+S0452,The Linden,9.6,7.9,1
+S0452,Park Lane Hotel,5.9,6.3,0
+S0452,Hilltop Residence,0.2,7.1,2
+S0452,Riverside Inn,11.9,6.2,0
+S0453,Lakeside Retreat,4.4,6.2,0
+S0453,Garden Court,10.5,6.2,0
+S0453,Riverside Inn,2.5,8,1
+S0453,Market Square Hotel,3.2,8.5,1
+S0453,Hotel Aurora,0.2,8.5,2
+S0453,The Courtyard,0.6,8.6,3
+S0453,Hilltop Residence,2.9,6.7,0
+S0453,Maple House,1.8,9.3,2
+S0454,City Nest,3.9,8.8,2
+S0454,Harbour View,1.3,7,1
+S0454,Lakeside Retreat,1.1,6.5,0
+S0454,Station Lodge,0.3,7.7,3
+S0454,Grand Central,0.4,6,0
+S0454,The Linden,1.9,7.1,1
+S0454,Union Hotel,5.2,7.6,0
+S0454,Cathedral View,3.2,8.7,2
+S0455,Park Lane Hotel,2.8,9,2
+S0455,City Nest,5.7,6.3,0
+S0455,Garden Court,2.5,9.7,2
+S0455,The Courtyard,9,7.8,0
+S0455,Ivy Gate,7.4,9,1
+S0455,Market Square Hotel,0.3,9.3,3
+S0455,Copper Kettle Inn,0.7,7.6,1
+S0455,Union Hotel,8.4,7.8,0
+S0456,City Nest,1.2,9.2,3
+S0456,Hilltop Residence,8.8,6.6,0
+S0456,Park Lane Hotel,0.9,6.2,1
+S0456,Ivy Gate,4.7,7.4,0
+S0456,Northern Lights,1.1,8.4,2
+S0456,Market Square Hotel,5.1,7.3,0
+S0456,Maple House,0.2,8.8,2
+S0456,Cathedral View,1.4,8.3,1
+S0457,Hilltop Residence,3.3,8.1,0
+S0457,Station Lodge,2.3,9.4,3
+S0457,Harbour View,2.4,7.2,0
+S0457,Ivy Gate,2.8,8.6,1
+S0457,Maple House,1.4,8,1
+S0457,Cathedral View,4.6,7.9,2
+S0457,Riverside Inn,7.8,6.1,0
+S0457,City Nest,2.1,7.3,2
+S0458,Hilltop Residence,2.1,6.7,2
+S0458,Park Lane Hotel,4.7,6.4,0
+S0458,Harbour View,4.5,8.2,1
+S0458,Cathedral View,10,9.5,0
+S0458,Garden Court,1,7.1,2
+S0458,Old Town Suites,8.7,8.3,0
+S0458,Maple House,1.1,8,3
+S0458,Station Lodge,5.1,7.2,1
+S0459,City Nest,0.4,6.9,1
+S0459,Union Hotel,3.3,8.3,1
+S0459,Lakeside Retreat,8.3,8.7,0
+S0459,Ivy Gate,0.3,9.6,3
+S0459,Hilltop Residence,6.4,7,0
+S0459,Blue Door B&B,2.1,7.7,2
+S0459,Marina Bay Rooms,6.4,9.5,0
+S0459,Cathedral View,0.3,7.2,2
+S0460,Hilltop Residence,11,7.3,0
+S0460,Station Lodge,8.8,6.7,0
+S0460,Grand Central,0.2,7.3,3
+S0460,Harbour View,5.6,9.1,2
+S0460,The Courtyard,10,7.6,0
+S0460,Blue Door B&B,6.1,6.6,1
+S0460,Skyline Tower,0.2,7.4,2
+S0460,Ivy Gate,1,6.5,1
+S0461,The Linden,1,7.4,2
+S0461,Garden Court,0.4,6.6,1
+S0461,Ivy Gate,2.4,9.5,3
+S0461,Copper Kettle Inn,7.1,6.8,0
+S0461,Grand Central,8.1,8.5,0
+S0461,Cathedral View,11.2,9.4,0
+S0461,Hotel Aurora,1.4,7.1,2
+S0461,Old Town Suites,2.7,7.6,1
+S0462,Maple House,8.5,7.1,0
+S0462,Ivy Gate,1,6.4,1
+S0462,Grand Central,0.2,6.9,2
+S0462,Hilltop Residence,0.7,6.8,1
+S0462,Lakeside Retreat,3.3,7.6,2
+S0462,Riverside Inn,8.7,7,0
+S0462,Harbour View,0.4,9.2,3
+S0462,Market Square Hotel,10.5,6.6,0
+S0463,Harbour View,5.6,9.8,2
+S0463,Blue Door B&B,5.9,6,0
+S0463,Northern Lights,3.8,6.9,0
+S0463,Station Lodge,1.8,9.1,2
+S0463,The Courtyard,11.6,7.9,0
+S0463,Grand Central,1,9.7,3
+S0463,Hilltop Residence,0.4,8.2,1
+S0463,Market Square Hotel,0.2,6.9,1
+S0464,Riverside Inn,0.4,9.8,3
+S0464,Station Lodge,0.6,7.4,2
+S0464,The Courtyard,3.1,8.2,1
+S0464,Northern Lights,9.3,8.1,0
+S0464,Market Square Hotel,2.9,8.5,1
+S0464,Bridge Hotel,3.6,9.5,2
+S0464,City Nest,3.5,7.2,0
+S0464,Cathedral View,10.5,8.8,0
+S0465,Union Hotel,2.8,7.7,2
+S0465,Marina Bay Rooms,0.7,8.5,3
+S0465,Lakeside Retreat,3.5,7,1
+S0465,City Nest,2.3,6.9,1
+S0465,Ivy Gate,11.5,9.1,0
+S0465,Park Lane Hotel,10.9,6.4,0
+S0465,Blue Door B&B,2.2,8.3,2
+S0465,Garden Court,5.9,8,0
+S0466,Hotel Aurora,3.1,7.2,1
+S0466,Market Square Hotel,0.2,7.7,2
+S0466,Riverside Inn,8.9,8.6,0
+S0466,Garden Court,9.3,9.8,0
+S0466,Old Town Suites,3.8,8.7,2
+S0466,Maple House,2.8,7.8,0
+S0466,Grand Central,1,7.2,3
+S0466,Northern Lights,0.6,7.1,1
+S0467,Northern Lights,3.5,9.1,3
+S0467,Bridge Hotel,2.3,6.8,1
+S0467,Marina Bay Rooms,11.5,7.8,0
+S0467,The Courtyard,10.8,7.3,0
+S0467,Copper Kettle Inn,7.2,9.8,1
+S0467,Riverside Inn,1.6,8,2
+S0467,Blue Door B&B,0.9,6.3,2
+S0467,Old Town Suites,7.2,7.6,0
+S0468,Park Lane Hotel,7.1,7,0
+S0468,Union Hotel,9,6.8,0
+S0468,Lakeside Retreat,4,7.5,1
+S0468,Garden Court,2.2,9.3,3
+S0468,City Nest,3,9.4,2
+S0468,Hotel Aurora,0.2,6.8,2
+S0468,Marina Bay Rooms,12.1,9.2,0
+S0468,Cathedral View,4.9,6.1,1
+S0469,Riverside Inn,1.2,8.8,2
+S0469,The Courtyard,7,9.8,1
+S0469,City Nest,0.3,8.8,3
+S0469,Ivy Gate,11.8,6.9,0
+S0469,Marina Bay Rooms,7.7,8.4,0
+S0469,Station Lodge,4.4,6.6,0
+S0469,Blue Door B&B,0.7,7.5,1
+S0469,Skyline Tower,2.5,9,2
+S0470,Park Lane Hotel,5.2,6.8,0
+S0470,Ivy Gate,7.2,6,0
+S0470,Skyline Tower,2,8.5,2
+S0470,Old Town Suites,2.3,8.9,3
+S0470,Bridge Hotel,4.2,6.4,1
+S0470,Harbour View,11.1,8.6,1
+S0470,Garden Court,8.3,7.5,0
+S0470,Maple House,0.3,6.6,2
+S0471,City Nest,2.8,9.5,3
+S0471,Park Lane Hotel,0.5,8.1,1
+S0471,Ivy Gate,0.2,6.8,1
+S0471,Station Lodge,3.7,8.1,0
+S0471,Cathedral View,0.2,7.6,2
+S0471,Northern Lights,2.1,8.1,2
+S0471,Skyline Tower,7.6,7.7,0
+S0471,Copper Kettle Inn,5.4,8,0
+S0472,Cathedral View,4.4,7,0
+S0472,The Linden,1,6.5,1
+S0472,Market Square Hotel,0.2,7,1
+S0472,Harbour View,0.4,9,3
+S0472,Copper Kettle Inn,9.2,7.1,0
+S0472,Lakeside Retreat,5.4,9.5,2
+S0472,Hilltop Residence,2,8.8,2
+S0472,Garden Court,6,6.7,0
+S0473,Blue Door B&B,2.6,7.8,0
+S0473,Hilltop Residence,2.1,9.5,3
+S0473,Cathedral View,10.2,6.5,0
+S0473,Park Lane Hotel,4.5,7.9,0
+S0473,Northern Lights,0.6,8.9,2
+S0473,Market Square Hotel,4.9,9.2,2
+S0473,Ivy Gate,1.9,7.1,1
+S0473,Old Town Suites,5,9.7,1
+S0474,The Linden,9.9,6.5,0
+S0474,Harbour View,5.7,8.4,0
+S0474,City Nest,1.6,6.8,0
+S0474,Park Lane Hotel,0.7,8.4,3
+S0474,Market Square Hotel,2.7,8.6,1
+S0474,Hilltop Residence,0.2,6.5,1
+S0474,Cathedral View,5.8,9.1,2
+S0474,Lakeside Retreat,0.3,7.1,2
+S0475,Maple House,0.2,7.9,2
+S0475,Grand Central,0.9,7.8,2
+S0475,Union Hotel,9.2,7.2,0
+S0475,Old Town Suites,2.1,9.5,3
+S0475,City Nest,0.2,6.5,1
+S0475,Park Lane Hotel,0.9,8.2,1
+S0475,The Courtyard,9.8,8.6,0
+S0475,Skyline Tower,8.6,8.5,0
+S0476,Harbour View,5.2,8.5,1
+S0476,City Nest,0.9,6.2,1
+S0476,Cathedral View,0.2,7,2
+S0476,Garden Court,6.6,9.8,3
+S0476,Marina Bay Rooms,3.6,7.2,0
+S0476,The Courtyard,4,6.7,0
+S0476,Bridge Hotel,5.2,7.3,0
+S0476,Lakeside Retreat,2.7,8.8,2
+S0477,The Linden,0.6,7.8,2
+S0477,Northern Lights,4.7,6.5,0
+S0477,The Courtyard,1,6.9,1
+S0477,Station Lodge,7.1,6.9,0
+S0477,Harbour View,0.2,8.3,3
+S0477,Hotel Aurora,0.6,7.6,2
+S0477,City Nest,6.2,7.1,1
+S0477,Grand Central,11.5,7.2,0
+S0478,Station Lodge,3.7,8,0
+S0478,Skyline Tower,0.2,8.9,3
+S0478,Cathedral View,3.7,8.6,2
+S0478,Maple House,7.5,9.7,1
+S0478,Lakeside Retreat,10.3,9,1
+S0478,Copper Kettle Inn,3.1,7.6,2
+S0478,Hotel Aurora,1.8,6.3,0
+S0478,Hilltop Residence,4.5,6.6,0
+S0479,Riverside Inn,2.8,7.5,1
+S0479,Lakeside Retreat,5.7,9,2
+S0479,Ivy Gate,0.5,9.5,3
+S0479,Northern Lights,7.2,6.5,0
+S0479,Grand Central,10.7,9,0
+S0479,Harbour View,9.9,9.8,1
+S0479,Marina Bay Rooms,5.3,7.9,2
+S0479,The Courtyard,7.2,6.5,0
+S0480,Union Hotel,6.4,6.9,0
+S0480,Northern Lights,0.4,8,2
+S0480,Garden Court,8.4,8.1,0
+S0480,City Nest,7.8,6.1,0
+S0480,Old Town Suites,0.5,6.5,1
+S0480,Cathedral View,4.5,6.9,1
+S0480,Station Lodge,0.2,6.8,2
+S0480,Bridge Hotel,2.2,9.3,3
+S0481,Northern Lights,8.1,9.5,1
+S0481,Market Square Hotel,7.4,6.1,0
+S0481,Maple House,7,9.1,0
+S0481,Copper Kettle Inn,0.4,6.3,2
+S0481,Garden Court,2.8,7.4,2
+S0481,Harbour View,0.4,8.9,3
+S0481,Cathedral View,9.8,8.2,0
+S0481,Riverside Inn,0.4,7.5,1
+S0482,Harbour View,8.3,8.2,0
+S0482,Lakeside Retreat,0.3,8.5,2
+S0482,Skyline Tower,1,7.6,1
+S0482,The Courtyard,4.8,9,2
+S0482,Garden Court,0.2,6.7,1
+S0482,Hotel Aurora,5.7,7.7,0
+S0482,Hilltop Residence,3.3,7.3,0
+S0482,Cathedral View,0.3,9.7,3
+S0483,Old Town Suites,2.7,7.8,0
+S0483,Bridge Hotel,0.5,7.5,1
+S0483,Hilltop Residence,2.3,8.7,3
+S0483,The Courtyard,1.4,8.5,2
+S0483,Park Lane Hotel,1.8,8.9,2
+S0483,Marina Bay Rooms,4.4,8.1,0
+S0483,Grand Central,0.9,7.8,1
+S0483,Northern Lights,7.9,6.3,0
+S0484,Hilltop Residence,0.3,9.7,3
+S0484,Marina Bay Rooms,5.2,8.9,2
+S0484,Copper Kettle Inn,3.1,6,0
+S0484,Lakeside Retreat,6.9,9.5,1
+S0484,Union Hotel,9.9,8.5,0
+S0484,Garden Court,3.5,8.7,2
+S0484,Old Town Suites,2.1,7.5,1
+S0484,Park Lane Hotel,5.2,6.8,0
+S0485,The Linden,1.2,9,2
+S0485,City Nest,7.4,9.4,0
+S0485,Skyline Tower,11.7,9,0
+S0485,Copper Kettle Inn,0.6,7.3,1
+S0485,Harbour View,0.8,9,3
+S0485,Union Hotel,0.8,7.4,2
+S0485,Park Lane Hotel,2.9,8.5,1
+S0485,Lakeside Retreat,3.3,7,0
+S0486,City Nest,5,6.1,0
+S0486,Blue Door B&B,4.6,7.9,2
+S0486,Lakeside Retreat,7.3,9.6,1
+S0486,Skyline Tower,1.9,6.2,0
+S0486,The Courtyard,2.3,9.7,3
+S0486,Garden Court,3.3,9.6,2
+S0486,Northern Lights,7.2,6.5,0
+S0486,Grand Central,0.8,6.3,1
+S0487,Copper Kettle Inn,10.9,9.5,0
+S0487,Park Lane Hotel,2.8,9.6,3
+S0487,Station Lodge,1.8,9.6,2
+S0487,The Linden,9.8,7,0
+S0487,Riverside Inn,2.4,6.4,1
+S0487,Skyline Tower,5.3,8.5,1
+S0487,Harbour View,5.6,8.2,2
+S0487,Grand Central,5.4,6.5,0
+S0488,Union Hotel,3.6,6.8,0
+S0488,Old Town Suites,1.7,6.4,0
+S0488,Northern Lights,7.1,6.8,0
+S0488,Skyline Tower,1.9,8.5,2
+S0488,Market Square Hotel,3.5,9.7,3
+S0488,Lakeside Retreat,4.6,8.9,1
+S0488,Harbour View,2.7,9,2
+S0488,Grand Central,0.7,8.6,1
+S0489,Blue Door B&B,1.8,9.2,2
+S0489,Hilltop Residence,0.3,7.3,1
+S0489,The Courtyard,11.5,8.8,0
+S0489,Hotel Aurora,4.9,6.4,0
+S0489,Ivy Gate,0.9,8.4,2
+S0489,Copper Kettle Inn,2.8,6.4,0
+S0489,Skyline Tower,0.2,8.6,3
+S0489,Maple House,5,8.2,1
+S0490,Copper Kettle Inn,5,7.8,1
+S0490,Garden Court,3.2,7.2,0
+S0490,Maple House,1.3,7.6,2
+S0490,Ivy Gate,10.5,9.4,0
+S0490,Northern Lights,0.3,7.7,2
+S0490,Market Square Hotel,10.3,6,0
+S0490,Hotel Aurora,1.8,7.6,1
+S0490,Hilltop Residence,1,9.3,3
+S0491,Park Lane Hotel,2.1,9.4,3
+S0491,Skyline Tower,5.6,6.1,0
+S0491,Union Hotel,1.2,7.1,2
+S0491,Maple House,1.4,6.2,1
+S0491,Bridge Hotel,9.5,7.7,0
+S0491,The Courtyard,4.8,7,1
+S0491,Ivy Gate,7.2,9.5,2
+S0491,Station Lodge,10.2,8.1,0
+S0492,Market Square Hotel,2.5,7.3,0
+S0492,The Courtyard,0.7,8.8,3
+S0492,Cathedral View,1,7.6,2
+S0492,Garden Court,4.9,8.8,1
+S0492,Copper Kettle Inn,0.6,6,1
+S0492,Grand Central,11.4,6.4,0
+S0492,Hotel Aurora,12.1,9.3,0
+S0492,Northern Lights,5.7,8.2,2
+S0493,Maple House,7,7.1,0
+S0493,The Linden,4.8,8.1,1
+S0493,Bridge Hotel,7.6,8.2,1
+S0493,Old Town Suites,8.9,6.6,0
+S0493,Grand Central,3.2,9.3,3
+S0493,Hotel Aurora,1,8.5,2
+S0493,Ivy Gate,8.3,8.4,0
+S0493,Garden Court,2.6,8.9,2
+S0494,Hilltop Residence,2.1,8.2,1
+S0494,Garden Court,10.8,6.9,0
+S0494,Old Town Suites,2,8.8,2
+S0494,Station Lodge,0.2,6.5,0
+S0494,Marina Bay Rooms,9,6.6,0
+S0494,Copper Kettle Inn,0.9,9.2,2
+S0494,Bridge Hotel,0.2,8.8,3
+S0494,City Nest,3.5,8.5,1
+S0495,Maple House,0.3,9.1,2
+S0495,Harbour View,6.5,6.9,0
+S0495,Blue Door B&B,0.3,9.7,3
+S0495,Park Lane Hotel,8.7,9.8,0
+S0495,City Nest,3,9.3,2
+S0495,Marina Bay Rooms,3.7,8.5,1
+S0495,Garden Court,7,9.4,1
+S0495,Cathedral View,0.3,7.6,0
+S0496,Ivy Gate,4.4,8.4,0
+S0496,Blue Door B&B,1.8,7.8,1
+S0496,Copper Kettle Inn,0.7,7.1,2
+S0496,Harbour View,0.5,9.2,3
+S0496,Market Square Hotel,0.3,9.6,2
+S0496,Cathedral View,4,7.9,1
+S0496,Park Lane Hotel,10.6,7,0
+S0496,Lakeside Retreat,2.1,6.2,0
+S0497,Station Lodge,3,8.9,2
+S0497,Ivy Gate,0.5,6.3,1
+S0497,Hilltop Residence,0.6,6.1,0
+S0497,Marina Bay Rooms,9.2,6,0
+S0497,Harbour View,4.2,7.1,0
+S0497,Park Lane Hotel,0.4,7.2,1
+S0497,Hotel Aurora,2,9.7,2
+S0497,Skyline Tower,0.4,9.4,3
+S0498,Cathedral View,4.8,6.5,0
+S0498,Old Town Suites,0.9,6.3,1
+S0498,Blue Door B&B,1.3,7.5,1
+S0498,Bridge Hotel,0.3,6.1,2
+S0498,Ivy Gate,0.3,7.6,3
+S0498,Northern Lights,8.7,6.6,0
+S0498,The Linden,1.8,7,2
+S0498,Marina Bay Rooms,7.8,7.1,0
+S0499,Ivy Gate,0.3,8.5,2
+S0499,Riverside Inn,1.5,8.2,1
+S0499,Harbour View,1,8.3,1
+S0499,Union Hotel,1.5,9.6,2
+S0499,Lakeside Retreat,1.5,6.3,0
+S0499,Marina Bay Rooms,2.7,6.1,0
+S0499,Copper Kettle Inn,2.2,8.6,0
+S0499,Old Town Suites,2.8,9,3
+S0500,Hotel Aurora,1.1,6.9,2
+S0500,Union Hotel,0.9,8.9,3
+S0500,City Nest,3.5,7.9,2
+S0500,Northern Lights,7.6,7.1,0
+S0500,The Linden,5.9,7.9,1
+S0500,Bridge Hotel,6.3,8,0
+S0500,Lakeside Retreat,8.2,7.2,0
+S0500,Old Town Suites,6.3,7.8,1

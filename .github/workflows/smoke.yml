@@ -1,0 +1,64 @@
+name: Nightly
+
+# Calls real models with the clients exactly as a reader would run them. Needs repository secrets:
+#   PLAXOR_API_KEY            an API key of a subscription used only for this
+#   PLAXOR_MODEL_TICKETS      model id trained from text/route-support-tickets
+#   PLAXOR_MODEL_BIKES        model id trained from tabular/forecast-bike-rentals
+# A job whose model secret is missing is skipped, not failed, so this can be turned on one model at a time.
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  external-links:
+    name: External links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          # The API host answers only POSTs to known routes, and shop.example.com is fictional.
+          args: --no-progress --exclude 'api\.plaxorstack\.com' --exclude 'example\.com' './**/*.md'
+          fail: true
+
+  predict:
+    name: ${{ matrix.example }} (${{ matrix.client }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        example: [text/route-support-tickets, tabular/forecast-bike-rentals]
+        client: [sh, python, node]
+    env:
+      PLAXOR_API_KEY: ${{ secrets.PLAXOR_API_KEY }}
+      PLAXOR_MODEL_ID: ${{ matrix.example == 'text/route-support-tickets' && secrets.PLAXOR_MODEL_TICKETS || secrets.PLAXOR_MODEL_BIKES }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Skip when not configured
+        id: configured
+        run: |
+          if [ -n "$PLAXOR_API_KEY" ] && [ -n "$PLAXOR_MODEL_ID" ]; then echo "run=true" >> "$GITHUB_OUTPUT"
+          else echo "::notice::Secrets for ${{ matrix.example }} not set; skipped."; fi
+      - uses: actions/setup-python@v5
+        if: steps.configured.outputs.run && matrix.client == 'python'
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        if: steps.configured.outputs.run && matrix.client == 'node'
+        with:
+          node-version: "20"
+      - name: Run the client
+        if: steps.configured.outputs.run
+        working-directory: ${{ matrix.example }}/api
+        run: |
+          case "${{ matrix.client }}" in
+            # predict.sh prints the raw response and, like curl, exits 0 on an HTTP error.
+            sh)     sh predict.sh | tee response.json && grep -q '"success": *true' response.json ;;
+            python) pip install --quiet requests && python predict.py ;;
+            node)   node predict.mjs ;;
+          esac

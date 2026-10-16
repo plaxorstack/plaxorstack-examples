@@ -1,0 +1,56 @@
+name: An example doesn't work
+description: A step of a walkthrough fails, or a client prints something unexpected.
+labels: ["example"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Never paste an API key** here, not even an old one. If you did, delete it at Secrets in the app.
+        For a security problem, email info@plaxorstack.com instead (see SECURITY.md).
+  - type: dropdown
+    id: example
+    attributes:
+      label: Example
+      options:
+        - getting-started
+        - tabular/forecast-bike-rentals
+        - tabular/predict-online-purchase
+        - tabular/grade-beans-by-variety
+        - tabular/segment-wholesale-customers
+        - tabular/recommend-products
+        - tabular/rank-hotel-search-results
+        - tabular/spot-unusual-server-load
+        - text/route-support-tickets
+        - text/filter-spam-messages
+        - text/tag-product-reviews
+        - text/answer-questions-from-faq
+        - image/detect-leaf-disease
+        - server-proxy
+        - other
+    validations:
+      required: true
+  - type: dropdown
+    id: step
+    attributes:
+      label: Step
+      options:
+        - Upload / mapping
+        - Training
+        - Trying it in the browser
+        - Calling the API
+        - Widget
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what you saw. Paste error messages as text.
+    validations:
+      required: true
+  - type: input
+    id: client
+    attributes:
+      label: Client and version
+      description: e.g. "predict.py, Python 3.12", "predict.cs, .NET 10.0.100", "Chrome 141"

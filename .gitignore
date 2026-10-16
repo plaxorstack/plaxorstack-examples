@@ -1,0 +1,12 @@
+bin/
+obj/
+node_modules/
+.vs/
+.idea/
+*.user
+
+# Downloaded source datasets
+tools/DatasetBuilder/.cache/
+
+# Never commit a key
+.env

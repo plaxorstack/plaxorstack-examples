@@ -1,0 +1,77 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  no-keys:
+    name: No keys in the repository
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # PlaxorStack keys are "tk_" followed by 43 URL-safe base64 characters. The placeholders
+      # YOUR_API_TOKEN and YOUR_WIDGET_KEY don't match.
+      - name: Look for anything shaped like a key
+        run: |
+          if grep -rnE 'tk_[A-Za-z0-9_-]{40,}' --exclude-dir=.git .; then
+            echo "::error::Something that looks like a PlaxorStack key is committed. Delete that key in the app NOW, then remove it here."
+            exit 1
+          fi
+
+  syntax:
+    name: Shell, Python and Node syntax
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: sh -n
+        run: find . -name '*.sh' -not -path './.git/*' -print0 | xargs -0 -n1 sh -n
+      - name: shellcheck
+        run: find . -name '*.sh' -not -path './.git/*' -print0 | xargs -0 shellcheck --severity=error
+      - name: python -m py_compile
+        run: find . -name '*.py' -not -path './.git/*' -print0 | xargs -0 python -m py_compile
+      - name: node --check
+        run: find . -name '*.mjs' -not -path './.git/*' -not -path '*/node_modules/*' -print0 | xargs -0 -n1 node --check
+
+  csharp:
+    name: Build the C# clients
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "10.0.x"
+      - name: dotnet build every predict.cs
+        run: |
+          set -e
+          for f in $(find . -name 'predict.cs' -not -path './.git/*' | sort); do
+            echo "::group::$f"
+            dotnet build "$f" -p:TreatWarningsAsErrors=true
+            echo "::endgroup::"
+          done
+      - name: dotnet build server-proxy/aspnet
+        run: dotnet build server-proxy/aspnet/Program.cs -p:TreatWarningsAsErrors=true
+      - name: dotnet build tools/DatasetBuilder
+        run: dotnet build tools/DatasetBuilder -p:TreatWarningsAsErrors=true
+
+  links:
+    name: Links in the READMEs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # Relative links and anchors only, so a pull request never fails because a third-party site is
+      # down. External links are checked nightly by smoke.yml.
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: --offline --include-fragments --no-progress './**/*.md'
+          fail: true

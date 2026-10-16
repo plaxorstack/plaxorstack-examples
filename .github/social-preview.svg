@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b8282"/>
+      <stop offset="1" stop-color="#075a5a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+
+  <!-- faint network motif, right side -->
+  <g stroke="#ffffff" stroke-opacity="0.14" stroke-width="2" fill="none">
+    <path d="M900 120 L1040 210 L1180 140 M1040 210 L1010 360 L1160 420 M1010 360 L880 450 L960 560 M1160 420 L1220 560"/>
+  </g>
+  <g fill="#ffffff" fill-opacity="0.22">
+    <circle cx="900" cy="120" r="9"/><circle cx="1040" cy="210" r="12"/><circle cx="1180" cy="140" r="8"/>
+    <circle cx="1010" cy="360" r="14"/><circle cx="1160" cy="420" r="10"/><circle cx="880" cy="450" r="9"/>
+    <circle cx="960" cy="560" r="8"/><circle cx="1220" cy="560" r="7"/>
+  </g>
+
+  <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" fill="#ffffff">
+    <text x="88" y="150" font-size="34" font-weight="600" fill-opacity="0.85" letter-spacing="2">PLAXORSTACK</text>
+    <text x="84" y="262" font-size="92" font-weight="700">Examples</text>
+    <text x="88" y="330" font-size="34" fill-opacity="0.92">Real-world tasks, ready to train in minutes.</text>
+    <text x="88" y="378" font-size="34" fill-opacity="0.92">Then call them from code, or put them on your site.</text>
+  </g>
+
+  <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#0b8282">
+    <rect x="88"  y="452" width="138" height="44" rx="22" fill="#ffffff"/><text x="157" y="481" text-anchor="middle">Tabular</text>
+    <rect x="240" y="452" width="104" height="44" rx="22" fill="#ffffff"/><text x="292" y="481" text-anchor="middle">Text</text>
+    <rect x="358" y="452" width="124" height="44" rx="22" fill="#ffffff"/><text x="420" y="481" text-anchor="middle">Images</text>
+    <rect x="496" y="452" width="122" height="44" rx="22" fill="#ffffff"/><text x="557" y="481" text-anchor="middle">Search</text>
+    <rect x="632" y="452" width="144" height="44" rx="22" fill="#ffffff"/><text x="704" y="481" text-anchor="middle">Anomalies</text>
+  </g>
+
+  <text x="88" y="566" font-family="Consolas, 'Courier New', monospace" font-size="24" fill="#ffffff" fill-opacity="0.8">curl · Python · JavaScript · C#</text>
+</svg>

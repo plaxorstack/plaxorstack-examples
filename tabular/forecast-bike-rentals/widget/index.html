@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CityBikes — demand planner</title>
+    <style>
+        body { margin: 0; font-family: system-ui, sans-serif; color: #1f2933; background: #f5f7fa; }
+        header { background: #0b6e4f; color: #fff; padding: 32px 16px; }
+        main { max-width: 760px; margin: 0 auto; padding: 24px 16px 96px; line-height: 1.55; }
+        h1 { margin: 0 auto; max-width: 760px; font-size: 1.8rem; }
+        code { background: #e4e7eb; padding: 1px 5px; border-radius: 4px; }
+        li { margin-bottom: 6px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CityBikes — demand planner</h1>
+    </header>
+    <main>
+        <p>
+            This page stands for your own website. The chat button in the bottom-right corner is the
+            PlaxorStack widget, answering from the bike-rentals model you trained.
+        </p>
+        <p>Ask it things like:</p>
+        <ul>
+            <li>How many bikes will be rented at 8 in the morning when it's 12 degrees?</li>
+            <li>What about 5 pm at 28 degrees?</li>
+            <li>Is midnight or 6 pm busier when it's 20 degrees?</li>
+        </ul>
+        <p>
+            To make it work, replace <code>YOUR_WIDGET_KEY</code> below with a <b>Widget</b> key for
+            this model, and serve the folder from a local web server (<code>npx serve widget</code>) —
+            not by opening the file directly. See the example's README, step 6.
+        </p>
+    </main>
+
+    <!-- The whole integration is this one tag. -->
+    <script src="https://plaxorstack.com/js/widget.js"
+            data-key="YOUR_WIDGET_KEY"
+            data-title="Ask the demand planner"
+            defer></script>
+</body>
+</html>

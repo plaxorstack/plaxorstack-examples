@@ -1,0 +1,33 @@
+name: Suggest an example
+description: A real-world task you'd like a walkthrough for.
+labels: ["request"]
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: The task
+      description: What should the model do, and for whom? e.g. "flag late invoices for a small accounting firm".
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: Data
+      description: Do you know an openly licensed dataset for it? A link and its licence help a lot.
+  - type: dropdown
+    id: type
+    attributes:
+      label: Kind of model, if you know
+      options:
+        - Not sure
+        - Regression
+        - Binary classification
+        - Multiclass classification
+        - Clustering
+        - Recommendation
+        - Ranking
+        - Anomaly detection
+        - Text classification
+        - Multi-label text
+        - Semantic search
+        - Image classification

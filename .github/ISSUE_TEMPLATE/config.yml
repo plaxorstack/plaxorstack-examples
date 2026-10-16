@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Problem with your account, billing or the app itself
+    url: https://plaxorstack.com
+    about: This repository covers the examples. For your account, contact us from the website.
+  - name: Security problem
+    url: https://github.com/plaxorstack/plaxorstack-examples/blob/master/SECURITY.md
+    about: Please report privately by email, not as an issue.
