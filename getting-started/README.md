@@ -21,6 +21,9 @@ Everything the examples have in common, once. Read this before your first exampl
 2. **Train.** Open the training from **Trainings** (`/Trainings`). It first imports and checks your
    data; when it's ready, go to the **Algorithms** tab and click **Actions → Train**. The row says
    **Trained** when it's done, and **Predict** lets you try it right there in the browser.
+
+   ![A training's page: its data first, then the Algorithms tab where you train](images/training-page.png)
+
 3. **Use.** Every trained model has a number, shown as **Model #1234**. Your code sends that number
    with each request.
 
@@ -54,6 +57,8 @@ Columns you don't map are ignored, so you don't need to delete them from your fi
 
 Create keys at **Secrets** (`/secrets`) in the menu. There are two kinds, and they're not interchangeable:
 
+![The Secrets page: API keys on one tab, widget keys on the other](images/secrets-page.png)
+
 | Kind | Where it goes | What it can do |
 |---|---|---|
 | **API** | Your server, scripts, back-end jobs. **Secret.** | Call every prediction and chat endpoint, for any model of your subscription. |
@@ -80,6 +85,8 @@ $env:PLAXOR_MODEL_ID = "1234"
 
 The number is on the **AI Board** (`/ai-board`), on each model's card and detail page, as
 **Model #1234**. The **Developers** page (`/developers#model-id`) shows the same with pictures.
+
+![The model number in the corner of a model's chat on the AI Board](images/model-number.png)
 
 Retraining makes a new version of the *same* model. The number doesn't change, so your code keeps
 working.
@@ -175,11 +182,14 @@ To move on to a third example, delete one on the AI Board first.
 ## 7. The widget
 
 The widget is a chat window on your own web page. Visitors ask questions in plain language, such as
-*"how many bikes at 6 pm when it's 25 degrees?"* or *"what's wrong with this leaf?"* (with a photo).
+*"how many bikes at 18:00 when it's 25 degrees?"* or *"what's wrong with this leaf?"* (with a photo).
 An LLM turns the question into a prediction from your model and explains the answer.
 
 1. **Connect an LLM** on the **AI Board** (`/ai-board`), choose the model and turn chat on. Without
    this the widget has nothing to answer with.
+
+   ![The AI Board: the LLMs you can connect at the top, your trained models below](images/ai-board.png)
+
 2. Create a **Widget** key at `/apitokens`. Choose the model.
    - **Allowed sites:** leave it empty while you try things (any site works). Before going live, list
      your exact origins, e.g. `https://www.example.com`.

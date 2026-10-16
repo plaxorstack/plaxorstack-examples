@@ -34,6 +34,8 @@ Rentals range from 1 to 977 an hour, 189 on average. Source and licence: [DATA-L
 2. Click **Regression**.
 3. Name it `Bike rentals` and drop in `data/bike-rentals.csv`.
 
+![The Regression card on the Machine Learning page](images/choose-regression.png)
+
 ## 2. Match the columns
 
 Drag each column on the left onto its field on the right:
@@ -44,12 +46,16 @@ Drag each column on the left onto its field on the right:
 | `hour` | **Features** | First input |
 | `temperature_c` | **Features2** | Second input |
 
+![The bike file uploaded and every column mapped](images/match-columns.png)
+
 Click **Save**.
 
 ## 3. Train
 
 Open the training from **Trainings**. When the data has been imported, go to the **Algorithms** tab
 and click **Actions → Train**. It takes a minute or two; the row then shows **Trained**.
+
+![The Algorithms tab, with Train under Actions](images/algorithms-tab.png)
 
 **What to expect:** on a held-out fifth of the data our test run scored **R² ≈ 0.6**, about
 **±75 bikes** off on a typical hour. That's good for two inputs. The rest of the variation is
@@ -65,6 +71,8 @@ Click **Predict** on the trained row and enter:
 | `8` | `12` | **~300** | Morning commute, cool |
 | `13` | `7` | **~80** | Cold midday |
 | `3` | `20` | **< 20** | Night |
+
+![Predict at 17:00 and 24 °C: about 503 rentals](images/predict.png)
 
 ## 5. Call it from code
 
@@ -102,7 +110,9 @@ The answer is in `score`.
 ## 6. Put it on a web page
 
 `widget/index.html` is a small "demand planner" page with the PlaxorStack chat in the corner.
-Visitors ask in plain words — *"how many bikes at 6 pm if it's 25 degrees?"* — and the model answers.
+Visitors ask in plain words — *"how many bikes at 18:00 if it's 25 degrees?"* — and the model answers.
+
+![Asking the model in the chat: about 503 bikes at 17:00 and 24 degrees](images/chat.png)
 
 1. **AI Board** → choose this model → connect an LLM and turn chat on.
 2. **Secrets** → create a **Widget** key for this model. Leave *Allowed sites* empty for now.
