@@ -64,7 +64,7 @@ Click **Save**.
 
 ## 3. Train
 
-**Trainings** → open it → **Algorithms** tab → **Actions → Train**. Anomaly detection trains on the
+**Trainings** → open it → **Training** tab → **Actions → Train**. Anomaly detection trains on the
 CPU in a few seconds.
 
 **How it decides.** Training puts the threshold where **about 1% of the training readings** fall
@@ -83,13 +83,14 @@ Click **Predict** on the trained row:
 |---|---|---|---|
 | `1900` | `72` | **False**, score near 0 | A busy afternoon. High CPU, but the traffic explains it |
 | `230` | `12` | **False**, score near 0 | A quiet night |
-| `250` | `86` | **True**, score ~0.9 | 86% CPU with almost no traffic |
-| `2000` | `13` | **True**, score ~0.9 | Peak traffic and an idle CPU: requests are failing |
+| `250` | `86` | **True**, score well above 0.5 | 86% CPU with almost no traffic |
+| `2000` | `13` | **True**, score well above 0.5 | Peak traffic and an idle CPU: requests are failing |
 | `1400` | `97` | **True** | Far busier than that traffic explains |
 | `300` | `50` | **True** | Half the CPU gone with nothing to show for it |
 
-The **score** runs from 0 (exactly the usual pattern) to 1 (nothing in common with it).
-`predictedLabel` is `True` when the score is above the threshold training chose.
+The **score** is how far the reading sits from the usual pattern, scaled so that **0.5** is exactly
+as unusual as the rarest 1% of the training week. 0 is the pattern itself; the further off it, the
+closer to 1. `predictedLabel` is `True` above 0.5 — the same line for every anomaly model.
 
 ## 5. Call it from code
 

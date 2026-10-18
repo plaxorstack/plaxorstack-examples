@@ -2,6 +2,15 @@
 
 Everything the examples have in common, once. Read this before your first example. Five minutes.
 
+1. [The three steps of every example](#1-the-three-steps-of-every-example)
+2. [Mapping: the fields a tabular model has](#2-mapping-the-fields-a-tabular-model-has)
+3. [Keys](#3-keys)
+4. [Finding your model id](#4-finding-your-model-id)
+5. [Calling the API](#5-calling-the-api)
+6. [The free trial](#6-the-free-trial)
+7. [The widget](#7-the-widget)
+8. [Use your own data](#8-use-your-own-data)
+
 ## 1. The three steps of every example
 
 ```
@@ -19,10 +28,10 @@ Everything the examples have in common, once. Read this before your first exampl
    ![The new-training dialog: a name, then drop the file in](images/upload-a-file.png)
 
 2. **Train.** Open the training from **Trainings** (`/Trainings`). It first imports and checks your
-   data; when it's ready, go to the **Algorithms** tab and click **Actions → Train**. The row says
+   data; when it's ready, go to the **Training** tab and click **Actions → Train**. The row says
    **Trained** when it's done, and **Predict** lets you try it right there in the browser.
 
-   ![A training's page: its data first, then the Algorithms tab where you train](images/training-page.png)
+   ![A training's page, open on the Training tab where you train](images/training-page.png)
 
 3. **Use.** Every trained model has a number, shown as **Model #1234**. Your code sends that number
    with each request.
@@ -31,7 +40,7 @@ Images and text have their own cards: **Image Classification** under *Computer V
 **Text Classification**, **Multi-label Text** and **Semantic Search** under *Natural Language
 Processing*. An image ZIP or a folder-per-category text ZIP needs no mapping. A text CSV maps its
 text column to **Text** and its category column to **Label**; a search index maps **Text** and
-**Id**. Their pages have a **Training run** tab, where you start the run (choosing a pretrained
+**Id**. Their pages have a **Training** tab, where you start the run (choosing a pretrained
 encoder or *from scratch* in a dialog), and a **Prediction** tab. They train on a GPU.
 
 ## 2. Mapping: the fields a tabular model has
@@ -86,7 +95,7 @@ $env:PLAXOR_MODEL_ID = "1234"
 The number is on the **AI Board** (`/ai-board`), on each model's card and detail page, as
 **Model #1234**. The **Developers** page (`/developers#model-id`) shows the same with pictures.
 
-![The model number in the corner of a model's chat on the AI Board](images/model-number.png)
+![The model number on a model's card on the AI Board](images/model-number.png)
 
 Retraining makes a new version of the *same* model. The number doesn't change, so your code keeps
 working.
@@ -143,7 +152,7 @@ Which field to read depends on the task:
 | Clustering | `predictedLabel` — the cluster number. `scores` are distances to each cluster centre, so **smaller means closer** |
 | Ranking | `score` — only meaningful compared with the other items of the same list; sort by it |
 | Recommendation | `recommendations` — `[{ "item": "…", "score": 4.6 }, …]`, best first |
-| Anomaly detection | `predictedLabel` (`"True"` = unusual) and `score` — 0 fits the learned pattern, 1 has nothing in common with it |
+| Anomaly detection | `predictedLabel` (`"True"` = unusual) and `score` — 0 fits the learned pattern; above 0.5 is unusual, and the further off the pattern the closer to 1 |
 | Multi-label text | `predictedLabels` — every label that applies, **possibly none**. `predictedLabel` is the strongest one |
 | Semantic search | `matches` — `[{ "id": "…", "score": 0.58, "payload": { … } }, …]`, best first; **empty, not an error**, when nothing is close enough |
 
@@ -184,6 +193,8 @@ To move on to a third example, delete one on the AI Board first.
 The widget is a chat window on your own web page. Visitors ask questions in plain language, such as
 *"how many bikes at 18:00 when it's 25 degrees?"* or *"what's wrong with this leaf?"* (with a photo).
 An LLM turns the question into a prediction from your model and explains the answer.
+
+![The widget on the bike rentals demo page, answering two questions](../tabular/forecast-bike-rentals/images/widget.png)
 
 1. **Connect an LLM** on the **AI Board** (`/ai-board`), choose the model and turn chat on. Without
    this the widget has nothing to answer with.

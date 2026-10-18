@@ -58,7 +58,7 @@ Your page can show the answer straight from the search result, with no second lo
 
 ## 2. Build the index
 
-1. Open the **Training run** tab and click **Build index**.
+1. Open the **Training** tab and click **Build index**.
 2. Keep **MiniLM**, the default. DistilBERT is the other choice: larger and slower, sometimes better
    on long, technical documents.
 3. Click **Start training**. 48 articles take seconds.

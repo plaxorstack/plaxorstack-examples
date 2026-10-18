@@ -58,7 +58,7 @@ This dataset was written for the example: see [DATA-LICENSES.md](../../DATA-LICE
 
 ## 2. Train
 
-1. Open the **Training run** tab and click **Train model**.
+1. Open the **Training** tab and click **Train model**.
 2. Choose the encoder. **MiniLM** is a good choice for a few hundred rows: it already knows English,
    so it doesn't have to learn the language from your 600 reviews. *From scratch* works too, but
    needs more data to do as well.

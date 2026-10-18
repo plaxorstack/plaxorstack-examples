@@ -50,7 +50,7 @@ Leave `hotel` unmapped. Click **Save**.
 
 ## 3. Train
 
-**Trainings** → open it → **Algorithms** tab → **Actions → Train**.
+**Trainings** → open it → **Training** tab → **Actions → Train**.
 
 **What to expect:** an **NDCG@3 around 0.87** in our test run. NDCG measures how close the top of the
 model's order is to the ideal order: 1.0 means the hotels travellers chose are exactly the ones on

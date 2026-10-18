@@ -51,7 +51,7 @@ Click **Save**.
 
 ## 3. Train
 
-**Trainings** → open it → **Algorithms** tab → **Actions → Train**.
+**Trainings** → open it → **Training** tab → **Actions → Train**.
 
 **What to expect:** about **88% of beans** go to the right variety in our test run. The mistakes are
 almost all between look-alikes: Dermason and Sira, or Barbunya and Cali. Bombay is never confused

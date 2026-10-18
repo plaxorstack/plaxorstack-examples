@@ -47,7 +47,7 @@ This dataset was written for the example: real support inboxes are private. See
 
 ## 2. Train
 
-1. On the training's page, open the **Training run** tab and click **Train model**.
+1. On the training's page, open the **Training** tab and click **Train model**.
 2. Choose how to train. **MiniLM** suits a set this small: it's a pretrained encoder that already
    knows English, so 320 tickets are plenty. *From scratch* learns the words from your data alone,
    which works well once you have thousands of rows.

@@ -42,7 +42,7 @@ There's nothing to map: an image ZIP needs only its folders.
 
 ## 2. Train
 
-**Training run** tab → **Start training**. The dialog offers **Pretrained (ResNet-50)**, already
+**Training** tab → **Start training**. The dialog offers **Pretrained (ResNet-50)**, already
 selected, or *From scratch*. Keep the pretrained one. It has already learned to see edges, textures
 and shapes from millions of photos, so 252 photos are enough to teach it three kinds of leaf. From
 scratch would need thousands. Image models train on a GPU and fit within the free trial's monthly

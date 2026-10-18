@@ -1,3 +1,5 @@
+![PlaxorStack examples: real-world tasks, ready to train in minutes](.github/social-preview.png)
+
 # PlaxorStack examples
 
 Ready-to-train datasets and step-by-step walkthroughs for every kind of model you can build on

@@ -52,10 +52,10 @@ Click **Save**.
 
 ## 3. Train
 
-Open the training from **Trainings**. When the data has been imported, go to the **Algorithms** tab
+Open the training from **Trainings**. When the data has been imported, go to the **Training** tab
 and click **Actions → Train**. It takes a minute or two; the row then shows **Trained**.
 
-![The Algorithms tab, with Train under Actions](images/algorithms-tab.png)
+![The Training tab, with Train under Actions](images/algorithms-tab.png)
 
 **What to expect:** on a held-out fifth of the data our test run scored **R² ≈ 0.6**, about
 **±75 bikes** off on a typical hour. That's good for two inputs. The rest of the variation is
@@ -112,7 +112,7 @@ The answer is in `score`.
 `widget/index.html` is a small "demand planner" page with the PlaxorStack chat in the corner.
 Visitors ask in plain words — *"how many bikes at 18:00 if it's 25 degrees?"* — and the model answers.
 
-![Asking the model in the chat: about 503 bikes at 17:00 and 24 degrees](images/chat.png)
+![The demo page with the widget open: 333 bikes at 8 am and 12 degrees, 590 at 5 pm and 28](images/widget.png)
 
 1. **AI Board** → choose this model → connect an LLM and turn chat on.
 2. **Secrets** → create a **Widget** key for this model. Leave *Allowed sites* empty for now.

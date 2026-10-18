@@ -42,7 +42,7 @@ Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005. Text FA to 8
 
 ## 2. Train
 
-**Training run** tab → **Train model** → choose how to train → **Start training**. With 5,574
+**Training** tab → **Train model** → choose how to train → **Start training**. With 5,574
 messages, *From scratch* does well and is the quickest. **MiniLM** copes better with slang it hasn't
 seen. This set is larger than the ticket example, so it uses more of your monthly GPU minutes.
 

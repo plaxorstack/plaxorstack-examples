@@ -47,7 +47,7 @@ There is no **Label** for clustering. Click **Save**.
 
 ## 3. Train
 
-**Trainings** → open it → **Algorithms** tab → **Actions → Train**. It takes seconds.
+**Trainings** → open it → **Training** tab → **Actions → Train**. It takes seconds.
 
 **What to expect:** the platform makes **5 groups**. On this data, our test run found:
 

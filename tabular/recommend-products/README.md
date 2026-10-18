@@ -51,7 +51,7 @@ Ids can be any text: `C0137`, an email hash, a product name, a SKU. Click **Save
 
 ## 3. Train
 
-**Trainings** → open it → **Algorithms** tab → **Actions → Train**.
+**Trainings** → open it → **Training** tab → **Actions → Train**.
 
 **What to expect:** judge the model by its lists, not by an accuracy figure. Ratings are noisy, and
 most possible pairs are never rated. What matters is that a customer's list holds things they would

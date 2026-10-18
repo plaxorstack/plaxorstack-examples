@@ -52,7 +52,7 @@ Click **Save**.
 
 ## 3. Train
 
-**Trainings** → open it → **Algorithms** tab → **Actions → Train**.
+**Trainings** → open it → **Training** tab → **Actions → Train**.
 
 **What to expect:** in our test run, **89% accuracy** and an **AUC of 0.88**. Read the accuracy
 with care: answering "no" every time would already score 85%, because most visits don't buy. AUC is
