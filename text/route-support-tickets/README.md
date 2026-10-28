@@ -102,4 +102,26 @@ and set its team or tag before a person ever opens it.
 
 Export a few hundred handled tickets with the team that solved them. A CSV with a text column and a
 category column is enough. Give every category **at least 5 examples**, and preferably 50 or more.
-Long texts are fine (up to 200,000 characters per prediction).
+Long texts are fine (up to 200,000 characters per prediction), but the model reads only the start
+of each — the first few hundred words, set by **Words per document** when you start training.
+
+### Sorting documents instead of messages
+
+The ZIP layout also takes **PDF and Word files** (`.pdf`, `.docx`) next to `.txt` and `.md`, so the
+same steps sort invoices, contracts or letters by type: one folder per category, each document in
+its folder, at most 16 MB per file. A scanned PDF has no text to read, so the upload refuses it by
+name; run it through text recognition (OCR) first. A password-protected file is refused the same way.
+
+To classify a document, send the file itself and the platform reads its text the way training did:
+
+```sh
+curl https://api.plaxorstack.com/predict/document \
+  -H "X-Api-Key: $PLAXOR_API_KEY" \
+  -F trainingTypeId=$PLAXOR_MODEL_ID \
+  -F document=@contract.pdf
+```
+
+The answer is the same as from `/predict/text`. One file per call, at most 8 MB. Reading stops
+after 50 pages, which is far more than the model looks at, and a file that takes longer than 10
+seconds to read is refused. A scan or a password-protected file is a `400` that names it. Either
+way, you can always extract the text yourself and send it to `/predict/text`.

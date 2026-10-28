@@ -19,11 +19,13 @@ var steps = new (string Name, Func<Task> Run)[]
     ("tabular/recommend-products", () => ProductRatings.BuildAsync(repoRoot)),
     ("tabular/rank-hotel-search-results", () => HotelSearch.BuildAsync(repoRoot)),
     ("tabular/spot-unusual-server-load", () => ServerMetrics.BuildAsync(repoRoot)),
+    ("tabular/forecast-bakery-sales", () => BakerySales.BuildAsync(repoRoot)),
     ("text/filter-spam-messages", () => SpamMessages.BuildAsync(sources, repoRoot)),
     ("text/route-support-tickets", () => SupportTickets.BuildAsync(repoRoot)),
     ("text/tag-product-reviews", () => ProductReviews.BuildAsync(repoRoot)),
     ("text/answer-questions-from-faq", () => HelpCentreFaq.BuildAsync(repoRoot)),
     ("image/detect-leaf-disease", () => LeafDisease.BuildAsync(sources, repoRoot)),
+    ("image/tag-fabric-swatches", () => FabricSwatches.BuildAsync(repoRoot)),
 };
 
 var only = args.FirstOrDefault();

@@ -36,12 +36,15 @@ Everything the examples have in common, once. Read this before your first exampl
 3. **Use.** Every trained model has a number, shown as **Model #1234**. Your code sends that number
    with each request.
 
-Images and text have their own cards: **Image Classification** under *Computer Vision*, and
+Images and text have their own cards: **Image Classification** and **Multi-label Image Classification** under *Computer Vision*, and
 **Text Classification**, **Multi-label Text** and **Semantic Search** under *Natural Language
 Processing*. An image ZIP or a folder-per-category text ZIP needs no mapping. A text CSV maps its
 text column to **Text** and its category column to **Label**; a search index maps **Text** and
 **Id**. Their pages have a **Training** tab, where you start the run (choosing a pretrained
-encoder or *from scratch* in a dialog), and a **Prediction** tab. They train on a GPU.
+encoder or *from scratch* in a dialog), and a **Prediction** tab. They train on a GPU. MiniLM and
+DistilBERT read English only; for text in other languages choose **Multilingual** (a multilingual
+MiniLM, 50+ languages). A search index built on it also finds passages written in another language
+than the question.
 
 ## 2. Mapping: the fields a tabular model has
 
@@ -70,7 +73,7 @@ Create keys at **Secrets** (`/secrets`) in the menu. There are two kinds, and th
 
 | Kind | Where it goes | What it can do |
 |---|---|---|
-| **API** | Your server, scripts, back-end jobs. **Secret.** | Call every prediction and chat endpoint, for any model of your subscription. |
+| **API** | Your server, scripts, back-end jobs, an AI assistant you connect over [MCP](../integrations/README.md#use-your-models-from-an-ai-assistant-mcp). **Secret.** | Call every prediction and chat endpoint, for any model of your subscription. |
 | **Widget** | Inside a `<script>` tag on a public web page. Visible to anyone. | Chat with the one model you chose, only on the sites you list. |
 
 Never put an **API** key in a web page, a mobile app or a public repository. If one leaks, delete it
@@ -102,7 +105,9 @@ working.
 
 ## 5. Calling the API
 
-Base URL: `https://api.plaxorstack.com`. Send the key in the `X-Api-Key` header.
+Base URL: `https://api.plaxorstack.com`. Send the key in the `X-Api-Key` header. If your tool can
+only send a bearer token, `Authorization: Bearer <key>` works on every endpoint too. When a request
+carries both, `X-Api-Key` is used.
 
 | Model | Request |
 |---|---|
@@ -111,9 +116,12 @@ Base URL: `https://api.plaxorstack.com`. Send the key in the `X-Api-Key` header.
 | Text | `POST /predict/text` — JSON `{"trainingTypeId": 1234, "text": "…"}` (up to 200,000 characters) |
 | Semantic search | `POST /predict/text` — the same, plus optional `"top"` (1–20, default 5) and `"minScore"` (default 0.30) |
 | Several texts | `POST /predict/text/batch` — JSON `{"trainingTypeId": 1234, "texts": ["…", "…"]}` (up to 32) |
+| Document | `POST /predict/document` — multipart form: `trainingTypeId`, `document` (a .pdf, .docx, .txt, .md or .log file, up to 8 MB; read up to 50 pages / 100,000 characters / 10 s; 30 requests a minute) |
+| Time-series forecast | `POST /predict/forecast` — JSON `{"trainingTypeId": 1234, "horizon": 3, "series": "store-a"}`; `series` only when the model has several, `covariates` (one array per period) only when it was trained with known-ahead columns |
 | Image | `POST /predict/image` — multipart form: `trainingTypeId`, `image` |
 | Several images | `POST /predict/image/batch` — multipart form: `trainingTypeId`, `images` (up to 16) |
-| Chat about a model | `POST /chat` — JSON `{"trainingTypeId": 1234, "message": "…"}` (needs an LLM, see §7) |
+| Chat about a model | `POST /chat` — JSON `{"trainingTypeId": 1234, "message": "…"}` (needs an LLM, except on a text model, see §7) |
+| Your models as AI tools | `/mcp` — an MCP server for Claude and other assistants, see [integrations](../integrations/README.md#use-your-models-from-an-ai-assistant-mcp) |
 
 `inputs` uses **your own column names** — the ones in your file, not `Features` or `Category`.
 Send every value as a string; the API converts it.
@@ -153,8 +161,9 @@ Which field to read depends on the task:
 | Ranking | `score` — only meaningful compared with the other items of the same list; sort by it |
 | Recommendation | `recommendations` — `[{ "item": "…", "score": 4.6 }, …]`, best first |
 | Anomaly detection | `predictedLabel` (`"True"` = unusual) and `score` — 0 fits the learned pattern; above 0.5 is unusual, and the further off the pattern the closer to 1 |
-| Multi-label text | `predictedLabels` — every label that applies, **possibly none**. `predictedLabel` is the strongest one |
+| Multi-label text, multi-label image | `predictedLabels` — every label that applies, **possibly none**. `predictedLabel` is the strongest one |
 | Semantic search | `matches` — `[{ "id": "…", "score": 0.58, "payload": { … } }, …]`, best first; **empty, not an error**, when nothing is close enough |
+| Time-series forecasting | `forecast.points` — `[{ "date": "…", "value": 405, "lower": 371, "upper": 439 }, …]`, with an 80% band; `forecast.history` and `forecast.backtest` for a chart |
 
 A batch call returns a JSON **array** of these, one per row, text or image, in the order sent. Each
 counts as one prediction. If your monthly allowance runs out partway, the rest come back with
@@ -165,7 +174,7 @@ counts as one prediction. If your monthly allowance runs out partway, the rest c
 | Status | Means | Do |
 |---|---|---|
 | 400 | The request or the model can't be served: a missing field, no image, a model that isn't trained yet. `message` says which. | Fix the request. |
-| 401 | No key, or a key that doesn't exist. | Check `X-Api-Key`. |
+| 401 | No key, or a key that doesn't exist. | Check `X-Api-Key` (or the value after `Bearer `). |
 | 403 | A widget key used for another model or outside its embed, or a limit of your plan. | Use an **API** key for your own code. |
 | 410 | The owner retired this training. | Use another model. |
 | 429 | Monthly predictions used up, or too many requests per second. | Wait, or upgrade the plan. |
@@ -197,7 +206,8 @@ An LLM turns the question into a prediction from your model and explains the ans
 ![The widget on the bike rentals demo page, answering two questions](../tabular/forecast-bike-rentals/images/widget.png)
 
 1. **Connect an LLM** on the **AI Board** (`/ai-board`), choose the model and turn chat on. Without
-   this the widget has nothing to answer with.
+   this a tabular or image widget has nothing to answer with. A text model can skip this step: see
+   the note below.
 
    ![The AI Board: the LLMs you can connect at the top, your trained models below](images/ai-board.png)
 
@@ -229,9 +239,11 @@ no origin, and the widget can't start. Any static server works:
 npx serve widget        # then open the address it prints
 ```
 
-> The widget answers questions about **tabular and image** models, anomaly detection included.
-> Text models (text classification, multi-label text and semantic search) are used through the API
-> only.
+> **Text models answer without an LLM.** A text classifier replies with the label it predicts, in
+> words you can set when you create the key (`{{prediction.label}}` is filled in). A semantic-search
+> model replies with the passages it found, or, with an LLM connected, lets the LLM write the answer
+> from them; you choose which on the key. A reply without an LLM counts as one prediction, not a chat
+> message.
 
 ## 8. Use your own data
 
@@ -246,6 +258,8 @@ When an example works, train the same task on your own file:
 - Images: one folder per category inside the ZIP, `cat/photo1.jpg`, `dog/photo7.png`.
 - Text: one folder per category with `.txt` files, or a CSV with a text column and a category column.
 - Multi-label text: a CSV whose label column lists every label of the row, `billing;urgent`.
+- Multi-label images: the images in a ZIP with a `labels.csv` beside them — each row an image's path,
+  then its labels: `photos/1.jpg,beach;sunset`.
 - Semantic search: a CSV with an id column and a text column; every other column comes back with
   each match.
 - Anomaly detection: a stretch of mostly **normal** rows and no label. About 1% of them will be

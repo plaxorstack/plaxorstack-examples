@@ -6,7 +6,8 @@
 > **Never put an API key in a web page, a mobile app or front-end JavaScript.** Anything the browser
 > downloads, anyone can read with *View source*. A leaked API key can call **every** model of your
 > subscription and spend your whole monthly allowance. Delete a leaked key at **Secrets** straight
-> away and create a new one.
+> away and create a new one. The API sends no CORS headers in any case, so a browser on your site
+> can't call it directly, whichever header carries the key.
 
 There are two safe ways to use a model from a web page:
 

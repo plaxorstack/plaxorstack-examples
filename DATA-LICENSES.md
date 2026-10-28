@@ -24,3 +24,5 @@ dotnet run --project tools/DatasetBuilder
 | `tabular/spot-unusual-server-load` | Written for this example (fixed seed): office-hours traffic with 11 planted incidents | MIT | — |
 | `text/tag-product-reviews` | Written for this example (fixed seed) | MIT | — |
 | `text/answer-questions-from-faq` | Written for this example | MIT | — |
+| `tabular/forecast-bakery-sales` | Written for this example (fixed seed): three shops' weekly rhythm, seasons, growth and planned promotions | MIT | — |
+| `image/tag-fabric-swatches` | Drawn for this example (fixed seed): striped, dotted, checked and plain swatches, rotated, lit unevenly and grained; 6 held out in `data/try/` | MIT | — |

@@ -14,17 +14,19 @@ then swap in your own data.
 | I want to… | Task type | Example | Data |
 |---|---|---|---|
 | Predict a **number** — demand, price, duration | Regression | [Forecast bike rentals](tabular/forecast-bike-rentals) | 17,379 hours of a real bike-share scheme |
+| **Forecast the next days** of a number from its own history | Time-series forecasting | [Forecast bakery sales](tabular/forecast-bakery-sales) | 21 months of daily sales, 3 shops |
 | Answer a **yes/no** question about a customer or event | Binary classification | [Predict an online purchase](tabular/predict-online-purchase) | 12,330 real web-shop sessions |
 | Put something into **one of several categories** | Multiclass classification | [Grade beans by variety](tabular/grade-beans-by-variety) | 13,611 measured beans, 7 varieties |
 | Find **natural groups** with no labels at all | Clustering | [Segment wholesale customers](tabular/segment-wholesale-customers) | 440 real wholesale customers |
 | Suggest **what a user will like** next | Recommendation | [Recommend products](tabular/recommend-products) | 4,509 ratings by 250 customers |
 | **Order a list** so the best results come first | Ranking | [Rank hotel search results](tabular/rank-hotel-search-results) | 500 searches × 8 hotels |
 | **Spot the unusual** without labelling a single example | Anomaly detection | [Spot unusual server load](tabular/spot-unusual-server-load) | A week of server monitoring, 2,016 readings |
-| Sort **free text** into categories | Text classification | [Route support tickets](text/route-support-tickets) | 320 customer tickets, 4 teams |
+| Sort **free text or documents** (PDF, Word) into categories | Text classification | [Route support tickets](text/route-support-tickets) | 320 customer tickets, 4 teams |
 | | Text classification | [Filter spam messages](text/filter-spam-messages) | 5,574 real SMS messages |
 | Tag text with **every topic that applies** | Multi-label text classification | [Tag product reviews](text/tag-product-reviews) | 600 clothing-shop reviews, 5 topics |
 | **Search by meaning**, not keywords | Semantic search | [Answer questions from your FAQ](text/answer-questions-from-faq) | 48 help-centre articles |
 | Recognise what is in a **photo** | Image classification | [Detect leaf disease](image/detect-leaf-disease) | 252 field photos of bean leaves |
+| Give a photo **every tag that applies** | Multi-label image classification | [Tag fabric swatches](image/tag-fabric-swatches) | 480 swatches, 6 colours and 3 patterns |
 
 Every example works on the **free trial**. The trial holds two models at once, so delete one
 before you train a third (AI Board → the model → Delete).
@@ -62,6 +64,8 @@ before you train a third (AI Board → the model → Delete).
 |---|---|
 | [Call the API from your own server](server-proxy) | A web page that uses a model **without exposing your API key**. Express and ASP.NET. |
 | [Integrations](integrations) | Batch-score a CSV, route Zendesk/Freshdesk tickets, the widget on Shopify/WordPress, Zapier and Make. |
+| [Act on predictions](integrations/act-on-predictions) | **Actions**: a PDF of a batch's matching rows, a signed webhook to your system, an app or your own MCP server — run at once or asked first in the chat. |
+| [Use your models from an AI assistant](https://plaxorstack.com/developers#mcp) | Claude Code, Claude Desktop or any MCP client calls your models as tools with an API key, one prediction per call. With *Allow proposals* on the key, it can also **propose** your actions — they wait on the Approvals page and run only when the subscription's owner or an admin approves them. Connectors that cannot take a key, such as claude.ai and ChatGPT, [sign in instead](https://plaxorstack.com/developers#mcp-sign-in): add `https://api.plaxorstack.com/mcp`, sign in, and choose one subscription. Disconnect them under *Settings › MCP › Connected AI apps*. |
 | [Going to production](production) | Keys and rotation, retries on 429, batches that partly fail, quotas, retraining, judging a model. |
 
 ## Repository layout
@@ -72,7 +76,7 @@ tabular/<example>/        README.md · data/ · api/ · widget/ (some)
 text/<example>/           README.md · data/ · api/
 image/<example>/          README.md · data/ · api/ · widget/
 server-proxy/             the browser calls your server, your server holds the key
-integrations/             CSV batch scoring, help desks, website platforms, Zapier/Make
+integrations/             CSV batch scoring, help desks, website platforms, Zapier/Make, actions
 production/               the checklist before going live
 tools/DatasetBuilder/     rebuilds every data/ folder from its public source
 ```
@@ -80,7 +84,7 @@ tools/DatasetBuilder/     rebuilds every data/ folder from its public source
 ## Where the data comes from
 
 Six datasets are real and come from public sources: UCI Machine Learning Repository and Makerere
-University's AI Lab. Six were written for these examples, because no openly licensed data of
+University's AI Lab. Eight were written for these examples, because no openly licensed data of
 that kind could be redistributed. Every source, licence and change is listed in
 [DATA-LICENSES.md](DATA-LICENSES.md). To rebuild them yourself, run
 `dotnet run --project tools/DatasetBuilder`.

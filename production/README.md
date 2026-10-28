@@ -10,8 +10,8 @@ server, for months. This page covers what changes.
   page, a mobile app, a config file you commit, or a log line. To call a model from your own web
   page, see [server-proxy](../server-proxy/README.md).
 - **One key per environment and per application.** Separate keys for staging and production, and
-  for the nightly batch job and the website. When one leaks you delete that one, and the others keep
-  working.
+  for the nightly batch job, the website and any AI assistant you connect over MCP. When one leaks
+  you delete that one, and the others keep working.
 - **Rotate without downtime:**
   1. Create a new key at **Secrets**.
   2. Deploy it: update the environment variable and restart.
@@ -168,7 +168,7 @@ means depends on the task:
 | Clustering | Average distance | Lower is tighter. Judge by whether the groups make sense to you. |
 | Ranking | NDCG | 1.0 means the best items always came first. |
 | Anomaly detection | Average anomaly score | Lower is better. About 1% of training rows are flagged by design. |
-| Semantic search | None | Try real questions and read the scores (above 0.5 is confident with MiniLM). |
+| Semantic search | None | Try real questions and read the scores (above 0.5 is confident with MiniLM). On the Multilingual encoder, try questions in each language your users write in, and set `minScore` from what you see. |
 
 Three habits matter more than the number:
 

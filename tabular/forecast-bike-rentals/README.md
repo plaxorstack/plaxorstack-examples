@@ -30,11 +30,11 @@ Rentals range from 1 to 977 an hour, 189 on average. Source and licence: [DATA-L
 
 ## 1. Upload
 
-1. Sign in at [plaxorstack.com](https://plaxorstack.com) and open **Machine Learning**.
-2. Click **Regression**.
+1. Sign in at [plaxorstack.com](https://plaxorstack.com) and open **Start training** (the **Training Pipeline** page).
+2. Click the **Regression** card.
 3. Name it `Bike rentals` and drop in `data/bike-rentals.csv`.
 
-![The Regression card on the Machine Learning page](images/choose-regression.png)
+![The Regression card on the Training Pipeline page](images/choose-regression.png)
 
 ## 2. Match the columns
 
@@ -52,12 +52,13 @@ Click **Save**.
 
 ## 3. Train
 
-Open the training from **Trainings**. When the data has been imported, go to the **Training** tab
-and click **Actions → Train**. It takes a minute or two; the row then shows **Trained**.
+Saving opens the training. When the data has been imported, click **Train** in the algorithm's row on
+the **Training** tab. It takes a minute or two; the row then shows **Trained**. Not sure which algorithm
+to use? **Find optimal algorithm** tries several and keeps the best.
 
-![The Training tab, with Train under Actions](images/algorithms-tab.png)
+![The Training tab, with Train in the algorithm's row](images/algorithms-tab.png)
 
-**What to expect:** on a held-out fifth of the data our test run scored **R² ≈ 0.6**, about
+**What to expect:** on a held-out fifth of the data our test run scored **R² ≈ 0.67**, about
 **±75 bikes** off on a typical hour. That's good for two inputs. The rest of the variation is
 weekday vs weekend, rain and holidays, which this model doesn't see.
 
