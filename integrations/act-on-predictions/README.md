@@ -167,10 +167,13 @@ your answer.
 
 ## 3. Ask first, in the chat
 
-Change the action's **Before it runs** to **Ask first** and write **Message shown in the chat**, e.g.
-*"Shall I send this to finance?"*. In the model's chat — on the board, or the widget on your site —
-a ticket that lands in billing now comes back with that question and **Yes** / **No**. Nothing is
-sent until Yes; an offer nobody answers expires after 30 minutes.
+Change the action's **Before it runs** to **Ask first**. In the model's chat — on the board, or the
+widget on your site — a ticket that lands in billing now comes back with *"Send billing to finance:
+shall I go ahead?"*, the card it sends to, and **Yes** / **No**. Nothing is sent until Yes; an offer
+nobody answers expires after 30 minutes.
+
+**Message shown in the chat** is the reply after Yes, e.g. *"Sending this to finance now."* Say
+"sending", not "sent": the delivery happens in the background a few seconds later.
 
 The same action can be triggered by meaning as well as by the label:
 
