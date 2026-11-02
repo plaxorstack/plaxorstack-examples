@@ -22,8 +22,9 @@ jobs:
       - uses: actions/checkout@v4
       - uses: lycheeverse/lychee-action@v2
         with:
-          # The API host answers only POSTs to known routes, and shop.example.com is fictional.
-          args: --no-progress --exclude 'api\.plaxorstack\.com' --exclude 'example\.com' './**/*.md'
+          # The API host answers only POSTs to known routes, shop.example.com is fictional, and npmjs.com
+          # answers every automated request with 403, so its links can never pass.
+          args: --no-progress --exclude 'api\.plaxorstack\.com' --exclude 'example\.com' --exclude 'npmjs\.com' './**/*.md'
           fail: true
 
   predict:
