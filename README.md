@@ -11,25 +11,44 @@ then swap in your own data.
 
 ## What can I build?
 
-| I want to… | Task type | Example | Data |
-|---|---|---|---|
-| Predict a **number** — demand, price, duration | Regression | [Forecast bike rentals](tabular/forecast-bike-rentals) | 17,379 hours of a real bike-share scheme |
-| **Forecast the next days** of a number from its own history | Time-series forecasting | [Forecast bakery sales](tabular/forecast-bakery-sales) | 21 months of daily sales, 3 shops |
-| Answer a **yes/no** question about a customer or event | Binary classification | [Predict an online purchase](tabular/predict-online-purchase) | 12,330 real web-shop sessions |
-| Put something into **one of several categories** | Multiclass classification | [Grade beans by variety](tabular/grade-beans-by-variety) | 13,611 measured beans, 7 varieties |
-| Find **natural groups** with no labels at all | Clustering | [Segment wholesale customers](tabular/segment-wholesale-customers) | 440 real wholesale customers |
-| Suggest **what a user will like** next | Recommendation | [Recommend products](tabular/recommend-products) | 4,509 ratings by 250 customers |
-| **Order a list** so the best results come first | Ranking | [Rank hotel search results](tabular/rank-hotel-search-results) | 500 searches × 8 hotels |
-| **Spot the unusual** without labelling a single example | Anomaly detection | [Spot unusual server load](tabular/spot-unusual-server-load) | A week of server monitoring, 2,016 readings |
-| Sort **free text or documents** (PDF, Word) into categories | Text classification | [Route support tickets](text/route-support-tickets) | 320 customer tickets, 4 teams |
-| | Text classification | [Filter spam messages](text/filter-spam-messages) | 5,574 real SMS messages |
-| Tag text with **every topic that applies** | Multi-label text classification | [Tag product reviews](text/tag-product-reviews) | 600 clothing-shop reviews, 5 topics |
-| **Search by meaning**, not keywords | Semantic search | [Answer questions from your FAQ](text/answer-questions-from-faq) | 48 help-centre articles |
-| Recognise what is in a **photo** | Image classification | [Detect leaf disease](image/detect-leaf-disease) | 252 field photos of bean leaves |
-| Give a photo **every tag that applies** | Multi-label image classification | [Tag fabric swatches](image/tag-fabric-swatches) | 480 swatches, 6 colours and 3 patterns |
+| I want to… | Task type | Example | Data | Video |
+|---|---|---|---|---|
+| Predict a **number** — demand, price, duration | Regression | [Forecast bike rentals](tabular/forecast-bike-rentals) | 17,379 hours of a real bike-share scheme | [▶ Episode 1](https://youtu.be/OKsQ7nYeuSg) |
+| **Forecast the next days** of a number from its own history | Time-series forecasting | [Forecast bakery sales](tabular/forecast-bakery-sales) | 21 months of daily sales, 3 shops | |
+| Answer a **yes/no** question about a customer or event | Binary classification | [Predict an online purchase](tabular/predict-online-purchase) | 12,330 real web-shop sessions | [▶ Episode 4](https://youtu.be/6mEzXtea63M) |
+| Put something into **one of several categories** | Multiclass classification | [Grade beans by variety](tabular/grade-beans-by-variety) | 13,611 measured beans, 7 varieties | |
+| Find **natural groups** with no labels at all | Clustering | [Segment wholesale customers](tabular/segment-wholesale-customers) | 440 real wholesale customers | |
+| Suggest **what a user will like** next | Recommendation | [Recommend products](tabular/recommend-products) | 4,509 ratings by 250 customers | |
+| **Order a list** so the best results come first | Ranking | [Rank hotel search results](tabular/rank-hotel-search-results) | 500 searches × 8 hotels | |
+| **Spot the unusual** without labelling a single example | Anomaly detection | [Spot unusual server load](tabular/spot-unusual-server-load) | A week of server monitoring, 2,016 readings | |
+| Sort **free text or documents** (PDF, Word) into categories | Text classification | [Route support tickets](text/route-support-tickets) | 320 customer tickets, 4 teams | [▶ Episode 5](https://youtu.be/wV__9bclcOQ) |
+| | Text classification | [Filter spam messages](text/filter-spam-messages) | 5,574 real SMS messages | |
+| Tag text with **every topic that applies** | Multi-label text classification | [Tag product reviews](text/tag-product-reviews) | 600 clothing-shop reviews, 5 topics | |
+| **Search by meaning**, not keywords | Semantic search | [Answer questions from your FAQ](text/answer-questions-from-faq) | 48 help-centre articles | [▶ Episode 2](https://youtu.be/1hb_Bf4VFh4) |
+| Recognise what is in a **photo** | Image classification | [Detect leaf disease](image/detect-leaf-disease) | 252 field photos of bean leaves | [▶ Episode 3](https://youtu.be/DNJuX3Q62iE) |
+| Give a photo **every tag that applies** | Multi-label image classification | [Tag property photos](image/tag-property-photos) | 268 real-estate photos, 11 tags | ▶ Episode 7 (soon) |
+| | Multi-label image classification | [Tag fabric swatches](image/tag-fabric-swatches) | 480 swatches, 6 colours and 3 patterns | |
 
-Every example works on the **free trial**. The trial holds two models at once, so delete one
-before you train a third (AI Board → the model → Delete).
+Every example works on the **free trial**. The trial holds one model at a time, so delete it
+before you train the next example (AI Board → the model → Delete).
+
+## Watch the series
+
+Short videos that walk through the examples above, start to finish, with no code:
+[the PlaxorStack playlist](https://www.youtube.com/@PlaxorStack) ·
+[plaxorstack.com/videos](https://plaxorstack.com/videos).
+Start with [Your own AI, explained](https://youtu.be/vzBRToCQius).
+
+| Episode | Example |
+|---|---|
+| [1 · Predict demand](https://youtu.be/OKsQ7nYeuSg) | [Forecast bike rentals](tabular/forecast-bike-rentals) |
+| [2 · Answer customers from your FAQ](https://youtu.be/1hb_Bf4VFh4) | [Answer questions from your FAQ](text/answer-questions-from-faq) |
+| [3 · Recognise photos](https://youtu.be/DNJuX3Q62iE) | [Detect leaf disease](image/detect-leaf-disease) |
+| [4 · Will this visitor buy?](https://youtu.be/6mEzXtea63M) | [Predict an online purchase](tabular/predict-online-purchase) |
+| [5 · Route tickets, and act on them](https://youtu.be/wV__9bclcOQ) | [Route support tickets](text/route-support-tickets) · [Act on predictions](integrations/act-on-predictions) |
+| [6 · Your model inside your AI assistant](https://youtu.be/3KF3EnXu1iY) | [MCP on the Developers page](https://plaxorstack.com/developers#mcp) |
+| 7 · Several tags on one photo (soon) | [Tag property photos](image/tag-property-photos) |
+| 8 · Connect your own site or system (soon) | [Getting started](getting-started) · [Server proxy](server-proxy) · [Website widget](integrations/website-widget) |
 
 ## Quick start
 
@@ -83,8 +102,9 @@ tools/DatasetBuilder/     rebuilds every data/ folder from its public source
 
 ## Where the data comes from
 
-Six datasets are real and come from public sources: UCI Machine Learning Repository and Makerere
-University's AI Lab. Eight were written for these examples, because no openly licensed data of
+Seven datasets are real and come from public sources: UCI Machine Learning Repository, Makerere
+University's AI Lab and Wikimedia Commons (the property photos, each credited in its
+`data/CREDITS.md`). Eight were written for these examples, because no openly licensed data of
 that kind could be redistributed. Every source, licence and change is listed in
 [DATA-LICENSES.md](DATA-LICENSES.md). To rebuild them yourself, run
 `dotnet run --project tools/DatasetBuilder`.

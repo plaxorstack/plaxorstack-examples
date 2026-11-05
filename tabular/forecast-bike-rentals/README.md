@@ -22,19 +22,19 @@ delivery time, a house's price.
 
 ```
 hour,temperature_c,rentals
-0,9.8,16
-1,9,40
+0,3.3,16
+1,2.3,40
 ```
 
 Rentals range from 1 to 977 an hour, 189 on average. Source and licence: [DATA-LICENSES.md](../../DATA-LICENSES.md).
 
 ## 1. Upload
 
-1. Sign in at [plaxorstack.com](https://plaxorstack.com) and open **Start training** (the **Training Pipeline** page).
-2. Click the **Regression** card.
-3. Name it `Bike rentals` and drop in `data/bike-rentals.csv`.
+1. Sign in at [plaxorstack.com](https://plaxorstack.com) and click **Start training** on the dashboard.
+2. On the **Machine Learning** page, click **Regression**.
+3. Name it `Bike rentals` and drop in `data/bike-rentals.csv`. It uploads and is checked in a few seconds.
 
-![The Regression card on the Training Pipeline page](images/choose-regression.png)
+![The Regression card on the Machine Learning page](images/choose-regression.png)
 
 ## 2. Match the columns
 
@@ -46,34 +46,44 @@ Drag each column on the left onto its field on the right:
 | `hour` | **Features** | First input |
 | `temperature_c` | **Features2** | Second input |
 
+Drop each column in the middle of its field. The field then shows the column in brackets, e.g. **Features2** (temperature_c).
+Once Label and Features are filled you can already save, so check that **Features2** is filled too.
+
 ![The bike file uploaded and every column mapped](images/match-columns.png)
 
-Click **Save**.
+Click **Save**. The training opens straight away, and PlaxorStack checks the data: the banner says
+*"Data analysis complete"*, and **View Data Analysis** shows what it found.
 
 ## 3. Train
 
-Saving opens the training. When the data has been imported, click **Train** in the algorithm's row on
-the **Training** tab. It takes a minute or two; the row then shows **Trained**. Not sure which algorithm
-to use? **Find optimal algorithm** tries several and keeps the best.
+On the **Training** tab, click **Train** in the row's **Actions** column. It takes a few seconds,
+and the row then shows **Trained**.
 
-![The Training tab, with Train in the algorithm's row](images/algorithms-tab.png)
+![The Training tab, with Train in the Actions column](images/algorithms-tab.png)
 
-**What to expect:** on a held-out fifth of the data our test run scored **R² ≈ 0.67**, about
-**±75 bikes** off on a typical hour. That's good for two inputs. The rest of the variation is
+**Find the best algorithm (optional).** Click **Find optimal algorithm**. PlaxorStack tries several
+algorithms many times and ranks them. This takes about three minutes; keep the window open until it finishes.
+If the winner isn't the one you already have, click **Use This Algorithm**. The winner can change between runs;
+FastTree and FastForest come out close to each other.
+
+![Find optimal algorithm: the best algorithm and the ranking](images/find-optimal.png)
+
+**What to expect:** our run scored **R² ≈ 0.64**, about
+**±73 bikes** off on a typical hour. That's good for two inputs. The rest of the variation is
 weekday vs weekend, rain and holidays, which this model doesn't see.
 
 ## 4. Try it in the browser
 
-Click **Predict** on the trained row and enter:
+Click **Predict** on the trained row, enter the values and click **Run prediction**:
 
 | hour | temperature_c | You should see about | Why |
 |---|---|---|---|
-| `17` | `24` | **500–600** | Evening commute in good weather — the busiest hour |
-| `8` | `12` | **~300** | Morning commute, cool |
-| `13` | `7` | **~80** | Cold midday |
+| `17` | `24` | **~590** | Evening commute in good weather — the busiest hour |
+| `8` | `12` | **~380** | Morning commute, cool |
+| `13` | `7` | **~170** | Cold midday |
 | `3` | `20` | **< 20** | Night |
 
-![Predict at 17:00 and 24 °C: about 503 rentals](images/predict.png)
+![Run prediction at 17:00 and 24 °C: 590 rentals](images/predict.png)
 
 ## 5. Call it from code
 
@@ -94,7 +104,7 @@ cd api
 | C# | `dotnet run predict.cs` |
 
 ```
-Expected rentals: 503 bikes
+Expected rentals: 590 bikes
 ```
 
 The request is what you'd expect — your own column names, values as strings:
@@ -113,7 +123,7 @@ The answer is in `score`.
 `widget/index.html` is a small "demand planner" page with the PlaxorStack chat in the corner.
 Visitors ask in plain words — *"how many bikes at 18:00 if it's 25 degrees?"* — and the model answers.
 
-![The demo page with the widget open: 333 bikes at 8 am and 12 degrees, 590 at 5 pm and 28](images/widget.png)
+![The demo page with the widget open, answering from the trained model](images/widget.png)
 
 1. **AI Board** → choose this model → connect an LLM and turn chat on.
 2. **Secrets** → create a **Widget** key for this model. Leave *Allowed sites* empty for now.

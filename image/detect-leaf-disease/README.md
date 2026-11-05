@@ -23,12 +23,12 @@ which part a technician is holding, skin of fruit, waste for sorting.
 
 ```
 leaf-photos.zip
-├── angular_leaf_spot/   84 photos
-├── bean_rust/           85 photos
-└── healthy/             83 photos
+├── Angular leaf spot/   84 photos
+├── Bean rust/           85 photos
+└── Healthy/             83 photos
 ```
 
-The folder names are the categories. Photos were resized to 320 pixels on the longest side, which
+The folder names are the categories, so they're written the way the chat should say them. Photos were resized to 320 pixels on the longest side, which
 keeps the ZIP to 8 MB. Source and licence: [DATA-LICENSES.md](../../DATA-LICENSES.md).
 
 ## 1. Upload
@@ -58,9 +58,9 @@ file names tell you the right answer:
 
 | Photo | Should be |
 |---|---|
-| `healthy-1.jpg` … `healthy-3.jpg` | `healthy` |
-| `bean_rust-1.jpg` … `bean_rust-3.jpg` | `bean_rust` |
-| `angular_leaf_spot-1.jpg` … `angular_leaf_spot-3.jpg` | `angular_leaf_spot` |
+| `healthy-1.jpg` … `healthy-3.jpg` | `Healthy` |
+| `bean_rust-1.jpg` … `bean_rust-3.jpg` | `Bean rust` |
+| `angular_leaf_spot-1.jpg` … `angular_leaf_spot-3.jpg` | `Angular leaf spot` |
 
 ## 4. Call it from code
 
@@ -75,7 +75,7 @@ python predict.py ../data/try/healthy-2.jpg
 Also `sh predict.sh [photo]`, `node predict.mjs [photo]`, `dotnet run predict.cs -- [photo]`.
 
 ```
-bean_rust-1.jpg: bean_rust (score 0.97)
+bean_rust-1.jpg: Bean rust (score 0.97)
 ```
 
 Images are sent as a multipart form, not JSON:
@@ -96,7 +96,13 @@ to `/predict/image/batch`. You get one result per photo, in order.
 a corner, and with **photo upload** turned on. A visitor attaches a leaf photo and asks *"what's
 wrong with this leaf?"*.
 
-1. **AI Board** → choose this model → connect an LLM and turn chat on.
+1. **AI Board** → drag an AI Brain onto this model. Click **understanding** on the line and tell it how to answer, for example:
+
+   > Recognises a photo of a bean leaf: Healthy, Bean rust or Angular leaf spot. Answer the farmer in one or two friendly
+   > sentences: what the leaf looks like it has, and how sure the model is. If the confidence is below 60 %, say the photo is
+   > unclear and suggest a clearer photo. Don't give treatment advice: suggest asking a local agronomist.
+
+   Without this note, the chat only states the category and the confidence.
 2. **Secrets** → create a **Widget** key for this model. Leave *Allowed sites* empty for now.
 3. In `widget/index.html`, replace `YOUR_WIDGET_KEY`.
 4. Serve the folder and open the address it prints:

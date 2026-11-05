@@ -12,7 +12,7 @@ dotnet run --project tools/DatasetBuilder
 
 | Sample | Source | Licence | What we changed |
 |---|---|---|---|
-| `tabular/forecast-bike-rentals` | [Bike Sharing](https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset) — Fanaee-T, H. (2013), UCI Machine Learning Repository. Capital Bikeshare, Washington D.C., 2011–2012 | CC BY 4.0 | Hourly file; kept hour, temperature (converted back to °C) and total rentals |
+| `tabular/forecast-bike-rentals` | [Bike Sharing](https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset) — Fanaee-T, H. (2013), UCI Machine Learning Repository. Capital Bikeshare, Washington D.C., 2011–2012 | CC BY 4.0 | Hourly file; kept hour, temperature (converted back to °C as `temp × 47 − 8`, per the dataset readme) and total rentals. `bike-rentals-by-day.csv` adds `day_type` (holiday / workday / weekend, from `holiday` and `workingday`) |
 | `tabular/predict-online-purchase` | [Online Shoppers Purchasing Intention](https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset) — Sakar, C. & Kastro, Y. (2018), UCI | CC BY 4.0 | Kept page value, visitor type and the purchase outcome (true/false); renamed visitor types |
 | `tabular/grade-beans-by-variety` | [Dry Bean](https://archive.ics.uci.edu/dataset/602/dry+bean+dataset) — Koklu, M. & Ozkan, I. A. (2020), UCI | CC BY 4.0 | Kept length, width and variety |
 | `tabular/segment-wholesale-customers` | [Wholesale Customers](https://archive.ics.uci.edu/dataset/292/wholesale+customers) — Cardoso, M. (2014), UCI | CC BY 4.0 | Kept annual fresh-food and grocery spend |
@@ -26,3 +26,4 @@ dotnet run --project tools/DatasetBuilder
 | `text/answer-questions-from-faq` | Written for this example | MIT | — |
 | `tabular/forecast-bakery-sales` | Written for this example (fixed seed): three shops' weekly rhythm, seasons, growth and planned promotions | MIT | — |
 | `image/tag-fabric-swatches` | Drawn for this example (fixed seed): striped, dotted, checked and plain swatches, rotated, lit unevenly and grained; 6 held out in `data/try/` | MIT | — |
+| `image/tag-property-photos` | 274 photos from [Wikimedia Commons](https://commons.wikimedia.org), chosen and tagged by hand | Public domain, CC0 or CC BY (per photo) | Resized to 500 px; author, licence and source of each photo in `image/tag-property-photos/data/CREDITS.md`; 6 held out in `data/try/` |
