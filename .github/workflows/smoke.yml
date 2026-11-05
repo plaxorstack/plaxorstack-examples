@@ -23,8 +23,9 @@ jobs:
       - uses: lycheeverse/lychee-action@v2
         with:
           # The API host answers only POSTs to known routes, shop.example.com is fictional, and npmjs.com
-          # answers every automated request with 403, so its links can never pass.
-          args: --no-progress --exclude 'api\.plaxorstack\.com' --exclude 'example\.com' --exclude 'npmjs\.com' './**/*.md'
+          # answers every automated request with 403, so its links can never pass. 429 counts as alive:
+          # Wikimedia Commons rate-limits a burst of hundreds of credit links, which is not a broken link.
+          args: --no-progress --accept '200..=299,429' --exclude 'api\.plaxorstack\.com' --exclude 'example\.com' --exclude 'npmjs\.com' './**/*.md'
           fail: true
 
   predict:
